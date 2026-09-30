@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "upstream_commit": "58ea51bb6225717fce55949ae02708308ce0e090",
+  "sources": {
+    "geo_all_channels": {
+      "url": "https://raw.githubusercontent.com/google/meridian/58ea51bb6225717fce55949ae02708308ce0e090/meridian/data/simulated_data/csv/geo_all_channels.csv",
+      "sha256": "79d6ad8110fb5a12e3cda691a67f1e457cbe3d84dc970886dc94a751ceb2caf5"
+    },
+    "geo_media": {
+      "url": "https://raw.githubusercontent.com/google/meridian/58ea51bb6225717fce55949ae02708308ce0e090/meridian/data/simulated_data/csv/geo_media.csv",
+      "sha256": "cee50ecaaacc6894e58cd106724b571051269ec69f3624c2bc77a7f40b5a2535"
+    },
+    "geo_media_rf": {
+      "url": "https://raw.githubusercontent.com/google/meridian/58ea51bb6225717fce55949ae02708308ce0e090/meridian/data/simulated_data/csv/geo_media_rf.csv",
+      "sha256": "30faa782d89279bd0d40dc8d604c642d2fda73b74cdee0aa48e8c7df898bce6a"
+    }
+  }
+}

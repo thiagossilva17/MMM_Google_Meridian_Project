@@ -1,0 +1,4 @@
+base,linhas,colunas_uteis,regioes,semanas,inicio,fim,nulos,duplicatas_geo_time
+geo_all_channels,6240,19,40,156,2021-01-25,2024-01-15,0,0
+geo_media,3120,15,20,156,2021-01-25,2024-01-15,0,0
+geo_media_rf,3120,17,20,156,2021-01-25,2024-01-15,0,0
