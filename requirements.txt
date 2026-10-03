@@ -1,0 +1,8 @@
+# Commit oficial verificado. Pin necessário para API, transformações e checks reproduzíveis.
+google-meridian @ git+https://github.com/google/meridian.git@02111531f8661373aa7b6ba31c316c67d72d1dd2
+nbformat>=5
+nbclient>=0.10
+ipykernel>=6
+pytest>=8
+tabulate>=0.9
+# numpy/pandas/scipy/matplotlib/statsmodels são delimitados pelo próprio Meridian.

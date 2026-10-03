@@ -1,0 +1,65 @@
+[
+  {
+    "notebook": "00_data_audit.ipynb",
+    "status": "passed",
+    "seconds": 2.08,
+    "code_cells": 2,
+    "figures_externalized": 2
+  },
+  {
+    "notebook": "01_eda_general.ipynb",
+    "status": "passed",
+    "seconds": 3.2,
+    "code_cells": 2,
+    "figures_externalized": 4
+  },
+  {
+    "notebook": "02_eda_temporal.ipynb",
+    "status": "passed",
+    "seconds": 7.68,
+    "code_cells": 2,
+    "figures_externalized": 20
+  },
+  {
+    "notebook": "03_eda_geo.ipynb",
+    "status": "passed",
+    "seconds": 7.83,
+    "code_cells": 2,
+    "figures_externalized": 13
+  },
+  {
+    "notebook": "04_eda_media_geo.ipynb",
+    "status": "passed",
+    "seconds": 18.67,
+    "code_cells": 2,
+    "figures_externalized": 32
+  },
+  {
+    "notebook": "05_eda_relationships.ipynb",
+    "status": "passed",
+    "seconds": 3.18,
+    "code_cells": 2,
+    "figures_externalized": 6
+  },
+  {
+    "notebook": "06_meridian_official_eda.ipynb",
+    "status": "passed",
+    "seconds": 25.49,
+    "code_cells": 3,
+    "figures_externalized": 0
+  },
+  {
+    "notebook": "07_eda_conclusions.ipynb",
+    "status": "passed",
+    "seconds": 1.46,
+    "code_cells": 3,
+    "figures_externalized": 1
+  },
+  {
+    "notebook": "EDA_COMPLETE_COLAB.ipynb",
+    "status": "passed",
+    "seconds": 60.88,
+    "code_cells": 11,
+    "figures_externalized": 78
+  }
+]

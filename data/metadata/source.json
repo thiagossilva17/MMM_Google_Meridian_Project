@@ -1,0 +1,11 @@
+{
+  "dataset": "geo_all_channels.csv",
+  "kind": "simulated",
+  "commit": "02111531f8661373aa7b6ba31c316c67d72d1dd2",
+  "source": "https://raw.githubusercontent.com/google/meridian/02111531f8661373aa7b6ba31c316c67d72d1dd2/meridian/data/simulated_data/csv/geo_all_channels.csv",
+  "sha256": "d9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6",
+  "original_rows": 6240,
+  "original_columns": 20,
+  "accessed_utc": "2026-10-03T10:29:33.864348+00:00",
+  "license": "Apache-2.0; see MERIDIAN_LICENSE"
+}

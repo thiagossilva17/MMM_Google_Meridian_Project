@@ -1,3 +1,11 @@
 __pycache__/
+.pytest_cache/
+.venv/
 .ipynb_checkpoints/
-data/*.csv
+*.pyc
+# SVGs e tabelas são versionados; PNGs são recriados em cada execução.
+outputs/figures/**/*.png
+outputs/.mplcache/
+outputs/logs/kernel/
+outputs/logs/jupyter/
+EDA_RESULTS.zip

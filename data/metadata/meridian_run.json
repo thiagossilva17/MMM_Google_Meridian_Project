@@ -1,0 +1,12 @@
+{
+  "version": "2.1.0",
+  "source_commit": "02111531f8661373aa7b6ba31c316c67d72d1dd2",
+  "prior_sampling": "automatic constructor, default draws, fixed seed",
+  "posterior_sampled": false,
+  "model_spec": "defaults; provisional EDA only",
+  "knots": 156,
+  "max_lag": 8,
+  "inference_groups": [
+    "prior"
+  ]
+}

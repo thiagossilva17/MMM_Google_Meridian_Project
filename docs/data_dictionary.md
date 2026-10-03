@@ -1,0 +1,25 @@
+# Dicionário dos dados
+
+Dados simulados. Reach/frequency não estão presentes. Channel0–4 não identificam plataformas reais.
+
+| variable                    | role                | dtype          | dimension   | unit                                       |   missing |   zeros | min                 | max                 |             mean |              std |
+|:----------------------------|:--------------------|:---------------|:------------|:-------------------------------------------|----------:|--------:|:--------------------|:--------------------|-----------------:|-----------------:|
+| geo                         | geo                 | object         | geo × time  | geo                                        |         0 |     nan | Geo0                | Geo9                |    nan           |    nan           |
+| time                        | time                | datetime64[ns] | geo × time  | time                                       |         0 |     nan | 2021-01-25 00:00:00 | 2024-01-15 00:00:00 |    nan           |    nan           |
+| Channel0_impression         | media               | int64          | geo × time  | impressões                                 |         0 |     755 | 0                   | 5192032             | 885164           | 819279           |
+| Channel1_impression         | media               | int64          | geo × time  | impressões                                 |         0 |    1742 | 0                   | 4397540             | 520606           | 620573           |
+| Channel2_impression         | media               | int64          | geo × time  | impressões                                 |         0 |    4010 | 0                   | 5610156             | 260505           | 555140           |
+| Channel3_impression         | media               | int64          | geo × time  | impressões                                 |         0 |     169 | 0                   | 7635147             |      1.80681e+06 |      1.30471e+06 |
+| Channel4_impression         | media               | int64          | geo × time  | impressões                                 |         0 |     820 | 0                   | 6975542             | 981678           | 914104           |
+| competitor_sales_control    | control             | float64        | geo × time  | escala sintética; unidade não especificada |         0 |       0 | -4.8256345          | 3.924682            |     -0.044412    |      1.21007     |
+| sentiment_score_control     | control             | float64        | geo × time  | escala sintética; unidade não especificada |         0 |       0 | -4.230392           | 4.320259            |     -0.0336751   |      1.17548     |
+| Channel0_spend              | spend               | float64        | geo × time  | unidade monetária não especificada         |         0 |     755 | 0.0                 | 38071.73            |   6490.66        |   6007.55        |
+| Channel1_spend              | spend               | float64        | geo × time  | unidade monetária não especificada         |         0 |    1742 | 0.0                 | 42397.7             |   5019.28        |   5983.09        |
+| Channel2_spend              | spend               | float64        | geo × time  | unidade monetária não especificada         |         0 |    4010 | 0.0                 | 41688.645           |   1935.79        |   4125.2         |
+| Channel3_spend              | spend               | float64        | geo × time  | unidade monetária não especificada         |         0 |     169 | 0.0                 | 59499.484           |  14080.2         |  10167.4         |
+| Channel4_spend              | spend               | float64        | geo × time  | unidade monetária não especificada         |         0 |     820 | 0.0                 | 54352.81            |   7649.15        |   7122.61        |
+| Organic_channel0_impression | organic_media       | int64          | geo × time  | impressões orgânicas                       |         0 |    2075 | 0                   | 5801781             | 532467           | 696135           |
+| Promo                       | non_media_treatment | float64        | geo × time  | indicador sintético                        |         0 |    2922 | 0.0                 | 4.8005548           |      0.492528    |      0.694224    |
+| conversions                 | kpi                 | float64        | geo × time  | conversões sintéticas (contínuas)          |         0 |       0 | 484031.22           | 36712692.0          |      1.05658e+07 |      6.07892e+06 |
+| revenue_per_conversion      | revenue_per_kpi     | float64        | geo × time  | moeda não especificada/conversão           |         0 |       0 | 0.019650234         | 0.02036254          |      0.0200015   |      9.91775e-05 |
+| population                  | population          | float64        | geo         | população simulada                         |         0 |       0 | 136670.94           | 994048.94           | 542419           | 242820           |

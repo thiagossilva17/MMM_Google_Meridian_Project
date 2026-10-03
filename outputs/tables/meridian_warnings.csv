@@ -1,0 +1,3 @@
+category,message
+UserWarning,backend.set_random_seed is a no-op in JAX. Randomness is managed statelessly via PRNGKeys passed to sampling methods.
+DeprecationWarning,"shape requires ndarray or scalar arguments, got <class 'NoneType'> at position 0. In a future JAX release this will be an error."

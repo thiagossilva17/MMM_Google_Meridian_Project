@@ -1,0 +1,21 @@
+{
+  "accessed_utc": "2026-10-03T10:47:26.239326+00:00",
+  "versions": {
+    "python": "3.12.14",
+    "google-meridian": "2.1.0",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.10.9",
+    "statsmodels": "0.14.6",
+    "jax": "0.11.2",
+    "tensorflow": "2.21.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "sha256": "d9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6",
+  "rows": 6240,
+  "geos": 40,
+  "periods": 156,
+  "seed": 20261003
+}

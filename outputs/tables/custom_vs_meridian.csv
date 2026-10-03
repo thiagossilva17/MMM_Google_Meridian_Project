@@ -1,0 +1,8 @@
+issue,custom_eda,custom_evidence,meridian_eda,agreement,interpretation
+cost_per_media_unit,CPMU = spend/media; NaN em zero,cost_per_media_unit.csv,{'REVIEW': 2},"REVIEW por extremos, mas CV máximo de CPMU=3.475e-08; inspecionar precisão numérica",Mesmas unidades; verificar artefatos por geo e nível nacional.
+std,"Variância bruta, zeros, IQR e MAD",channel_summary.csv,{'REVIEW': 4},comparação de definições; não igualdade numérica presumida,Escalas distintas: Meridian transforma as variáveis; limites oficiais mantidos.
+population,Spearman de população × total de mídia,population_media_correlation.csv,{'INFO': 2},comparação de definições; não igualdade numérica presumida,Total e média temporal são proporcionais em painel balanceado; checagem escalada responde outra pergunta.
+pairwise,"Pearson/Spearman nacional, overall e within",correlation_summary.csv,{'INFO': 2},comparação de definições; não igualdade numérica presumida,Meridian usa transformação própria; within da EDA não é seu agregado nacional.
+vif,VIF com intercepto em preditores brutos/within,vif_summary.csv,{'INFO': 2},comparação de definições; não igualdade numérica presumida,Diagnósticos oficiais usam escalas/população; diferenças não são automaticamente erro.
+geo_time,R² não ajustado em valores brutos e per capita,geo_time_r2.csv,{'INFO': 2},R² ajustado reconciliado na mesma escala: True; tolerância numérica 1e-5,Meridian usa R² ajustado sobre variáveis transformadas; comparar definições antes dos números.
+data_param,G×T observações; parâmetros não são todos independentes,data_audit.csv,{'INFO': 1},comparação de definições; não igualdade numérica presumida,Guardrail provisório; razão não prova adequação nem identificação.

@@ -1,0 +1,2 @@
+-r requirements.txt
+# CPU é suficiente para EDA. Não instalar extras CUDA sem necessidade.

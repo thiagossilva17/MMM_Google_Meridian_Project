@@ -1,0 +1,20 @@
+variable,role,dtype,dimension,unit,missing,zeros,min,max,mean,std
+geo,geo,object,geo × time,geo,0,,Geo0,Geo9,,
+time,time,datetime64[ns],geo × time,time,0,,2021-01-25 00:00:00,2024-01-15 00:00:00,,
+Channel0_impression,media,int64,geo × time,impressões,0,755.0,0,5192032,885163.5363782052,819279.4927823365
+Channel1_impression,media,int64,geo × time,impressões,0,1742.0,0,4397540,520605.5405448718,620573.4119658234
+Channel2_impression,media,int64,geo × time,impressões,0,4010.0,0,5610156,260505.02708333332,555139.685063576
+Channel3_impression,media,int64,geo × time,impressões,0,169.0,0,7635147,1806810.4493589744,1304713.5356695123
+Channel4_impression,media,int64,geo × time,impressões,0,820.0,0,6975542,981677.9746794872,914103.5626324539
+competitor_sales_control,control,float64,geo × time,escala sintética; unidade não especificada,0,0.0,-4.8256345,3.924682,-0.044412001848237175,1.2100669813081917
+sentiment_score_control,control,float64,geo × time,escala sintética; unidade não especificada,0,0.0,-4.230392,4.320259,-0.0336750954625,1.1754781141478525
+Channel0_spend,spend,float64,geo × time,unidade monetária não especificada,0,755.0,0.0,38071.73,6490.659147432403,6007.5497025611885
+Channel1_spend,spend,float64,geo × time,unidade monetária não especificada,0,1742.0,0.0,42397.7,5019.27855807125,5983.0919515976475
+Channel2_spend,spend,float64,geo × time,unidade monetária não especificada,0,4010.0,0.0,41688.645,1935.7931637081729,4125.201029467423
+Channel3_spend,spend,float64,geo × time,unidade monetária não especificada,0,169.0,0.0,59499.484,14080.185616808654,10167.424459075248
+Channel4_spend,spend,float64,geo × time,unidade monetária não especificada,0,820.0,0.0,54352.81,7649.147993224065,7122.614141381076
+Organic_channel0_impression,organic_media,int64,geo × time,impressões orgânicas,0,2075.0,0,5801781,532466.6705128205,696134.9012481007
+Promo,non_media_treatment,float64,geo × time,indicador sintético,0,2922.0,0.0,4.8005548,0.4925280640294872,0.6942238172484361
+conversions,kpi,float64,geo × time,conversões sintéticas (contínuas),0,0.0,484031.22,36712692.0,10565819.569357371,6078923.739998048
+revenue_per_conversion,revenue_per_kpi,float64,geo × time,moeda não especificada/conversão,0,0.0,0.019650234,0.02036254,0.02000151333942308,9.917749577403713e-05
+population,population,float64,geo,população simulada,0,0.0,136670.94,994048.94,542418.8327500001,242820.26079658

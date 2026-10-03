@@ -1,0 +1,30 @@
+check,severity,cause,explanation
+check_geo_cost_per_media_unit,REVIEW,OUTLIER,There are outliers in cost per media unit across time. Please check for any possible data input error.
+check_national_cost_per_media_unit,REVIEW,OUTLIER,There are outliers in cost per media unit across time. Please check for any possible data input error.
+check_geo_std,REVIEW,OUTLIER,There are outliers in the scaled KPI in certain geos. Please check for any possible data errors.
+check_geo_std,REVIEW,OUTLIER,There are outliers in the scaled treatment or control variables in certain geos. Please check for any possible data errors.
+check_national_std,REVIEW,OUTLIER,There are outliers in the scaled KPI. Please check for any possible data errors.
+check_national_std,REVIEW,OUTLIER,There are outliers in the scaled treatment or control variables. Please check for any possible data errors.
+check_overall_kpi_invariability,INFO,NONE,The kpi_scaled has variability across geos and times in the data.
+check_population_corr_raw_media,INFO,NONE,"Please review the Spearman correlation between population and raw paid and organic media variables. These raw media variables are expected to have positive correlation with population. If there is low or negative correlation, please check your data input."
+check_population_corr_scaled_treatment_control,INFO,NONE,"Please review the Spearman correlation between population and scaled treatment units or scaled controls.
+
+For controls and non-media channels: Meridian doesn't population-scale these variables by default. High correlation indicates that users should population-scale these variables using the `population_scaled_controls` or `population_scaled_non_media_channels` argument in `ModelSpec`.
+
+For paid and organic media channels: Meridian automatically population-scales these media channels by default. High correlation indicates that the variable may have been population-scaled before being passed to Meridian. Please check your data input."
+check_geo_pairwise_corr,INFO,NONE,Please review the computed pairwise correlations. Note that high pairwise correlation may cause model identifiability and convergence issues. Consider combining the variables if high correlation exists.
+check_national_pairwise_corr,INFO,NONE,Please review the computed pairwise correlations. Note that high pairwise correlation may cause model identifiability and convergence issues. Consider combining the variables if high correlation exists.
+check_geo_vif,INFO,NONE,"Please review the computed VIFs. Note that high VIF suggests multicollinearity issues in the dataset, which may jeopardize model identifiability and model convergence. Consider combining the variables if high VIF occurs."
+check_national_vif,INFO,NONE,"Please review the computed VIFs. Note that high VIF suggests multicollinearity issues in the dataset, which may jeopardize model identifiability and model convergence. Consider combining the variables if high VIF occurs."
+check_variable_geo_time_collinearity,INFO,NONE,"This check regresses each variable against time as a categorical variable. In this case, high R-squared indicates low geo variation of a variable. This could lead to a weakly identifiable and non-converging model if a large number of knots are used. Consider dropping the variable with very high R-squared or reducing `knots` argument in `ModelSpec`."
+check_variable_geo_time_collinearity,INFO,NONE,"This check regresses each variable against geo as a categorical variable. In this case, high R-squared indicates low time variation of a variable. This could lead to a weakly identifiable and non-converging model due to geo main effects. Consider dropping the variable with very high R-squared."
+check_data_param_ratio,INFO,NONE,"As a rough guidance, please review the ratio of data points to
+parameters, where
+* the number of data points = n_geos * n_times,
+* the number of parameters = (n_geos-1) + n_knots + n_controls + n_treatments.
+
+A very small ratio indicates insufficient data for estimation.
+In that case, consider dropping or combining channels,
+or reducing the number of knots with `knots` argument in `ModelSpec`.
+For more details, please refer to this documentation page:
+https://developers.google.com/meridian/docs/pre-modeling/amount-data-needed."

@@ -1,0 +1,11 @@
+channel,method,population_media_correlation
+Channel0,pearson,0.9927181848057144
+Channel0,spearman,0.9932457786116325
+Channel1,pearson,0.9883544805566248
+Channel1,spearman,0.9874296435272046
+Channel2,pearson,0.9620792536311271
+Channel2,spearman,0.9664165103189495
+Channel3,pearson,0.9955247133468982
+Channel3,spearman,0.9936210131332085
+Channel4,pearson,0.9942338226965385
+Channel4,spearman,0.9930581613508443
