@@ -1,0 +1,11 @@
+dimension,weight,score,weighted_score,rationale
+Data audit,10,9.0,9.0,"Contrato, fonte e aritmética fortes; dicionário e fechamento CPMU incompletos."
+EDA geral/temporal,10,7.5,7.5,"Execução ampla; outliers, streaks, STL/ACF e controles pouco interpretados."
+GEO,15,8.0,12.0,População e per capita corretos; sincronização e extremos pouco explorados.
+GEO × TIME × MEDIA,20,8.25,16.5,"Decomposição robusta; falta síntese por canal, ordem visual inconsistente e mix pouco discutido."
+Relationships,10,8.0,8.0,Fórmulas corretas; narrativa prioriza associação contábil e não compara pares substantivos.
+Meridian EDA,7,7.857142857142857,5.5,Execução e R² excelentes; contraste de outros checks e fechamento de alertas parciais.
+Estatística/interpretação,10,9.0,9.0,Nenhum erro material nos cálculos centrais verificados; imprecisões de unidade e apresentação.
+Reprodutibilidade,7,8.571428571428571,6.0,"Instalação e processos novos passaram; Colab não comprovado, dois SVGs vazios e bootstrap frágil."
+Storytelling,6,6.666666666666666,4.0,Perguntas e limites claros; faltam comentários por figura e checkpoints concretos.
+Engenharia,5,9.0,4.5,"Estrutura enxuta e testes úteis; head(12), cache por existência e labels genéricos limitam entrega."

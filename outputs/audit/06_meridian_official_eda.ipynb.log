@@ -1,0 +1,17 @@
+CELL 1
+
+Colab: False; projeto: /workspace/scratch/5b7e35a5f32a/audit-run; painel: (6240, 19)
+
+CELL 3
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791139291.267642      22 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791139291.268121      22 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791139292.323333      22 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791139292.323613      22 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+
+
+CELL 4
+
+
+ALL CELLS PASSED

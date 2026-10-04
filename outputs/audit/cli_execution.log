@@ -1,0 +1,186 @@
+INÍCIO data_audit
+### Resultado observado e conclusão parcial
+
+Recebemos 6,240 registros, 40 geos e 156 semanas, de 2021-01-25 a 2024-01-15. A grade é semanal, completa e sem duplicatas, nulos ou violações de domínio verificadas. População é constante dentro de cada geo.
+
+O CSV original tem uma coluna de índice exportado, validada como 0…N−1 e removida apenas da cópia processada. Conversões são valores contínuos simulados; controles podem ser negativos na escala fornecida. Há 5 canais pagos, uma mídia orgânica e Promo. Não há reach/frequency; nenhuma variável desse tipo foi inventada.
+
+CPMU = gasto/impressões. 7496 razões são indefinidas por ausência de impressões e permanecem NaN. Conferir os contadores de inconsistências na auditoria. Isso distingue zero atividade de custo zero.
+
+### O que ainda NÃO podemos concluir
+
+As relações são descritivas. Não estimamos ROI, contribuição incremental ou efeitos causais.
+Os dados são simulados: padrões não descrevem um mercado real e não validam, por si, a identificação de um MMM.
+
+### CHECKPOINT
+
+- **O que descobrimos?** As evidências numéricas acima e as tabelas exportadas respondem à pergunta deste capítulo.
+- **Quais problemas apareceram?** Os limites e alertas estão descritos nos resultados; nenhuma observação foi excluída ou imputada.
+- **O que falta investigar?** Distribuições, concentração de investimento, zeros e extremos.
+- **Podemos avançar?** Podemos prosseguir com a investigação exploratória após revisar estes achados; isso não aprova automaticamente a modelagem.
+
+INÍCIO general
+### Resultado observado e conclusão parcial
+
+O KPI nacional tem média semanal de 422,632,783 conversões sintéticas e CV de 6.9%. O agregado nacional soma conversões entre geos; não soma taxas.
+
+O maior share de gasto é de Channel3 (40.0%). Share mede alocação, não retorno. A atividade varia de 35.7% a 97.3% das células GEO × semana. Exportamos todas as sequências de atividade e zeros, sem classificar com limiares arbitrários.
+
+Foram sinalizados 6039 pares observação/variável por IQR (1,5×) ou MAD (|z modificado|>3,5). São regras de triagem, não critérios de remoção. Séries esparsas e geos grandes podem ser sinalizados legitimamente. Quando MAD é zero o escore fica indefinido. Nenhum extremo foi removido.
+
+### O que ainda NÃO podemos concluir
+
+As relações são descritivas. Não estimamos ROI, contribuição incremental ou efeitos causais.
+Os dados são simulados: padrões não descrevem um mercado real e não validam, por si, a identificação de um MMM.
+
+### CHECKPOINT
+
+- **O que descobrimos?** As evidências numéricas acima e as tabelas exportadas respondem à pergunta deste capítulo.
+- **Quais problemas apareceram?** Os limites e alertas estão descritos nos resultados; nenhuma observação foi excluída ou imputada.
+- **O que falta investigar?** Dinâmica temporal dos sinais e seus controles.
+- **Podemos avançar?** Podemos prosseguir com a investigação exploratória após revisar estes achados; isso não aprova automaticamente a modelagem.
+
+INÍCIO temporal
+### Resultado observado e conclusão parcial
+
+O máximo nacional ocorre em 2023-05-15 (491,287,369) e o mínimo em 2022-09-19 (340,283,293). A média móvel de 13 semanas suaviza a série sem antecipar valores futuros; é apenas visual.
+
+A decomposição STL usa período 52 como aproximação anual para dados semanais. Há apenas 3.0 ciclos: tendência, sazonalidade e mudanças de nível não são evidência confirmatória de mecanismos de negócio. Nenhum teste formal de quebra foi feito. As maiores mudanças e a ACF foram exportadas.
+
+Todos os canais têm gráficos separados de impressões, gasto, CPMU e comparação padronizada com KPI. Controles e Promo são agregados por média ponderada por população porque somar índices sintéticos não tem interpretação. A mídia orgânica é somada. Existem 0 variáveis constantes entre os controles/tratamentos apresentados. Valores próximos de constantes devem ser avaliados na sua escala, sem corte universal.
+
+### O que ainda NÃO podemos concluir
+
+As relações são descritivas. Não estimamos ROI, contribuição incremental ou efeitos causais.
+Os dados são simulados: padrões não descrevem um mercado real e não validam, por si, a identificação de um MMM.
+
+### CHECKPOINT
+
+- **O que descobrimos?** As evidências numéricas acima e as tabelas exportadas respondem à pergunta deste capítulo.
+- **Quais problemas apareceram?** Os limites e alertas estão descritos nos resultados; nenhuma observação foi excluída ou imputada.
+- **O que falta investigar?** Heterogeneidade entre geos e decomposição within/between.
+- **Podemos avançar?** Podemos prosseguir com a investigação exploratória após revisar estes achados; isso não aprova automaticamente a modelagem.
+
+INÍCIO geo_analysis
+### Resultado observado e conclusão parcial
+
+O maior geo responde por 5.0% do KPI acumulado; os cinco maiores por 22.9%. A correlação populacional com KPI total é 0.978 (Spearman). A escala populacional precisa ser considerada antes de interpretar rankings.
+
+O KPI tem 67.9% da variância between-geo e 32.1% within-geo. A identidade usa momentos populacionais (ddof=0), com peso igual por observação. R²_geo equivale à parcela between; R²_time quantifica semanas comuns. No painel balanceado, a parcela residual two-way do KPI é 30.7%; por habitante é 86.1%.
+
+Within não significa automaticamente sinal geográfico novo: inclui choques temporais nacionais. Por isso apresentamos também o resíduo após remover simultaneamente geo e tempo. Essa decomposição é descritiva e depende da escala. Os small multiples usam geos escolhidos por critérios registrados; os cálculos e heatmaps incluem todos os geos. Geo0…Geo39 são rótulos sintéticos, sem fronteiras para um mapa geográfico real.
+
+### O que ainda NÃO podemos concluir
+
+As relações são descritivas. Não estimamos ROI, contribuição incremental ou efeitos causais.
+Os dados são simulados: padrões não descrevem um mercado real e não validam, por si, a identificação de um MMM.
+
+### CHECKPOINT
+
+- **O que descobrimos?** As evidências numéricas acima e as tabelas exportadas respondem à pergunta deste capítulo.
+- **Quais problemas apareceram?** Os limites e alertas estão descritos nos resultados; nenhuma observação foi excluída ou imputada.
+- **O que falta investigar?** Mix, alocação territorial, concentração e variação de cada canal dentro dos geos.
+- **Podemos avançar?** Podemos prosseguir com a investigação exploratória após revisar estes achados; isso não aprova automaticamente a modelagem.
+
+INÍCIO media_geo
+### Resultado observado e conclusão parcial
+
+O mix divide cada linha GEO × canal pelo orçamento total do geo; a alocação divide cada coluna pelo orçamento do canal. Essas perguntas são diferentes. A maior amplitude de share do mix é 3.7%, em Channel1.
+
+HHI é a soma dos quadrados das participações geográficas de um canal: varia de 1/G (uniforme) a 1 (um único geo). Observamos 0.030 a 0.031, sem aplicar limiares de concorrência econômica. O inverso traduz concentração em número equivalente de geos uniformes, não em tamanho amostral efetivo.
+
+Os CVs within variam de 0.442 a 2.153. Médias zero produzem CV indefinido. Heatmaps usam a mesma ordenação de geos por KPI total e escalas de cor próprias por variável; não comparar cores entre painéis sem ler as escalas. As versões por habitante ajudam a investigar diferenças que persistem além do tamanho dos mercados.
+
+### O que ainda NÃO podemos concluir
+
+As relações são descritivas. Não estimamos ROI, contribuição incremental ou efeitos causais.
+Os dados são simulados: padrões não descrevem um mercado real e não validam, por si, a identificação de um MMM.
+
+### CHECKPOINT
+
+- **O que descobrimos?** As evidências numéricas acima e as tabelas exportadas respondem à pergunta deste capítulo.
+- **Quais problemas apareceram?** Os limites e alertas estão descritos nos resultados; nenhuma observação foi excluída ou imputada.
+- **O que falta investigar?** Correlações entre canais e controles, VIF e conflitos com geo/tempo.
+- **Podemos avançar?** Podemos prosseguir com a investigação exploratória após revisar estes achados; isso não aprova automaticamente a modelagem.
+
+INÍCIO relationships
+### Resultado observado e conclusão parcial
+
+Exportamos Pearson e Spearman em quatro níveis: nacional, painel bruto, within-geo e residual two-way. Within remove a média de cada geo; two-way remove também a média semanal comum. Spearman de resíduos mede a ordenação dos resíduos e não é uma correlação parcial de postos.
+
+O maior VIF within entre preditores é 2.11. A regressão auxiliar inclui intercepto e colunas padronizadas. Spend e impressões são diagnosticados em matrizes separadas; colocá-los juntos no VIF duplicaria sinais de custo praticamente fixo. Constantes são indefinidas e dependência linear perfeita gera infinito.
+
+A maior associação absoluta within entre todas as variáveis comparadas é Channel1_impression × Channel1_spend (1.000); isso pode ser uma relação contábil entre gasto e mídia. Lags 0–8 são exploratórios, sem selecionar adstock. Não calculamos p-valores que presumiriam independência das 6,240 linhas: existe dependência temporal e geográfica.
+
+Diferenças entre correlações nacionais e within podem resultar de composição populacional, tendência, sazonalidade e mídia alocada em antecipação à demanda. Correlação mídia–KPI não constitui efeito de mídia.
+
+### O que ainda NÃO podemos concluir
+
+As relações são descritivas. Não estimamos ROI, contribuição incremental ou efeitos causais.
+Os dados são simulados: padrões não descrevem um mercado real e não validam, por si, a identificação de um MMM.
+
+### CHECKPOINT
+
+- **O que descobrimos?** As evidências numéricas acima e as tabelas exportadas respondem à pergunta deste capítulo.
+- **Quais problemas apareceram?** Os limites e alertas estão descritos nos resultados; nenhuma observação foi excluída ou imputada.
+- **O que falta investigar?** Checagens independentes da ferramenta oficial e comparação de definições.
+- **Podemos avançar?** Podemos prosseguir com a investigação exploratória após revisar estes achados; isso não aprova automaticamente a modelagem.
+
+INÍCIO official_eda
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791139592.843801       5 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791139592.844394       5 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791139593.856293       5 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791139593.856593       5 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+### Resultado observado e conclusão parcial
+
+O relatório HTML oficial foi executado com Meridian 2.1.0, sem amostragem posterior. Os checks exportaram 16 achados: {'INFO': 10, 'REVIEW': 6}. As advertências de execução estão em meridian_warnings.csv; não foram silenciadas nem resolvidas por alteração de thresholds.
+
+A API atual usa DataFrameInputDataBuilder. MeridianEDA gera amostras da prior no construtor para completar diagnósticos da especificação. Isso não ajusta o modelo aos dados e não produz estimativas posteriores. A especificação default é provisória: 156 knots e 8 lags. Não escolhemos hiperparâmetros finais com esta EDA.
+
+A razão oficial é 6240/(40−1+156+2+7) = 30.59. Essa contagem é um guardrail que não conta todos os efeitos geo como parâmetros independentes. Não é prova de tamanho amostral efetivo ou de suficiência.
+
+Os alertas de CPMU precisam de contexto: o CV máximo do custo unitário é 3.475e-08. A variação relativa minúscula é compatível com arredondamento na geração/exportação, e não evidencia dispersão econômica de custos. Não alteramos o dado ou o threshold IQR oficial para eliminar o alerta.
+
+Uma diferença metodológica importante: os R² oficiais são ajustados e usam dados transformados; a EDA própria mostra R² brutos e por habitante não ajustados. Recalculando por soma de quadrados na mesma escala oficial, a concordância dentro de 1e-5 foi **True**. A tabela official_r2_reconciliation contém as diferenças por variável. VIF e correlações também dependem da população e agregação. Artefatos numéricos foram exportados para investigar essas diferenças.
+
+### O que ainda NÃO podemos concluir
+
+As relações são descritivas. Não estimamos ROI, contribuição incremental ou efeitos causais.
+Os dados são simulados: padrões não descrevem um mercado real e não validam, por si, a identificação de um MMM.
+
+### CHECKPOINT
+
+- **O que descobrimos?** As evidências numéricas acima e as tabelas exportadas respondem à pergunta deste capítulo.
+- **Quais problemas apareceram?** Os limites e alertas estão descritos nos resultados; nenhuma observação foi excluída ou imputada.
+- **O que falta investigar?** Consolidar os achados, implicações e limites de prontidão.
+- **Podemos avançar?** Podemos prosseguir com a investigação exploratória após revisar estes achados; isso não aprova automaticamente a modelagem.
+
+INÍCIO conclusions
+### Resultado observado e conclusão parcial
+
+1. **Estrutura.** O painel tem 40 geos × 156 semanas = 6240 observações, completude de 100.0% e 0 células ausentes. A chave geo–tempo foi validada.
+
+2. **Tempo.** Todos os 5 canais pagos variam; a parcela within-geo da variância fica entre 61.0% e 94.7%. Channel2 é o canal com mais zeros: 64.3% das células, com 5.5% do gasto. A tabela de atividade e os gráficos distinguem semanas sem mídia de mudanças de intensidade. Movimentos de nível e sazonalidade são exploratórios.
+
+3. **Geografia.** As médias por geo explicam de 5.3% a 39.0% da variância bruta da mídia paga. Rankings de volume dependem de população; mix e medidas por habitante oferecem lentes complementares.
+
+4. **GEO × TEMPO.** Após retirar médias de geo e de semana, permanece de 42.9% a 77.9% da variância bruta de mídia paga; por habitante, de 64.8% a 79.3%. Esse componente é perdido ao observar apenas o agregado nacional. O painel contém variação potencialmente informativa, mas o resíduo pode conter ruído, endogeneidade e confundimento. Comparar com a decomposição per capita é essencial: diferenças multiplicativas de tamanho também podem gerar resíduos aditivos.
+
+5. **Identificabilidade.** R², correlações, VIF e os alertas oficiais devem orientar hipóteses de especificação. Nenhuma dessas métricas prova identificação causal ou que um modelo geo terá melhor previsão que o nacional. Essa comparação exige futura modelagem com validação temporal comum, priors justificados e diagnósticos posteriores.
+
+**Prontidão:** a integridade permite continuar o estudo metodológico, condicionando a próxima fase à revisão dos alertas oficiais e das limitações dos dados simulados. Não há recomendação de alocação de orçamento nesta EDA.
+
+### O que ainda NÃO podemos concluir
+
+As relações são descritivas. Não estimamos ROI, contribuição incremental ou efeitos causais.
+Os dados são simulados: padrões não descrevem um mercado real e não validam, por si, a identificação de um MMM.
+
+### CHECKPOINT
+
+- **O que descobrimos?** As evidências numéricas acima e as tabelas exportadas respondem à pergunta deste capítulo.
+- **Quais problemas apareceram?** Os limites e alertas estão descritos nos resultados; nenhuma observação foi excluída ou imputada.
+- **O que falta investigar?** Desenho causal, especificação, priors, holdout temporal e posterior em fase futura.
+- **Podemos avançar?** Podemos prosseguir com a investigação exploratória após revisar estes achados; isso não aprova automaticamente a modelagem.
+

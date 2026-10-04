@@ -1,0 +1,15 @@
+{
+  "audited_commit": "c301905af45877ec30fed37c63cfd102e2093ced",
+  "upstream_main_at_audit": "02111531f8661373aa7b6ba31c316c67d72d1dd2",
+  "requirements": 84,
+  "weighted_total": 82.0,
+  "grade": 8.2,
+  "independent_checks_passed": 36,
+  "notebooks_cells_passed": 9,
+  "tables_equivalent": 88,
+  "regenerated_svg_valid": 78,
+  "original_svg_empty": 2,
+  "cli_completed": true,
+  "colab_service_executed": false,
+  "nbclient_kernel_executed": false
+}

@@ -1,0 +1,181 @@
+[
+  {
+    "check": "raw_sha256",
+    "passed": true
+  },
+  {
+    "check": "balanced_panel",
+    "passed": true,
+    "max_absolute_difference": 0.0
+  },
+  {
+    "check": "mix_values",
+    "passed": true,
+    "max_absolute_difference": 9.020562075079397e-17
+  },
+  {
+    "check": "mix_sum",
+    "passed": true,
+    "max_absolute_difference": 4.440892098500626e-16
+  },
+  {
+    "check": "allocation_values",
+    "passed": true,
+    "max_absolute_difference": 9.8879238130678e-17
+  },
+  {
+    "check": "allocation_sum",
+    "passed": true,
+    "max_absolute_difference": 1.9984014443252818e-15
+  },
+  {
+    "check": "spend_share",
+    "passed": true,
+    "max_absolute_difference": 1.3877787807814457e-16
+  },
+  {
+    "check": "population_count_once",
+    "passed": true,
+    "max_absolute_difference": 0.0
+  },
+  {
+    "check": "kpi_per_capita",
+    "passed": true,
+    "max_absolute_difference": 3.637978807091713e-12
+  },
+  {
+    "check": "r2_geo_ols",
+    "passed": true,
+    "max_absolute_difference": 1.4224732503009818e-14
+  },
+  {
+    "check": "r2_time_ols",
+    "passed": true,
+    "max_absolute_difference": 4.3021142204224816e-15
+  },
+  {
+    "check": "r2_geo_time_ols",
+    "passed": true,
+    "max_absolute_difference": 3.497202527569243e-15
+  },
+  {
+    "check": "variance_identity",
+    "passed": true,
+    "max_absolute_difference": 0.000244140625
+  },
+  {
+    "check": "two_way_partition",
+    "passed": true,
+    "max_absolute_difference": 3.3306690738754696e-16
+  },
+  {
+    "check": "correlation_overall_pearson",
+    "passed": true,
+    "max_absolute_difference": 1.1102230246251565e-16
+  },
+  {
+    "check": "correlation_overall_spearman",
+    "passed": true,
+    "max_absolute_difference": 8.326672684688674e-17
+  },
+  {
+    "check": "vif_overall_statsmodels",
+    "passed": true,
+    "max_absolute_difference": 4.440892098500626e-16
+  },
+  {
+    "check": "correlation_within_pearson",
+    "passed": true,
+    "max_absolute_difference": 1.1102230246251565e-16
+  },
+  {
+    "check": "correlation_within_spearman",
+    "passed": true,
+    "max_absolute_difference": 8.326672684688674e-17
+  },
+  {
+    "check": "vif_within_statsmodels",
+    "passed": true,
+    "max_absolute_difference": 4.440892098500626e-16
+  },
+  {
+    "check": "correlation_two_way_pearson",
+    "passed": true,
+    "max_absolute_difference": 9.020562075079397e-17
+  },
+  {
+    "check": "correlation_two_way_spearman",
+    "passed": true,
+    "max_absolute_difference": 1.1102230246251565e-16
+  },
+  {
+    "check": "vif_two_way_statsmodels",
+    "passed": true,
+    "max_absolute_difference": 6.661338147750939e-16
+  },
+  {
+    "check": "per_capita_all",
+    "passed": true,
+    "max_absolute_difference": 7.275957614183426e-12
+  },
+  {
+    "check": "national_kpi",
+    "passed": true,
+    "max_absolute_difference": 0.0
+  },
+  {
+    "check": "national_population",
+    "passed": true,
+    "max_absolute_difference": 3.725290298461914e-09
+  },
+  {
+    "check": "national_revenue",
+    "passed": true,
+    "max_absolute_difference": 1.862645149230957e-09
+  },
+  {
+    "check": "national_weighted_competitor_sales_control",
+    "passed": true,
+    "max_absolute_difference": 4.440892098500626e-16
+  },
+  {
+    "check": "national_weighted_sentiment_score_control",
+    "passed": true,
+    "max_absolute_difference": 4.440892098500626e-16
+  },
+  {
+    "check": "national_weighted_Promo",
+    "passed": true,
+    "max_absolute_difference": 2.220446049250313e-16
+  },
+  {
+    "check": "national_cpmu_Channel0",
+    "passed": true,
+    "max_absolute_difference": 9.974659986866641e-17
+  },
+  {
+    "check": "national_cpmu_Channel1",
+    "passed": true,
+    "max_absolute_difference": 9.8879238130678e-17
+  },
+  {
+    "check": "national_cpmu_Channel2",
+    "passed": true,
+    "max_absolute_difference": 9.627715291671279e-17
+  },
+  {
+    "check": "national_cpmu_Channel3",
+    "passed": true,
+    "max_absolute_difference": 9.8879238130678e-17
+  },
+  {
+    "check": "national_cpmu_Channel4",
+    "passed": true,
+    "max_absolute_difference": 9.540979117872439e-17
+  },
+  {
+    "check": "official_reconciliation",
+    "passed": true,
+    "max_absolute_difference": 4.440892098500626e-16
+  }
+]

@@ -1,0 +1,886 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 7327
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 348
+  },
+  {
+    "path": "requirements-colab.txt",
+    "bytes": 93
+  },
+  {
+    "path": "pytest.ini",
+    "bytes": 42
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 239
+  },
+  {
+    "path": "scripts/execute_notebooks.py",
+    "bytes": 2502
+  },
+  {
+    "path": "scripts/build_notebooks.py",
+    "bytes": 12098
+  },
+  {
+    "path": "scripts/run_eda.py",
+    "bytes": 847
+  },
+  {
+    "path": "notebooks/02_eda_temporal.ipynb",
+    "bytes": 39229
+  },
+  {
+    "path": "notebooks/00_data_audit.ipynb",
+    "bytes": 30014
+  },
+  {
+    "path": "notebooks/04_eda_media_geo.ipynb",
+    "bytes": 34564
+  },
+  {
+    "path": "notebooks/03_eda_geo.ipynb",
+    "bytes": 42259
+  },
+  {
+    "path": "notebooks/07_eda_conclusions.ipynb",
+    "bytes": 19470
+  },
+  {
+    "path": "notebooks/EDA_COMPLETE_COLAB.ipynb",
+    "bytes": 226102
+  },
+  {
+    "path": "notebooks/05_eda_relationships.ipynb",
+    "bytes": 25511
+  },
+  {
+    "path": "notebooks/06_meridian_official_eda.ipynb",
+    "bytes": 26537
+  },
+  {
+    "path": "notebooks/01_eda_general.ipynb",
+    "bytes": 39059
+  },
+  {
+    "path": "tests/test_data_contract.py",
+    "bytes": 2725
+  },
+  {
+    "path": "src/official_eda.py",
+    "bytes": 10734
+  },
+  {
+    "path": "src/geo_analysis.py",
+    "bytes": 11772
+  },
+  {
+    "path": "src/config.py",
+    "bytes": 1160
+  },
+  {
+    "path": "src/statistics.py",
+    "bytes": 4038
+  },
+  {
+    "path": "src/reporting.py",
+    "bytes": 8972
+  },
+  {
+    "path": "src/validation.py",
+    "bytes": 3475
+  },
+  {
+    "path": "src/__init__.py",
+    "bytes": 84
+  },
+  {
+    "path": "src/data.py",
+    "bytes": 4981
+  },
+  {
+    "path": "src/plots.py",
+    "bytes": 2445
+  },
+  {
+    "path": "src/eda.py",
+    "bytes": 14847
+  },
+  {
+    "path": "docs/eda_story.md",
+    "bytes": 14610
+  },
+  {
+    "path": "docs/validation.md",
+    "bytes": 2956
+  },
+  {
+    "path": "docs/execution_specification.md",
+    "bytes": 40480
+  },
+  {
+    "path": "docs/coverage.md",
+    "bytes": 3417
+  },
+  {
+    "path": "docs/findings.md",
+    "bytes": 6831
+  },
+  {
+    "path": "docs/data_dictionary.md",
+    "bytes": 5091
+  },
+  {
+    "path": "docs/decisions.md",
+    "bytes": 3249
+  },
+  {
+    "path": "docs/methodology_eda.md",
+    "bytes": 7302
+  },
+  {
+    "path": "data/metadata/meridian_run.json",
+    "bytes": 312
+  },
+  {
+    "path": "data/metadata/MERIDIAN_LICENSE",
+    "bytes": 11357
+  },
+  {
+    "path": "data/metadata/validated_environment.txt",
+    "bytes": 1864
+  },
+  {
+    "path": "data/metadata/execution.json",
+    "bytes": 507
+  },
+  {
+    "path": "data/metadata/source.json",
+    "bytes": 512
+  },
+  {
+    "path": "data/processed/geo_time_panel.csv",
+    "bytes": 966948
+  },
+  {
+    "path": "data/raw/geo_all_channels.csv",
+    "bytes": 966498
+  },
+  {
+    "path": "outputs/tables/population_summary.csv",
+    "bytes": 1468
+  },
+  {
+    "path": "outputs/tables/impression_correlation_national_pearson.csv",
+    "bytes": 607
+  },
+  {
+    "path": "outputs/tables/national_timeseries.csv",
+    "bytes": 39453
+  },
+  {
+    "path": "outputs/tables/correlation_overall_pearson.csv",
+    "bytes": 4683
+  },
+  {
+    "path": "outputs/tables/correlation_national_pearson.csv",
+    "bytes": 4667
+  },
+  {
+    "path": "outputs/tables/impression_correlation_two_way_spearman.csv",
+    "bytes": 609
+  },
+  {
+    "path": "outputs/tables/missing_by_time.csv",
+    "bytes": 7962
+  },
+  {
+    "path": "outputs/tables/impression_correlation_overall_pearson.csv",
+    "bytes": 603
+  },
+  {
+    "path": "outputs/tables/geo_media_summary.csv",
+    "bytes": 3054
+  },
+  {
+    "path": "outputs/tables/within_between_variance.csv",
+    "bytes": 2988
+  },
+  {
+    "path": "outputs/tables/spend_correlation_national_pearson.csv",
+    "bytes": 557
+  },
+  {
+    "path": "outputs/tables/official_check_geo_std_1_std_ds.csv",
+    "bytes": 20401
+  },
+  {
+    "path": "outputs/tables/channel_geo_concentration.csv",
+    "bytes": 473
+  },
+  {
+    "path": "outputs/tables/missing_by_channel.csv",
+    "bytes": 119
+  },
+  {
+    "path": "outputs/tables/impression_correlation_within_spearman.csv",
+    "bytes": 607
+  },
+  {
+    "path": "outputs/tables/duplicate_summary.csv",
+    "bytes": 313
+  },
+  {
+    "path": "outputs/tables/official_r2_reconciliation.csv",
+    "bytes": 3059
+  },
+  {
+    "path": "outputs/tables/official_check_overall_kpi_invariability_0_kpi_stdev.csv",
+    "bytes": 32
+  },
+  {
+    "path": "outputs/tables/spend_correlation_within_spearman.csv",
+    "bytes": 557
+  },
+  {
+    "path": "outputs/tables/geo_allocation.csv",
+    "bytes": 4388
+  },
+  {
+    "path": "outputs/tables/missing_summary.csv",
+    "bytes": 360
+  },
+  {
+    "path": "outputs/tables/activity_runs.csv",
+    "bytes": 373113
+  },
+  {
+    "path": "outputs/tables/official_check_population_corr_raw_media_0_correlation_ds.csv",
+    "bytes": 376
+  },
+  {
+    "path": "outputs/tables/cost_per_media_unit.csv",
+    "bytes": 1831
+  },
+  {
+    "path": "outputs/tables/official_check_population_corr_scaled_treatment_control_0_correlation_ds.csv",
+    "bytes": 1495
+  },
+  {
+    "path": "outputs/tables/official_check_geo_pairwise_corr_1_corr_matrix.csv",
+    "bytes": 163170
+  },
+  {
+    "path": "outputs/tables/official_check_geo_vif_0_vif_da.csv",
+    "bytes": 298
+  },
+  {
+    "path": "outputs/tables/channel_summary.csv",
+    "bytes": 1614
+  },
+  {
+    "path": "outputs/tables/geo_time_r2_per_capita.csv",
+    "bytes": 2434
+  },
+  {
+    "path": "outputs/tables/custom_vs_meridian.csv",
+    "bytes": 1785
+  },
+  {
+    "path": "outputs/tables/control_temporal_summary.csv",
+    "bytes": 1160
+  },
+  {
+    "path": "outputs/tables/correlation_within_pearson.csv",
+    "bytes": 4707
+  },
+  {
+    "path": "outputs/tables/meridian_eda_checks.csv",
+    "bytes": 4268
+  },
+  {
+    "path": "outputs/tables/official_check_geo_cost_per_media_unit_0_cost_per_media_unit_da.csv",
+    "bytes": 1308636
+  },
+  {
+    "path": "outputs/tables/geo_cpmu.csv",
+    "bytes": 20050
+  },
+  {
+    "path": "outputs/tables/spend_correlation_overall_pearson.csv",
+    "bytes": 557
+  },
+  {
+    "path": "outputs/tables/correlation_summary.csv",
+    "bytes": 60306
+  },
+  {
+    "path": "outputs/tables/impression_correlation_overall_spearman.csv",
+    "bytes": 617
+  },
+  {
+    "path": "outputs/tables/geo_plot_selection.csv",
+    "bytes": 411
+  },
+  {
+    "path": "outputs/tables/impression_correlation_two_way_pearson.csv",
+    "bytes": 611
+  },
+  {
+    "path": "outputs/tables/data_dictionary.csv",
+    "bytes": 2441
+  },
+  {
+    "path": "outputs/tables/outliers.csv",
+    "bytes": 678457
+  },
+  {
+    "path": "outputs/tables/channel_activity.csv",
+    "bytes": 294
+  },
+  {
+    "path": "outputs/tables/official_check_national_pairwise_corr_0_corr_matrix.csv",
+    "bytes": 3622
+  },
+  {
+    "path": "outputs/tables/correlation_two_way_spearman.csv",
+    "bytes": 4637
+  },
+  {
+    "path": "outputs/tables/impression_correlation_national_spearman.csv",
+    "bytes": 607
+  },
+  {
+    "path": "outputs/tables/national_cpmu.csv",
+    "bytes": 18068
+  },
+  {
+    "path": "outputs/tables/per_capita_panel.csv",
+    "bytes": 1240573
+  },
+  {
+    "path": "outputs/tables/population_kpi_correlation.csv",
+    "bytes": 71
+  },
+  {
+    "path": "outputs/tables/official_check_national_vif_0_vif_da.csv",
+    "bytes": 297
+  },
+  {
+    "path": "outputs/tables/spend_correlation_overall_spearman.csv",
+    "bytes": 567
+  },
+  {
+    "path": "outputs/tables/official_check_national_std_0_std_ds.csv",
+    "bytes": 79
+  },
+  {
+    "path": "outputs/tables/meridian_warnings.csv",
+    "bytes": 297
+  },
+  {
+    "path": "outputs/tables/spend_correlation_national_spearman.csv",
+    "bytes": 557
+  },
+  {
+    "path": "outputs/tables/vif_summary.csv",
+    "bytes": 1973
+  },
+  {
+    "path": "outputs/tables/official_check_national_std_1_std_ds.csv",
+    "bytes": 501
+  },
+  {
+    "path": "outputs/tables/national_descriptive.csv",
+    "bytes": 4086
+  },
+  {
+    "path": "outputs/tables/spend_correlation_two_way_pearson.csv",
+    "bytes": 563
+  },
+  {
+    "path": "outputs/tables/population_media_correlation.csv",
+    "bytes": 409
+  },
+  {
+    "path": "outputs/tables/readiness_report.csv",
+    "bytes": 3103
+  },
+  {
+    "path": "outputs/tables/correlation_national_spearman.csv",
+    "bytes": 4543
+  },
+  {
+    "path": "outputs/tables/geo_kpi_summary.csv",
+    "bytes": 5900
+  },
+  {
+    "path": "outputs/tables/data_audit.csv",
+    "bytes": 749
+  },
+  {
+    "path": "outputs/tables/kpi_stl_52.csv",
+    "bytes": 12551
+  },
+  {
+    "path": "outputs/tables/correlation_two_way_pearson.csv",
+    "bytes": 4753
+  },
+  {
+    "path": "outputs/tables/within_geo_cv.csv",
+    "bytes": 6742
+  },
+  {
+    "path": "outputs/tables/exploratory_lags.csv",
+    "bytes": 1628
+  },
+  {
+    "path": "outputs/tables/spend_correlation_two_way_spearman.csv",
+    "bytes": 557
+  },
+  {
+    "path": "outputs/tables/official_check_geo_std_0_std_ds.csv",
+    "bytes": 1780
+  },
+  {
+    "path": "outputs/tables/official_check_geo_vif_1_vif_da.csv",
+    "bytes": 13476
+  },
+  {
+    "path": "outputs/tables/geo_kpi_correlation.csv",
+    "bytes": 32632
+  },
+  {
+    "path": "outputs/tables/spend_share.csv",
+    "bytes": 260
+  },
+  {
+    "path": "outputs/tables/media_mix.csv",
+    "bytes": 4220
+  },
+  {
+    "path": "outputs/tables/activity_streaks.csv",
+    "bytes": 434
+  },
+  {
+    "path": "outputs/tables/official_check_national_cost_per_media_unit_0_cost_per_media_unit_da.csv",
+    "bytes": 31937
+  },
+  {
+    "path": "outputs/tables/official_check_variable_geo_time_collinearity_0_rsquared_ds.csv",
+    "bytes": 530
+  },
+  {
+    "path": "outputs/tables/correlation_overall_spearman.csv",
+    "bytes": 4577
+  },
+  {
+    "path": "outputs/tables/kpi_concentration.csv",
+    "bytes": 1124
+  },
+  {
+    "path": "outputs/tables/kpi_acf.csv",
+    "bytes": 621
+  },
+  {
+    "path": "outputs/tables/kpi_level_changes.csv",
+    "bytes": 9627
+  },
+  {
+    "path": "outputs/tables/impression_correlation_within_pearson.csv",
+    "bytes": 611
+  },
+  {
+    "path": "outputs/tables/official_check_overall_kpi_invariability_0_kpi_da.csv",
+    "bytes": 227073
+  },
+  {
+    "path": "outputs/tables/meridian_data_adequacy.csv",
+    "bytes": 122
+  },
+  {
+    "path": "outputs/tables/official_check_geo_pairwise_corr_0_corr_matrix.csv",
+    "bytes": 3694
+  },
+  {
+    "path": "outputs/tables/spend_correlation_within_pearson.csv",
+    "bytes": 563
+  },
+  {
+    "path": "outputs/tables/geo_time_r2.csv",
+    "bytes": 1503
+  },
+  {
+    "path": "outputs/tables/missing_by_geo.csv",
+    "bytes": 2067
+  },
+  {
+    "path": "outputs/tables/correlation_within_spearman.csv",
+    "bytes": 4581
+  },
+  {
+    "path": "outputs/logs/execution.log",
+    "bytes": 145740
+  },
+  {
+    "path": "outputs/logs/pytest.txt",
+    "bytes": 99
+  },
+  {
+    "path": "outputs/logs/notebook_validation.json",
+    "bytes": 1336
+  },
+  {
+    "path": "outputs/reports/04_eda_media_geo.md",
+    "bytes": 1681
+  },
+  {
+    "path": "outputs/reports/meridian_eda_report.html",
+    "bytes": 347354
+  },
+  {
+    "path": "outputs/reports/06_meridian_official_eda.md",
+    "bytes": 2435
+  },
+  {
+    "path": "outputs/reports/01_eda_general.md",
+    "bytes": 1500
+  },
+  {
+    "path": "outputs/reports/05_eda_relationships.md",
+    "bytes": 2031
+  },
+  {
+    "path": "outputs/reports/07_eda_conclusions.md",
+    "bytes": 2616
+  },
+  {
+    "path": "outputs/reports/03_eda_geo.md",
+    "bytes": 1811
+  },
+  {
+    "path": "outputs/reports/00_data_audit.md",
+    "bytes": 1583
+  },
+  {
+    "path": "outputs/reports/02_eda_temporal.md",
+    "bytes": 1746
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel0_spend_pc_geo_time.svg",
+    "bytes": 99303
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel2_impression_geo_time.svg",
+    "bytes": 79261
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel4_impression_geo_time.svg",
+    "bytes": 95134
+  },
+  {
+    "path": "outputs/figures/media_geo/spend_per_capita.svg",
+    "bytes": 53722
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel1_impression_pc_geo_time.svg",
+    "bytes": 95392
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel1_spend_geo_time.svg",
+    "bytes": 94617
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel1_population.svg",
+    "bytes": 17340
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel3_impression_pc_geo_time.svg",
+    "bytes": 0
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel0_impression_pc_geo_time.svg",
+    "bytes": 98209
+  },
+  {
+    "path": "outputs/figures/media_geo/media_mix.svg",
+    "bytes": 52271
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel2_spend_geo_time.svg",
+    "bytes": 80594
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel4_spend_geo_time.svg",
+    "bytes": 94268
+  },
+  {
+    "path": "outputs/figures/media_geo/geo_allocation.svg",
+    "bytes": 52150
+  },
+  {
+    "path": "outputs/figures/media_geo/within_cv_distribution.svg",
+    "bytes": 19438
+  },
+  {
+    "path": "outputs/figures/media_geo/within_geo_cv.svg",
+    "bytes": 53844
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel3_spend_pc_geo_time.svg",
+    "bytes": 98131
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel4_impression_pc_geo_time.svg",
+    "bytes": 98230
+  },
+  {
+    "path": "outputs/figures/media_geo/spend_geo_channel.svg",
+    "bytes": 53567
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel2_spend_pc_geo_time.svg",
+    "bytes": 82579
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel1_spend_pc_geo_time.svg",
+    "bytes": 94842
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel3_impression_geo_time.svg",
+    "bytes": 96982
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel0_population.svg",
+    "bytes": 16251
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel0_impression_geo_time.svg",
+    "bytes": 95901
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel3_population.svg",
+    "bytes": 16134
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel1_impression_geo_time.svg",
+    "bytes": 94948
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel4_population.svg",
+    "bytes": 16253
+  },
+  {
+    "path": "outputs/figures/media_geo/mix_stacked.svg",
+    "bytes": 70422
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel4_spend_pc_geo_time.svg",
+    "bytes": 97122
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel0_spend_geo_time.svg",
+    "bytes": 96682
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel2_impression_pc_geo_time.svg",
+    "bytes": 80938
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel3_spend_geo_time.svg",
+    "bytes": 95567
+  },
+  {
+    "path": "outputs/figures/media_geo/Channel2_population.svg",
+    "bytes": 17718
+  },
+  {
+    "path": "outputs/figures/temporal/sentiment_score_control_distribution.svg",
+    "bytes": 15374
+  },
+  {
+    "path": "outputs/figures/temporal/Channel2_kpi_z.svg",
+    "bytes": 27725
+  },
+  {
+    "path": "outputs/figures/temporal/competitor_sales_control_time.svg",
+    "bytes": 23954
+  },
+  {
+    "path": "outputs/figures/temporal/Organic_channel0_impression_time.svg",
+    "bytes": 23038
+  },
+  {
+    "path": "outputs/figures/temporal/Channel0_kpi_z.svg",
+    "bytes": 26674
+  },
+  {
+    "path": "outputs/figures/temporal/Promo_distribution.svg",
+    "bytes": 16113
+  },
+  {
+    "path": "outputs/figures/temporal/Channel4_kpi_z.svg",
+    "bytes": 27126
+  },
+  {
+    "path": "outputs/figures/temporal/Channel1_kpi_z.svg",
+    "bytes": 27185
+  },
+  {
+    "path": "outputs/figures/temporal/kpi_trend.svg",
+    "bytes": 27906
+  },
+  {
+    "path": "outputs/figures/temporal/kpi_stl_52.svg",
+    "bytes": 50923
+  },
+  {
+    "path": "outputs/figures/temporal/Organic_channel0_impression_distribution.svg",
+    "bytes": 16270
+  },
+  {
+    "path": "outputs/figures/temporal/competitor_sales_control_distribution.svg",
+    "bytes": 15380
+  },
+  {
+    "path": "outputs/figures/temporal/Channel4_timeseries.svg",
+    "bytes": 33228
+  },
+  {
+    "path": "outputs/figures/temporal/sentiment_score_control_time.svg",
+    "bytes": 23956
+  },
+  {
+    "path": "outputs/figures/temporal/Channel3_kpi_z.svg",
+    "bytes": 27164
+  },
+  {
+    "path": "outputs/figures/temporal/Channel0_timeseries.svg",
+    "bytes": 33798
+  },
+  {
+    "path": "outputs/figures/temporal/Channel3_timeseries.svg",
+    "bytes": 36618
+  },
+  {
+    "path": "outputs/figures/temporal/Promo_time.svg",
+    "bytes": 23368
+  },
+  {
+    "path": "outputs/figures/temporal/Channel1_timeseries.svg",
+    "bytes": 35644
+  },
+  {
+    "path": "outputs/figures/temporal/Channel2_timeseries.svg",
+    "bytes": 35890
+  },
+  {
+    "path": "outputs/figures/relationships/readiness_dashboard.svg",
+    "bytes": 21061
+  },
+  {
+    "path": "outputs/figures/relationships/vif.svg",
+    "bytes": 21191
+  },
+  {
+    "path": "outputs/figures/relationships/correlation_overall.svg",
+    "bytes": 29847
+  },
+  {
+    "path": "outputs/figures/relationships/correlation_two_way.svg",
+    "bytes": 29783
+  },
+  {
+    "path": "outputs/figures/relationships/correlation_national.svg",
+    "bytes": 29848
+  },
+  {
+    "path": "outputs/figures/relationships/correlation_within.svg",
+    "bytes": 29782
+  },
+  {
+    "path": "outputs/figures/relationships/lags.svg",
+    "bytes": 17808
+  },
+  {
+    "path": "outputs/figures/geo/geo_time_r2.svg",
+    "bytes": 24313
+  },
+  {
+    "path": "outputs/figures/geo/population_kpi.svg",
+    "bytes": 16781
+  },
+  {
+    "path": "outputs/figures/geo/sentiment_score_control_geo_time.svg",
+    "bytes": 0
+  },
+  {
+    "path": "outputs/figures/geo/geo_correlation.svg",
+    "bytes": 69629
+  },
+  {
+    "path": "outputs/figures/geo/population_by_geo.svg",
+    "bytes": 35573
+  },
+  {
+    "path": "outputs/figures/geo/variance_decomposition.svg",
+    "bytes": 22067
+  },
+  {
+    "path": "outputs/figures/geo/kpi_by_geo.svg",
+    "bytes": 36194
+  },
+  {
+    "path": "outputs/figures/geo/competitor_sales_control_geo_time.svg",
+    "bytes": 98321
+  },
+  {
+    "path": "outputs/figures/geo/kpi_small_multiples.svg",
+    "bytes": 74183
+  },
+  {
+    "path": "outputs/figures/geo/conversions_geo_time.svg",
+    "bytes": 94232
+  },
+  {
+    "path": "outputs/figures/geo/kpi_concentration.svg",
+    "bytes": 13340
+  },
+  {
+    "path": "outputs/figures/geo/kpi_per_capita.svg",
+    "bytes": 35282
+  },
+  {
+    "path": "outputs/figures/geo/kpi_pc_geo_time.svg",
+    "bytes": 96790
+  },
+  {
+    "path": "outputs/figures/general/spend_share.svg",
+    "bytes": 12045
+  },
+  {
+    "path": "outputs/figures/general/channel_activity.svg",
+    "bytes": 10423
+  },
+  {
+    "path": "outputs/figures/general/kpi_distribution.svg",
+    "bytes": 23564
+  },
+  {
+    "path": "outputs/figures/general/national_kpi.svg",
+    "bytes": 23677
+  },
+  {
+    "path": "outputs/figures/data_audit/panel_completeness.svg",
+    "bytes": 54608
+  },
+  {
+    "path": "outputs/figures/data_audit/missing_values.svg",
+    "bytes": 19631
+  }
+]

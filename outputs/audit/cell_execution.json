@@ -1,0 +1,56 @@
+[
+  {
+    "notebook": "00_data_audit.ipynb",
+    "returncode": 0,
+    "seconds": 2.35,
+    "method": "IPython cells; fresh subprocess; no sockets"
+  },
+  {
+    "notebook": "01_eda_general.ipynb",
+    "returncode": 0,
+    "seconds": 2.57,
+    "method": "IPython cells; fresh subprocess; no sockets"
+  },
+  {
+    "notebook": "02_eda_temporal.ipynb",
+    "returncode": 0,
+    "seconds": 7.64,
+    "method": "IPython cells; fresh subprocess; no sockets"
+  },
+  {
+    "notebook": "03_eda_geo.ipynb",
+    "returncode": 0,
+    "seconds": 7.83,
+    "method": "IPython cells; fresh subprocess; no sockets"
+  },
+  {
+    "notebook": "04_eda_media_geo.ipynb",
+    "returncode": 0,
+    "seconds": 18.65,
+    "method": "IPython cells; fresh subprocess; no sockets"
+  },
+  {
+    "notebook": "05_eda_relationships.ipynb",
+    "returncode": 0,
+    "seconds": 2.63,
+    "method": "IPython cells; fresh subprocess; no sockets"
+  },
+  {
+    "notebook": "06_meridian_official_eda.ipynb",
+    "returncode": 0,
+    "seconds": 25.79,
+    "method": "IPython cells; fresh subprocess; no sockets"
+  },
+  {
+    "notebook": "07_eda_conclusions.ipynb",
+    "returncode": 0,
+    "seconds": 0.99,
+    "method": "IPython cells; fresh subprocess; no sockets"
+  },
+  {
+    "notebook": "EDA_COMPLETE_COLAB.ipynb",
+    "returncode": 0,
+    "seconds": 61.54,
+    "method": "IPython cells; fresh subprocess; no sockets"
+  }
+]

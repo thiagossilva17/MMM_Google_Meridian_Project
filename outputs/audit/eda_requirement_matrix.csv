@@ -1,0 +1,85 @@
+requirement_id,category,requirement,status,evidence,severity,score,problem,recommendation,source_requirement
+A01,Data audit,"Proveniência oficial, commit e hash",COMPLETO,data/metadata/source.json; source_download.json,—,3,—,Manter raw e fonte fixados,"Original 3–4,10"
+A02,Data audit,Schema real e pares media/spend,COMPLETO,"src/data.py:channels,roles; data_dictionary.csv",—,3,—,Manter rejeição de schema desconhecido,Original 11
+A03,Data audit,Dimensões e frequência,COMPLETO,data_audit.csv; independent_checks.json,—,3,—,Manter 40×156=6240 e grade semanal,Original 12
+A04,Data audit,Unicidade e completude GEO×TIME,COMPLETO,src/validation.py:audit; tests/test_data_contract.py,—,3,—,Manter contrato e visual de presença,Original 13
+A05,Data audit,Missing por variável/geo/tempo/canal,COMPLETO,missing_summary.csv; missing_by_geo/time/channel.csv,—,2,—,Manter ausência de imputação,Original 14
+A06,Data audit,"Domínio, finitos e população",COMPLETO,src/validation.py:require_valid_panel; pytest.txt,—,3,—,Manter falha explícita,Original 15
+A07,Data audit,Inconsistências media positiva/spend zero e inverso,COMPLETO,data_audit.csv; src/validation.py:audit,—,2,—,Manter contadores por canal,Original 15
+A08,Data audit,"Dicionário: papel, tipo, unidade e dimensão",PARCIAL,docs/data_dictionary.md; src/validation.py:dictionary,P2,2,geo e time recebem dimensão genérica geo×time,Distinguir coordenadas de variáveis e explicitar os pares,Original 11
+A09,Data audit,Reach/frequency,NÃO APLICÁVEL,CSV raw e roles validados,—,0,Ausentes no dataset,Não inventar variáveis,"Original 11,15"
+A10,Data audit,Orgânico e Promo,COMPLETO,config.py; temporal; official_eda.py,—,2,—,Manter como papéis próprios,"Original 11,28"
+A11,Data audit,Raw preservado e processed separado,COMPLETO,src/data.py:load_panel; source_download.json,—,3,—,Manter validação do índice exportado,"Original 4,10"
+A12,Data audit,"CPMU: zeros, agregação e estatísticas",COMPLETO,cost_per_media_unit.csv; national_cpmu.csv; geo_cpmu.csv,—,3,—,Manter razões de somas no nacional e NaN em 0/0,Original 16
+A13,Data audit,CPMU: extremos e interpretação,PARCIAL,custom_vs_meridian.csv; Channel2_timeseries.svg,P2,2,Alertas contextualizados; gráfico amplia ruído de 10⁻⁹,Anotar escala relativa e contextualizar casos oficiais,Original 16
+B01,Geral/tempo,"KPI nacional: estatísticas, distribuição, série",COMPLETO,national_descriptive.csv; general/kpi_distribution.svg,—,2,—,Manter soma de conversões sintéticas,Original 18–19
+B02,Geral/tempo,Ficha de mídia por canal,COMPLETO,channel_summary.csv; channel_activity.csv,—,2,—,"Manter totais, percentis, CV e CPMU",Original 20
+B03,Geral/tempo,Share de spend e denominador,COMPLETO,spend_share.csv; independent_checks.json,—,3,—,Manter distinção de retorno,Original 21
+B04,Geral/tempo,Atividade e sequências de zeros,PARCIAL,activity_runs.csv; activity_streaks.csv; 01_eda_general,P1,1,"Cálculo existe, sequências e exceções pouco interpretadas",Explicar Channel2 e contrastar Channel3,Original 22
+B05,Geral/tempo,Outliers: IQR/MAD e preservação,COMPLETO,src/statistics.py:outliers; outliers.csv,—,2,—,Preservar dados e indefinição quando MAD=0,Original 23
+B06,Geral/tempo,Outliers: contextualizar e decidir por caso,PARCIAL,outliers.csv:6039 registros e uma única decisão textual,P1,1,Triagem não se converte em investigação localizada,Investigar maiores casos e grupos após ajuste populacional,Original 23
+B07,Geral/tempo,"KPI: tendência, picos, volatilidade, sazonalidade",PARCIAL,kpi_stl_52.csv; kpi_acf.csv; kpi_level_changes.csv; relatório 02,P2,2,STL/ACF exportados sem leitura dos resultados principais,"Narrar padrões, datas e limites dos três ciclos",Original 24–25
+B08,Geral/tempo,Séries individuais media/spend/CPMU,COMPLETO,temporal/Channel0–4_timeseries.svg,—,2,—,Manter gráficos separados com unidades,Original 26
+B09,Geral/tempo,Z-score KPI×mídia,COMPLETO,src/eda.py:temporal; Channel*_kpi_z.svg,—,2,—,Manter uso descritivo,Original 27
+B10,Geral/tempo,"Controles: séries, distribuição, quase constância",PARCIAL,control_temporal_summary.csv; relatórios 02 e 05,P2,2,Quase constância e mudanças não recebem discussão por controle,"Discutir amplitude, desvio, R² e associações individuais","Original 28,51"
+B11,Geral/tempo,Lags exploratórios,COMPLETO,exploratory_lags.csv; src/eda.py:relationships,—,2,—,"Manter como opcional, sem escolha de adstock",Original 53
+C01,GEO,"KPI por geo, ranking, shares, concentração",COMPLETO,geo_kpi_summary.csv; kpi_concentration.csv,—,2,—,Manter distinção entre volume e performance,Original 29–30
+C02,GEO,Population por geo e estabilidade temporal,COMPLETO,population_summary.csv; data_audit.csv,—,3,—,Manter um denominador por geo,Original 31
+C03,GEO,Population×KPI Pearson/Spearman,COMPLETO,population_kpi_correlation.csv; geo/population_kpi.svg,—,2,—,Manter ambas as lentes,Original 31
+C04,GEO,"KPI, mídia e spend per capita",COMPLETO,per_capita_panel.csv; independent_checks.json,—,3,—,Manter como exploração sem substituir inputs brutos,"Original 32,42"
+C05,GEO,Small multiples representativos,PARCIAL,geo_plot_selection.csv; kpi_small_multiples.svg,P2,2,"Seleção boa, datas se sobrepõem e painéis pouco interpretados",Ajustar ticks e comentar geos extremos,Original 33
+C06,GEO,Correlação entre geos e sincronização,PARCIAL,geo_kpi_correlation.csv; geo/geo_correlation.svg,P2,1,Matriz calculada sem síntese de pares/distribuição,"Resumir mediana, extremos e ausência de forte sincronização",Original 34
+D01,GEO×TIME×MEDIA,Decomposição KPI/media/spend/controles,COMPLETO,within_between_variance.csv; OLS independente,—,3,—,"Manter ddof=0, pesos e validação de painel",Original 35
+D02,GEO×TIME×MEDIA,R² GEO com intercepto,COMPLETO,src/statistics.py:variance_decomposition; independent_checks.json,—,3,—,Manter definição descritiva,Original 37
+D03,GEO×TIME×MEDIA,R² TIME com intercepto,COMPLETO,geo_time_r2.csv; OLS independente,—,3,—,Manter distinção de efeitos comuns,Original 37
+D04,GEO×TIME×MEDIA,Resíduo two-way bruto e per capita,COMPLETO,geo_time_r2_per_capita.csv; metodologia,—,3,—,Preservar avanço além de within simples,"Original 36–37,65"
+D05,GEO×TIME×MEDIA,Scatter R² GEO×TIME,COMPLETO,geo/geo_time_r2.svg,—,2,—,Manter legenda; limites de eixo adaptáveis são opcionais,Original 37
+D06,GEO×TIME×MEDIA,Spend GEO×canal,COMPLETO,geo_media_summary.csv; spend_geo_channel.svg,—,2,—,Manter unidades explícitas,Original 39
+D07,GEO×TIME×MEDIA,Media mix e soma por geo,COMPLETO,media_mix.csv; independent_checks.json,—,3,—,Manter denominador por linha,Original 40
+D08,GEO×TIME×MEDIA,Geo allocation e soma por canal,COMPLETO,geo_allocation.csv; independent_checks.json,—,3,—,Manter denominador por coluna,Original 41
+D09,GEO×TIME×MEDIA,Magnitude e interpretação da heterogeneidade do mix,PARCIAL,media_mix.csv; relato 04,P2,1,"Somente amplitude máxima, escrita em % em vez de p.p.",Quantificar dispersão e explicar semelhança entre geos,"Original 40,64–65"
+D10,GEO×TIME×MEDIA,Population×media por canal,COMPLETO,population_media_correlation.csv; Channel*_population.svg,—,2,—,Manter Pearson e Spearman,Original 43
+D11,GEO×TIME×MEDIA,Comparar população com intensidades e gasto,PARCIAL,per_capita_panel.csv; media_geo,P2,2,"Versões per capita existem, mas interpretação cruzada é limitada",Comparar relação bruta com normalizada; spend quase proporcional,Auditoria 36; extensão do original 42–43
+D12,GEO×TIME×MEDIA,Heatmaps media/spend/KPI/controles,PARCIAL,78 SVGs; inventory.json,P2,2,Dois SVGs versionados têm zero bytes,Regenerar e validar publicação; código regenera corretamente,"Original 44,69"
+D13,GEO×TIME×MEDIA,Mesma ordenação entre heatmaps brutos/per capita,EXECUTADO COM ERRO,src/geo_analysis.py:107; heatmap_order.json,P2,1,Pandas reordena linhas após div; contradiz narrativa,Aplicar reindex(order) após divisão e conferir eixos,Original 44
+D14,GEO×TIME×MEDIA,CV within por geo/canal,COMPLETO,within_geo_cv.csv; within_cv_distribution.svg,—,2,—,Manter proteção para média zero,Original 45
+D15,GEO×TIME×MEDIA,Interpretar CV e sparsity conjuntamente,PARCIAL,within_geo_cv.csv; activity_streaks.csv,P1,1,CV alto de Channel2 não é decomposto entre zeros e intensidade ativa,Comparar CV condicional à atividade e regimes de zeros,"Original 22,45,65"
+D16,GEO×TIME×MEDIA,HHI/top geos/concentração,COMPLETO,channel_geo_concentration.csv; media_geo narrativa,—,2,—,Manter HHI em escala 0–1 e não como N efetivo,Original 46
+D17,GEO×TIME×MEDIA,Síntese por canal e informação além do nacional,PARCIAL,findings.md; readiness_report.csv,P1,2,Resposta correta mas baseada sobretudo em intervalos min–max,Integrar todos os diagnósticos em fichas por canal,"Original 36,65"
+E01,Relationships,Pearson/Spearman nacional/overall/within,COMPLETO,correlation_*; independent_checks.json,—,3,—,Manter alinhamento e centragem,Original 48–50
+E02,Relationships,Matrizes de mídia e gasto separadas,COMPLETO,impression_correlation_*; spend_correlation_*,—,2,—,Manter tabelas; simplificar figuras globais,Original 49
+E03,Relationships,Interpretação comparada de pares e controles,PARCIAL,relatório 05; correlations strongest.head(15),P2,1,Maior associação destaca par contábil e não os canais distintos,Excluir pares do mesmo canal apenas do ranking interpretativo,Original 48–51
+E04,Relationships,"VIF com intercepto, constantes e colinearidade",COMPLETO,vif_summary.csv; tests; verificação statsmodels,—,3,—,Manter conjunto sem KPI nem duplicação spend/media,Original 52
+E05,Relationships,"Correlação não causal, confundimento e dependência",COMPLETO,methodology_eda.md; relatórios 05/07,—,3,—,Manter ressalvas e ausência de p-valores ingênuos,"Original 50,68"
+E06,Relationships,Identificabilidade e implicações específicas,PARCIAL,readiness_report.csv; findings.md,P2,2,Alerta geral; falta lista de canais/controles e próximos cuidados,Mapear diagnósticos a decisões futuras sem exclusão mecânica,Original 66
+F01,Meridian,"Versão, API e construção InputData",COMPLETO,official_eda.py; ambiente; upstream consultado,—,3,—,Manter commit 0211153 e roles confirmados,Original 54
+F02,Meridian,Sem posterior; prior explícita,COMPLETO,meridian_run.json; assert no código; API oficial,—,3,—,Manter distinção prior/posterior,Original 55
+F03,Meridian,HTML oficial e checks executados,COMPLETO,meridian_eda_report.html; logs de células; 13 checks,—,3,—,Manter relatório e exportações,Original 56–57
+F04,Meridian,Defaults e thresholds documentados,PARCIAL,docs/decisions.md; upstream eda_spec.py,P2,2,"Defaults preservados, valores dos limiares pouco explícitos no projeto","Registrar 0,999; VIF 1000; std 1e-4 com escopo e versão",Original 57
+F05,Meridian,Reconciliação R² ajustado na mesma escala,COMPLETO,official_r2_reconciliation.csv,—,3,—,Preservar excelente comparação numérica,Original 59
+F06,Meridian,Confronto de correlações/VIF/outliers,PARCIAL,custom_vs_meridian.csv,P2,1,"Seis linhas ficam em comparação de definições, sem confronto de casos/valores","Comparar sinais relevantes, localizações e diferenças de transformação",Original 59
+F07,Meridian,Data-to-parameter guardrail,COMPLETO,meridian_data_adequacy.csv; metodologia,—,3,—,Manter 6240/204 e limitação de interpretação,Original 58
+F08,Meridian,Revisão substantiva dos seis REVIEW,PARCIAL,meridian_eda_checks.csv; outliers.csv,P1,1,"CPMU contextualizado, quatro alertas de variabilidade não encerrados por caso","Documentar variável/geo/semana, magnitude e decisão","Original 57–59,78"
+G01,Estatística,Agregações e receita derivada,COMPLETO,src/data.py:national; independent_checks.json,—,3,—,Manter soma de produtos e médias ponderadas documentadas,"Original 19,28"
+G02,Estatística,Normalizações e domínios de métricas,COMPLETO,36 verificações independentes,—,3,—,"Manter checks de somas, R² e correlações",Auditoria 65
+G03,Estatística,CV de índices centrados/negativos,PARCIAL,national_descriptive.csv; methodology_eda.md,P2,2,CV exportado para controles com média próxima de zero; texto adverte,Marcar como não interpretável nas próprias tabelas,Original 28; auditoria 38
+G04,Estatística,Linguagem de amplitude de shares,PARCIAL,src/geo_analysis.py:119; reporting.py:74,P2,2,Amplitude em fração formatada como percentual,Escrever diferença em pontos percentuais,Original 40
+H01,Execução,Instalação limpa das dependências,COMPLETO,install.log; environment.txt,—,3,—,Manter commit e registrar ambiente efetivo,Original 4–5
+H02,Execução,Testes positivos e negativos,COMPLETO,pytest.txt:11 passed; testes lidos,—,3,—,Acrescentar checks de publicação e ordem visual na futura correção,Original 17
+H03,Execução,Oito notebooks e master em processos novos,COMPLETO,cell_execution.json; execute_cells.py,—,3,—,Preservar execução célula a célula; limitação de Jupyter declarada,Original 86–89
+H04,Execução,Executor nbclient neste ambiente,IMPLEMENTADO MAS NÃO EXECUTADO,nbclient_attempt.log,LIMITAÇÃO,0,Kernel bloqueado antes da primeira célula por sockets,Revalidar nbclient em ambiente com IPC/rede local permitida,Original 86–89
+H05,Execução,Sessão real Google Colab,IMPLEMENTADO MAS NÃO EXECUTADO,bootstrap inspecionado; master local executado,LIMITAÇÃO,0,Serviço Colab não foi usado,Executar Run all em sessão nova e guardar evidência,"Original 5,73"
+H06,Execução,Bootstrap fixa ref e origem de Meridian,PARCIAL,notebooks célula 1; build_notebooks.py,P2,2,Checkout só no clone novo e verificação apenas de versão 2.1.0,"Validar HEAD e direct_url.json, inclusive diretório existente",Original 4–5
+H07,Execução,Outputs regeneráveis e íntegros,PARCIAL,artifact_comparison.json; inventory.json,P2,2,Dois SVGs vazios no commit original,Validar tamanho/XML antes de publicar,"Original 69–70,89"
+H08,Execução,Atualidade dos inputs de conclusões,PARCIAL,07 célula 3; src/reporting.py:conclusions,P2,2,"Checa existência de CSV, não vínculo com fonte/código",Guardar manifesto e hash dos resultados consumidos,Original 74
+H09,Execução,Logging e warnings,PARCIAL,execution.log; meridian_warnings.csv; src/data.py:logging.basicConfig,P2,2,Logs sem manifesto do conjunto; warnings de compatibilidade persistem,Preservar avisos e registrar início/fim/commit por execução,Original 80
+I01,Storytelling,Pergunta/motivação/método por capítulo,COMPLETO,Markdown dos nove notebooks,—,2,—,Manter introduções e ressalvas didáticas,"Original 8,82–83"
+I02,Storytelling,Narrativa por análise e figura,PARCIAL,src/reporting.py:show; notebooks 00–05,P2,1,Uma célula apresenta todas as figuras sem comentários individuais,Intercalar resultado/interpretação/limite em blocos menores,"Original 8,83"
+I03,Storytelling,Resultados dinâmicos consistentes,COMPLETO,f-strings; relatórios regenerados; comparação de artefatos,—,2,—,Manter números calculados; corrigir frase de ordem visual,Original 9
+I04,Storytelling,Checkpoint substantivo,PARCIAL,src/reporting.py:result,P2,1,Perguntas respondidas com frases genéricas repetidas,"Escrever descoberta, pendência e decisão específica por capítulo",Original 81
+I05,Storytelling,Readiness e cinco perguntas,PARCIAL,readiness_report.csv; findings.md,P1,2,"Cobertura boa, alertas e responsáveis não viram critérios de avanço",Adicionar condições verificáveis para liberar modelagem,Original 60–67
+I06,Storytelling,Documentação acadêmica e README,COMPLETO,docs/methodology_eda.md; decisions.md; README,—,2,—,"Preservar equações, fontes e limites; refinar achados",Original 71–72
+J01,Engenharia,Modularidade e organização,COMPLETO,"src,notebooks,scripts,tests,docs",—,2,—,Manter separação; sem necessidade de arquitetura adicional,"Original 6–7,75–77"
+J02,Engenharia,Truncamento de tabelas no notebook,PARCIAL,src/reporting.py:40 head(12),P2,1,Omite controles na decomposição e parte dos checks/readiness,Mostrar integralmente tabelas pequenas críticas ou resumo selecionado,"Original 8,70"
+J03,Engenharia,"Escalas, labels e redundância visual",PARCIAL,plots.py:29–30; inspeção visual de 10 figuras,P2,2,"Nomes/ticks omitidos, legenda sobre barras e datas sobrepostas",Formatação categórica distinta de datas; legenda externa,"Original 69,77"
+J04,Engenharia,Escopo sem modelagem prematura,COMPLETO,src completo; meridian_run.json,—,3,—,Manter ausência de posterior/ROI/otimização,"Original 1,55,68"

@@ -1,0 +1,23 @@
+{
+  "absolute_first_geos": [
+    "Geo36",
+    "Geo39",
+    "Geo10",
+    "Geo23",
+    "Geo31",
+    "Geo7",
+    "Geo2",
+    "Geo25"
+  ],
+  "per_capita_first_geos": [
+    "Geo0",
+    "Geo1",
+    "Geo10",
+    "Geo11",
+    "Geo12",
+    "Geo13",
+    "Geo14",
+    "Geo15"
+  ],
+  "same_order": false
+}

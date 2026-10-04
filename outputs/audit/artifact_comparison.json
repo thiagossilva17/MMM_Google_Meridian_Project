@@ -1,0 +1,1294 @@
+{
+  "tables": [
+    {
+      "file": "activity_runs.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "activity_streaks.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "channel_activity.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "channel_geo_concentration.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "channel_summary.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "control_temporal_summary.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "correlation_national_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "correlation_national_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "correlation_overall_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "correlation_overall_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "correlation_summary.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "correlation_two_way_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "correlation_two_way_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "correlation_within_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "correlation_within_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "cost_per_media_unit.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "custom_vs_meridian.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "data_audit.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "data_dictionary.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "duplicate_summary.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "exploratory_lags.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "geo_allocation.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "geo_cpmu.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "geo_kpi_correlation.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "geo_kpi_summary.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "geo_media_summary.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "geo_plot_selection.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "geo_time_r2.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "geo_time_r2_per_capita.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "impression_correlation_national_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "impression_correlation_national_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "impression_correlation_overall_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "impression_correlation_overall_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "impression_correlation_two_way_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "impression_correlation_two_way_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "impression_correlation_within_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "impression_correlation_within_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "kpi_acf.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "kpi_concentration.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "kpi_level_changes.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "kpi_stl_52.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "media_mix.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "meridian_data_adequacy.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "meridian_eda_checks.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "meridian_warnings.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "missing_by_channel.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "missing_by_geo.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "missing_by_time.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "missing_summary.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "national_cpmu.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "national_descriptive.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "national_timeseries.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_geo_cost_per_media_unit_0_cost_per_media_unit_da.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_geo_pairwise_corr_0_corr_matrix.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_geo_pairwise_corr_1_corr_matrix.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_geo_std_0_std_ds.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_geo_std_1_std_ds.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_geo_vif_0_vif_da.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_geo_vif_1_vif_da.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_national_cost_per_media_unit_0_cost_per_media_unit_da.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_national_pairwise_corr_0_corr_matrix.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_national_std_0_std_ds.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_national_std_1_std_ds.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_national_vif_0_vif_da.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_overall_kpi_invariability_0_kpi_da.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_overall_kpi_invariability_0_kpi_stdev.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_population_corr_raw_media_0_correlation_ds.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_population_corr_scaled_treatment_control_0_correlation_ds.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_check_variable_geo_time_collinearity_0_rsquared_ds.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "official_r2_reconciliation.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "outliers.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "per_capita_panel.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "population_kpi_correlation.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "population_media_correlation.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "population_summary.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "readiness_report.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "spend_correlation_national_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "spend_correlation_national_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "spend_correlation_overall_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "spend_correlation_overall_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "spend_correlation_two_way_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "spend_correlation_two_way_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "spend_correlation_within_pearson.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "spend_correlation_within_spearman.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "spend_share.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "vif_summary.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "within_between_variance.csv",
+      "comparison": "equal_with_tolerance"
+    },
+    {
+      "file": "within_geo_cv.csv",
+      "comparison": "equal_with_tolerance"
+    }
+  ],
+  "figures": [
+    {
+      "version": "original",
+      "path": "outputs/figures/data_audit/missing_values.svg",
+      "bytes": 19631,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/data_audit/missing_values.svg",
+      "bytes": 19631,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/data_audit/panel_completeness.svg",
+      "bytes": 54608,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/data_audit/panel_completeness.svg",
+      "bytes": 54608,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/general/channel_activity.svg",
+      "bytes": 10423,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/general/channel_activity.svg",
+      "bytes": 10423,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/general/kpi_distribution.svg",
+      "bytes": 23564,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/general/kpi_distribution.svg",
+      "bytes": 23564,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/general/national_kpi.svg",
+      "bytes": 23677,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/general/national_kpi.svg",
+      "bytes": 23677,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/general/spend_share.svg",
+      "bytes": 12045,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/general/spend_share.svg",
+      "bytes": 12045,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/competitor_sales_control_geo_time.svg",
+      "bytes": 98321,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/competitor_sales_control_geo_time.svg",
+      "bytes": 98321,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/conversions_geo_time.svg",
+      "bytes": 94232,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/conversions_geo_time.svg",
+      "bytes": 94232,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/geo_correlation.svg",
+      "bytes": 69629,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/geo_correlation.svg",
+      "bytes": 69629,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/geo_time_r2.svg",
+      "bytes": 24313,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/geo_time_r2.svg",
+      "bytes": 24313,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/kpi_by_geo.svg",
+      "bytes": 36194,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/kpi_by_geo.svg",
+      "bytes": 36194,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/kpi_concentration.svg",
+      "bytes": 13340,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/kpi_concentration.svg",
+      "bytes": 13340,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/kpi_pc_geo_time.svg",
+      "bytes": 96790,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/kpi_pc_geo_time.svg",
+      "bytes": 96790,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/kpi_per_capita.svg",
+      "bytes": 35282,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/kpi_per_capita.svg",
+      "bytes": 35282,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/kpi_small_multiples.svg",
+      "bytes": 74183,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/kpi_small_multiples.svg",
+      "bytes": 74183,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/population_by_geo.svg",
+      "bytes": 35573,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/population_by_geo.svg",
+      "bytes": 35573,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/population_kpi.svg",
+      "bytes": 16781,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/population_kpi.svg",
+      "bytes": 16781,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/sentiment_score_control_geo_time.svg",
+      "bytes": 0,
+      "valid_xml": false
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/sentiment_score_control_geo_time.svg",
+      "bytes": 97816,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/geo/variance_decomposition.svg",
+      "bytes": 22067,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/geo/variance_decomposition.svg",
+      "bytes": 22067,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel0_impression_geo_time.svg",
+      "bytes": 95901,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel0_impression_geo_time.svg",
+      "bytes": 95901,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel0_impression_pc_geo_time.svg",
+      "bytes": 98209,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel0_impression_pc_geo_time.svg",
+      "bytes": 98209,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel0_population.svg",
+      "bytes": 16251,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel0_population.svg",
+      "bytes": 16251,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel0_spend_geo_time.svg",
+      "bytes": 96682,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel0_spend_geo_time.svg",
+      "bytes": 96682,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel0_spend_pc_geo_time.svg",
+      "bytes": 99303,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel0_spend_pc_geo_time.svg",
+      "bytes": 99303,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel1_impression_geo_time.svg",
+      "bytes": 94948,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel1_impression_geo_time.svg",
+      "bytes": 94948,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel1_impression_pc_geo_time.svg",
+      "bytes": 95392,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel1_impression_pc_geo_time.svg",
+      "bytes": 95392,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel1_population.svg",
+      "bytes": 17340,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel1_population.svg",
+      "bytes": 17340,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel1_spend_geo_time.svg",
+      "bytes": 94617,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel1_spend_geo_time.svg",
+      "bytes": 94617,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel1_spend_pc_geo_time.svg",
+      "bytes": 94842,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel1_spend_pc_geo_time.svg",
+      "bytes": 94842,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel2_impression_geo_time.svg",
+      "bytes": 79261,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel2_impression_geo_time.svg",
+      "bytes": 79261,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel2_impression_pc_geo_time.svg",
+      "bytes": 80938,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel2_impression_pc_geo_time.svg",
+      "bytes": 80938,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel2_population.svg",
+      "bytes": 17718,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel2_population.svg",
+      "bytes": 17718,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel2_spend_geo_time.svg",
+      "bytes": 80594,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel2_spend_geo_time.svg",
+      "bytes": 80594,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel2_spend_pc_geo_time.svg",
+      "bytes": 82579,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel2_spend_pc_geo_time.svg",
+      "bytes": 82579,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel3_impression_geo_time.svg",
+      "bytes": 96982,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel3_impression_geo_time.svg",
+      "bytes": 96982,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel3_impression_pc_geo_time.svg",
+      "bytes": 0,
+      "valid_xml": false
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel3_impression_pc_geo_time.svg",
+      "bytes": 97043,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel3_population.svg",
+      "bytes": 16134,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel3_population.svg",
+      "bytes": 16134,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel3_spend_geo_time.svg",
+      "bytes": 95567,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel3_spend_geo_time.svg",
+      "bytes": 95567,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel3_spend_pc_geo_time.svg",
+      "bytes": 98131,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel3_spend_pc_geo_time.svg",
+      "bytes": 98131,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel4_impression_geo_time.svg",
+      "bytes": 95134,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel4_impression_geo_time.svg",
+      "bytes": 95134,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel4_impression_pc_geo_time.svg",
+      "bytes": 98230,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel4_impression_pc_geo_time.svg",
+      "bytes": 98230,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel4_population.svg",
+      "bytes": 16253,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel4_population.svg",
+      "bytes": 16253,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel4_spend_geo_time.svg",
+      "bytes": 94268,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel4_spend_geo_time.svg",
+      "bytes": 94268,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/Channel4_spend_pc_geo_time.svg",
+      "bytes": 97122,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/Channel4_spend_pc_geo_time.svg",
+      "bytes": 97122,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/geo_allocation.svg",
+      "bytes": 52150,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/geo_allocation.svg",
+      "bytes": 52150,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/media_mix.svg",
+      "bytes": 52271,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/media_mix.svg",
+      "bytes": 52271,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/mix_stacked.svg",
+      "bytes": 70422,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/mix_stacked.svg",
+      "bytes": 70422,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/spend_geo_channel.svg",
+      "bytes": 53567,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/spend_geo_channel.svg",
+      "bytes": 53567,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/spend_per_capita.svg",
+      "bytes": 53722,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/spend_per_capita.svg",
+      "bytes": 53722,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/within_cv_distribution.svg",
+      "bytes": 19438,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/within_cv_distribution.svg",
+      "bytes": 19438,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/media_geo/within_geo_cv.svg",
+      "bytes": 53844,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/media_geo/within_geo_cv.svg",
+      "bytes": 53844,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/relationships/correlation_national.svg",
+      "bytes": 29848,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/relationships/correlation_national.svg",
+      "bytes": 29848,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/relationships/correlation_overall.svg",
+      "bytes": 29847,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/relationships/correlation_overall.svg",
+      "bytes": 29847,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/relationships/correlation_two_way.svg",
+      "bytes": 29783,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/relationships/correlation_two_way.svg",
+      "bytes": 29783,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/relationships/correlation_within.svg",
+      "bytes": 29782,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/relationships/correlation_within.svg",
+      "bytes": 29782,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/relationships/lags.svg",
+      "bytes": 17808,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/relationships/lags.svg",
+      "bytes": 17808,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/relationships/readiness_dashboard.svg",
+      "bytes": 21061,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/relationships/readiness_dashboard.svg",
+      "bytes": 21061,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/relationships/vif.svg",
+      "bytes": 21191,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/relationships/vif.svg",
+      "bytes": 21191,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Channel0_kpi_z.svg",
+      "bytes": 26674,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Channel0_kpi_z.svg",
+      "bytes": 26674,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Channel0_timeseries.svg",
+      "bytes": 33798,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Channel0_timeseries.svg",
+      "bytes": 33798,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Channel1_kpi_z.svg",
+      "bytes": 27185,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Channel1_kpi_z.svg",
+      "bytes": 27185,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Channel1_timeseries.svg",
+      "bytes": 35644,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Channel1_timeseries.svg",
+      "bytes": 35644,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Channel2_kpi_z.svg",
+      "bytes": 27725,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Channel2_kpi_z.svg",
+      "bytes": 27725,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Channel2_timeseries.svg",
+      "bytes": 35890,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Channel2_timeseries.svg",
+      "bytes": 35890,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Channel3_kpi_z.svg",
+      "bytes": 27164,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Channel3_kpi_z.svg",
+      "bytes": 27164,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Channel3_timeseries.svg",
+      "bytes": 36618,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Channel3_timeseries.svg",
+      "bytes": 36618,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Channel4_kpi_z.svg",
+      "bytes": 27126,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Channel4_kpi_z.svg",
+      "bytes": 27126,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Channel4_timeseries.svg",
+      "bytes": 33228,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Channel4_timeseries.svg",
+      "bytes": 33228,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Organic_channel0_impression_distribution.svg",
+      "bytes": 16270,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Organic_channel0_impression_distribution.svg",
+      "bytes": 16270,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Organic_channel0_impression_time.svg",
+      "bytes": 23038,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Organic_channel0_impression_time.svg",
+      "bytes": 23038,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Promo_distribution.svg",
+      "bytes": 16113,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Promo_distribution.svg",
+      "bytes": 16113,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/Promo_time.svg",
+      "bytes": 23368,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/Promo_time.svg",
+      "bytes": 23368,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/competitor_sales_control_distribution.svg",
+      "bytes": 15380,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/competitor_sales_control_distribution.svg",
+      "bytes": 15380,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/competitor_sales_control_time.svg",
+      "bytes": 23954,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/competitor_sales_control_time.svg",
+      "bytes": 23954,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/kpi_stl_52.svg",
+      "bytes": 50923,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/kpi_stl_52.svg",
+      "bytes": 50923,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/kpi_trend.svg",
+      "bytes": 27906,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/kpi_trend.svg",
+      "bytes": 27906,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/sentiment_score_control_distribution.svg",
+      "bytes": 15374,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/sentiment_score_control_distribution.svg",
+      "bytes": 15374,
+      "valid_xml": true
+    },
+    {
+      "version": "original",
+      "path": "outputs/figures/temporal/sentiment_score_control_time.svg",
+      "bytes": 23956,
+      "valid_xml": true
+    },
+    {
+      "version": "regenerated",
+      "path": "outputs/figures/temporal/sentiment_score_control_time.svg",
+      "bytes": 23956,
+      "valid_xml": true
+    }
+  ]
+}
