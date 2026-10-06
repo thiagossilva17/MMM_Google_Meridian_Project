@@ -1,6 +1,10 @@
 """Gráficos acadêmicos: SVG vetorial versionado e PNG 180 dpi na execução."""
 import logging
 import re
+import json
+import pandas as pd
+import xml.etree.ElementTree as ET
+from .provenance import record, write_json
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
@@ -16,7 +20,13 @@ def save(fig, chapter: str, name: str):
     fig.tight_layout(rect=(0,.025,1,1))
     for suffix in ['svg','png']:
         path=folder/f'{name}.{suffix}'
-        fig.savefig(path,bbox_inches='tight')
+        temporary=path.with_suffix('.tmp')
+        fig.savefig(temporary,format=suffix,bbox_inches='tight')
+        if suffix=='svg':
+            if temporary.stat().st_size<500:raise ValueError('SVG vazio')
+            ET.parse(temporary)
+        temporary.replace(path)
+        if suffix=='svg':record(path)
         logging.info('Figura: %s',path)
     plt.close(fig)
     return folder/f'{name}.png'
@@ -25,9 +35,13 @@ def heatmap(frame,chapter,name,title,cmap='viridis',vmin=None,vmax=None):
     fig,ax=plt.subplots(figsize=(13,max(4,min(12,len(frame)*.23))))
     im=ax.imshow(frame.to_numpy(dtype=float),aspect='auto',cmap=cmap,vmin=vmin,vmax=vmax,interpolation='nearest')
     ax.set_yticks(np.arange(len(frame)),frame.index.astype(str),fontsize=7)
-    n=len(frame.columns); ticks=np.unique(np.linspace(0,n-1,min(n,12)).astype(int))
-    ax.set_xticks(ticks,[str(frame.columns[i])[:10] for i in ticks],rotation=45,ha='right',fontsize=8)
-    ax.set_title(title); ax.set_xlabel(frame.columns.name or 'Variável / período');ax.set_ylabel(frame.index.name or 'Variável / GEO')
+    is_time=isinstance(frame.columns,pd.DatetimeIndex)
+    n=len(frame.columns); ticks=np.unique(np.linspace(0,n-1,min(n,8)).astype(int)) if is_time else np.arange(n)
+    ax.set_xticks(ticks,[str(frame.columns[i])[:10] if is_time else str(frame.columns[i]).replace('_impression',' (imp.)').replace('_spend',' (gasto)') for i in ticks],rotation=45,ha='right',fontsize=8)
+    path=ROOT/'outputs/logs/heatmap_axes.json';axes=json.loads(path.read_text()) if path.exists() else {}
+    axes[f'{chapter}/{name}']={'index':frame.index.astype(str).tolist(),'columns':frame.columns.astype(str).tolist()}
+    write_json(path,axes)
+    ax.set_title(title);ax.set_xlabel('Semana' if is_time else 'Variável / canal');ax.set_ylabel('GEO' if frame.index.name=='geo' else 'Variável / GEO')
     fig.colorbar(im,ax=ax,shrink=.75)
     return save(fig,chapter,name)
 

@@ -1,0 +1,11 @@
+check_group,parameter,value,modified,scope
+kpi_invariability_spec,std_threshold,0.0001,False,"guardrail oficial, não certificado universal de qualidade"
+pairwise_corr_spec,overall_threshold,0.999,False,"guardrail oficial, não certificado universal de qualidade"
+pairwise_corr_spec,geo_threshold,0.999,False,"guardrail oficial, não certificado universal de qualidade"
+pairwise_corr_spec,national_threshold,0.999,False,"guardrail oficial, não certificado universal de qualidade"
+std_spec,geo_std_threshold,0.0001,False,"guardrail oficial, não certificado universal de qualidade"
+std_spec,national_std_threshold,0.0001,False,"guardrail oficial, não certificado universal de qualidade"
+vif_spec,geo_threshold,1000.0,False,"guardrail oficial, não certificado universal de qualidade"
+vif_spec,overall_threshold,1000.0,False,"guardrail oficial, não certificado universal de qualidade"
+vif_spec,national_threshold,1000.0,False,"guardrail oficial, não certificado universal de qualidade"
+vif_spec,std_threshold,0.0001,False,"guardrail oficial, não certificado universal de qualidade"

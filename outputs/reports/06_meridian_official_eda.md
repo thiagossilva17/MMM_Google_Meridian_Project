@@ -10,6 +10,8 @@ Os alertas de CPMU precisam de contexto: o CV máximo do custo unitário é 3.47
 
 Uma diferença metodológica importante: os R² oficiais são ajustados e usam dados transformados; a EDA própria mostra R² brutos e por habitante não ajustados. Recalculando por soma de quadrados na mesma escala oficial, a concordância dentro de 1e-5 foi **True**. A tabela official_r2_reconciliation contém as diferenças por variável. VIF e correlações também dependem da população e agregação. Artefatos numéricos foram exportados para investigar essas diferenças.
 
+**Revisão localizada:** 6 REVIEW têm localizações, magnitude, decisão e limite residual documentados. A severidade oficial permanece REVIEW. Correlação/VIF são reconciliados na mesma escala; IQR compara todas as chaves geo–variável–semana. CPMU tem casos nos arquivos official_cpmu_cases_geo/national. Controles/Promo nacionais oficiais usam soma por default; a EDA própria pondera por população, explicando diferenças entre escalas.
+
 ### O que ainda NÃO podemos concluir
 
 As relações são descritivas. Não estimamos ROI, contribuição incremental ou efeitos causais.
@@ -17,7 +19,7 @@ Os dados são simulados: padrões não descrevem um mercado real e não validam,
 
 ### CHECKPOINT
 
-- **O que descobrimos?** As evidências numéricas acima e as tabelas exportadas respondem à pergunta deste capítulo.
-- **Quais problemas apareceram?** Os limites e alertas estão descritos nos resultados; nenhuma observação foi excluída ou imputada.
+- **O que descobrimos?** **Revisão localizada:** 6 REVIEW têm localizações, magnitude, decisão e limite residual documentados. A severidade oficial permanece REVIEW. Correlação/VIF são reconciliados na mesma escala; IQR compara todas as chaves geo–variável–semana. CPMU tem casos nos arquivos official_cpmu_cases_geo/national. Controles/Promo nacionais oficiais usam soma por default; a EDA própria pondera por população, explicando diferenças entre escalas.
+- **Quais problemas apareceram?** Guardrails oficiais extremos não são certificados de qualidade. Preservação no exemplo não certifica plausibilidade econômica.
 - **O que falta investigar?** Consolidar os achados, implicações e limites de prontidão.
 - **Podemos avançar?** Podemos prosseguir com a investigação exploratória após revisar estes achados; isso não aprova automaticamente a modelagem.

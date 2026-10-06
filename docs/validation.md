@@ -1,31 +1,31 @@
-# Validação da entrega
+# Validação da revisão após auditoria
 
-- Ambiente isolado: Python 3.12.14, CPU; versões exatas em `data/metadata/validated_environment.txt`.
-- 11 testes automatizados passaram. Incluem contrato da base, rejeição de duplicatas/lacunas/negativos/população inválida/data irregular/schema incompleto, identidade de variâncias, colinearidade perfeita no VIF e agregação de receita.
-- Todos os oito notebooks modulares e o master foram executados com `nbclient`, cada um em kernel novo, sem permitir erros de célula. Tempos e número de células estão no JSON abaixo.
-- O master executa a sequência completa e gera os resultados novamente, sem depender de estados de outros notebooks.
-- SHA-256 do raw validado em toda leitura; nenhuma imputação, exclusão de extremos ou remoção de canais.
-- Meridian 2.1.0 executado; relatório HTML completo e artefatos exportados. O objeto de inferência contém apenas `prior`, nunca `posterior`.
-- R² ajustados reconciliados por método independente na mesma escala oficial, diferenças inferiores a 10⁻¹⁵ nesta execução.
-- 78 figuras SVG e 88 tabelas CSV geradas. Figuras centrais R² GEO×TIME e dashboard foram inspecionadas visualmente; rótulos sobrepostos no scatter foram substituídos por legenda externa com coordenadas.
-- Imagens PNG são produzidas e exibidas ao executar. Foram externalizadas dos outputs embutidos dos notebooks para evitar duplicação; SVGs estão versionados.
-- Não houve execução interativa no serviço Google Colab. O bootstrap e o fluxo foram executados localmente no runtime equivalente; o clone/download público e instalação foram verificados separadamente. Se uma sessão Colab tiver versões antigas já importadas, pode ser necessário reiniciá-la após instalar.
+Data: 06/10/2026. Base: `ac9960a3a86e7af07a507121043c6914fcbc4195`.
 
-## Problemas corrigidos durante a execução
+- Ambiente isolado Python 3.12, CPU, instalação pelo requirements; versões completas em `data/metadata/validated_environment.txt`. Origem/commit Meridian verificados.
+- **19 testes passaram**, incluindo regressões da ordem per capita, SVG inválido, ref incompatível e manifesto desatualizado.
+- **Nove notebooks passaram** executando as células originais em ordem em processos IPython novos. O master recalculou todas as etapas; outputs armazenados não foram usados como prova de execução.
+- nbclient foi tentado, mas o ambiente bloqueou sockets antes de iniciar o kernel. `nbclient_attempt.txt` preserva o erro. O executor alternativo valida código/outputs, não comunicação kernel/frontend.
+- **79 SVGs válidos**, **21 verificações de ordem** e **129 CSVs**. O gate exige manifesto das oito etapas completo e compatível.
+- Inspeção visual amostral: dois SVGs antes vazios, CPMU Channel2, mix em p.p., small multiples e dashboard. Não se afirma inspeção individual de todas as figuras nem navegação interativa do HTML.
+- Maior diferença absoluta na reconciliação de correlação: 4.88e-15; VIF: 1.33e-15. Quatro conjuntos IQR coincidem em todas as localizações; tolerância numérica 10⁻⁵.
+- Os seis REVIEW permanecem no relatório oficial, com decisões descritivas separadas. Apenas prior, sem posterior. Raw e auditoria independente preservados.
+- **Colab real permanece não comprovado**, com procedimento em `COLAB_VALIDATION.md`.
 
-1. Exportação de artefatos xarray escalares exigia tabela de uma linha, em vez de índice inexistente.
-2. A dimensão de variável do motor oficial chama-se `var`; a reconciliação foi corrigida para esse schema verificado.
-3. A execução Jupyter precisou de portas locais entre kernel e executor; não representa acesso a dados externos.
-4. `git push` via terminal não tinha credenciais; publicação realizada pelo conector GitHub autenticado.
+## Execução das células
 
-## Evidências por notebook
+| Notebook | Resultado | Tempo (s) | Mecanismo |
+|---|---|---:|---|
+| 00_data_audit.ipynb | passed | 2.7 | IPython, processo novo |
+| 01_eda_general.ipynb | passed | 4.16 | IPython, processo novo |
+| 02_eda_temporal.ipynb | passed | 8.41 | IPython, processo novo |
+| 03_eda_geo.ipynb | passed | 7.75 | IPython, processo novo |
+| 04_eda_media_geo.ipynb | passed | 20.0 | IPython, processo novo |
+| 05_eda_relationships.ipynb | passed | 3.05 | IPython, processo novo |
+| 06_meridian_official_eda.ipynb | passed | 28.74 | IPython, processo novo |
+| 07_eda_conclusions.ipynb | passed | 1.4 | IPython, processo novo |
+| EDA_COMPLETE_COLAB.ipynb | passed | 67.46 | IPython, processo novo |
 
-- `00_data_audit.ipynb`: passed; 2 células de código; 2.08 segundos.
-- `01_eda_general.ipynb`: passed; 2 células de código; 3.2 segundos.
-- `02_eda_temporal.ipynb`: passed; 2 células de código; 7.68 segundos.
-- `03_eda_geo.ipynb`: passed; 2 células de código; 7.83 segundos.
-- `04_eda_media_geo.ipynb`: passed; 2 células de código; 18.67 segundos.
-- `05_eda_relationships.ipynb`: passed; 2 células de código; 3.18 segundos.
-- `06_meridian_official_eda.ipynb`: passed; 3 células de código; 25.49 segundos.
-- `07_eda_conclusions.ipynb`: passed; 3 células de código; 1.46 segundos.
-- `EDA_COMPLETE_COLAB.ipynb`: passed; 11 células de código; 60.88 segundos.
+`outputs/logs/notebook_validation.json` registra mecanismo, resultado e timestamp; logs por notebook em `outputs/logs/cell_execution/`. Os notebooks preservam saídas textuais reais; imagens são externalizadas. O manifesto vincula etapas a conteúdo de código, raw, ambiente e outputs. O commit registrado é a base da revisão, com alterações locais explicitamente indicadas; o hash do código identifica o conteúdo executado antes da publicação.
+
+O ambiente foi restaurado antes desta rodada. As alterações foram reconstruídas e validadas novamente; resultados da tentativa anterior não foram presumidos válidos. O gate de publicação verifica tamanho/hash/XML dos SVGs, seguido da comparação da árvore Git remota com a árvore local preparada.

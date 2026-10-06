@@ -1,0 +1,2919 @@
+geo,time,count,variables
+Geo2,2021-11-22,13,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo, sentiment_score_control"
+Geo10,2023-06-26,12,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo36,2023-09-11,11,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo, competitor_sales_control"
+Geo28,2021-10-11,11,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo, sentiment_score_control"
+Geo35,2021-11-22,11,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo, sentiment_score_control"
+Geo10,2023-09-04,11,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Promo"
+Geo23,2021-10-18,11,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo, sentiment_score_control"
+Geo2,2023-11-27,10,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, sentiment_score_control"
+Geo36,2021-11-22,10,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, competitor_sales_control"
+Geo2,2021-12-13,10,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo36,2021-08-30,10,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo23,2023-02-06,10,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo15,2021-11-22,10,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, sentiment_score_control"
+Geo25,2021-12-13,10,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo39,2021-10-11,9,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo7,2023-09-04,9,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo36,2023-12-25,9,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo, conversions"
+Geo10,2021-10-25,9,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo, competitor_sales_control"
+Geo10,2022-01-17,9,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Promo"
+Geo39,2023-11-27,9,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo23,2023-09-04,9,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo, conversions"
+Geo36,2022-10-24,9,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo39,2023-09-11,8,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo10,2022-10-24,8,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo25,2023-10-23,8,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo36,2023-10-23,8,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, sentiment_score_control"
+Geo36,2023-10-09,8,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo36,2023-10-02,8,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo, conversions"
+Geo23,2021-12-13,8,"Channel1_impression, Channel1_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, sentiment_score_control"
+Geo23,2023-10-23,8,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo23,2022-11-14,8,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend"
+Geo23,2021-11-22,8,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo23,2021-08-30,8,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo10,2023-12-04,8,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo15,2021-12-13,8,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo23,2023-05-22,8,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo31,2023-02-20,8,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo39,2023-10-02,8,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo25,2023-06-05,8,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo11,2021-11-22,8,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo10,2022-11-14,8,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo10,2022-08-29,8,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo23,2023-08-28,8,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo31,2021-08-30,8,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo31,2021-11-08,8,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo31,2022-02-21,8,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo10,2021-08-30,8,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo36,2022-11-21,8,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo10,2022-09-19,7,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo31,2023-01-09,7,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo23,2022-10-31,7,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo7,2021-11-08,7,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo23,2023-10-02,7,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo10,2021-11-08,7,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Promo"
+Geo31,2023-12-04,7,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo39,2021-11-22,7,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression"
+Geo36,2022-12-26,7,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo23,2023-11-20,7,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression"
+Geo36,2021-12-13,7,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo11,2021-03-22,7,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo14,2023-06-05,7,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo7,2023-09-25,7,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo7,2022-11-21,7,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo23,2022-08-29,7,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo10,2023-08-28,7,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Promo"
+Geo10,2021-10-04,7,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo23,2021-12-06,7,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo36,2023-05-22,7,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression"
+Geo31,2022-11-28,7,"Channel1_impression, Channel1_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo23,2021-06-14,7,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo10,2021-11-22,7,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression"
+Geo23,2022-11-28,7,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo14,2021-12-20,7,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo10,2021-09-13,7,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Promo"
+Geo9,2023-09-04,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo23,2021-10-11,6,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo25,2023-01-09,6,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo32,2021-10-11,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo25,2022-11-21,6,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo2,2024-01-01,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo17,2021-08-30,6,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo2,2022-02-14,6,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo39,2021-07-05,6,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo39,2021-08-30,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo2,2022-06-13,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo36,2022-10-17,6,"Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, conversions"
+Geo2,2022-04-11,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo35,2022-09-05,6,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo17,2022-06-13,6,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo35,2021-08-30,6,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo9,2021-10-11,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo23,2022-07-11,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo23,2022-07-18,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo23,2022-01-03,6,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo33,2022-06-13,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo23,2021-11-15,6,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo36,2022-08-29,6,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo17,2021-05-17,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo17,2022-10-31,6,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo17,2021-04-12,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo10,2023-11-06,6,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo32,2022-09-05,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo11,2023-08-21,6,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo36,2021-10-11,6,"Channel0_impression, Channel0_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend"
+Geo36,2021-10-04,6,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend"
+Geo12,2021-09-27,6,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo, sentiment_score_control"
+Geo15,2022-11-07,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo33,2022-11-07,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo, competitor_sales_control"
+Geo39,2022-10-17,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo10,2023-07-31,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo11,2023-08-07,6,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo11,2021-07-05,6,"Channel0_impression, Channel0_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo10,2021-10-11,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo28,2024-01-08,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo14,2022-03-14,6,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo7,2022-11-07,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo36,2023-07-10,6,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo, conversions"
+Geo32,2023-09-11,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo2,2022-11-14,6,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend"
+Geo10,2021-02-22,6,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo2,2023-06-05,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo17,2021-11-29,6,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, competitor_sales_control"
+Geo2,2023-10-30,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo10,2021-08-02,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo10,2021-08-09,6,"Channel0_impression, Channel0_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo2,2023-10-23,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo33,2023-09-11,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo32,2021-03-29,6,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo31,2023-10-02,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo7,2023-10-23,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo7,2023-06-26,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo7,2023-11-27,6,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo10,2023-06-05,6,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend"
+Geo15,2021-08-30,6,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo10,2022-08-22,6,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo36,2022-08-01,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo31,2023-01-23,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo35,2022-08-01,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression"
+Geo28,2023-09-25,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo2,2022-11-07,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression"
+Geo20,2021-04-05,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo31,2022-06-20,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo39,2023-10-23,5,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo, conversions"
+Geo36,2023-04-03,5,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Promo"
+Geo17,2023-11-13,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo23,2021-05-17,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo21,2023-10-23,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo2,2021-08-30,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression"
+Geo14,2023-05-29,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo31,2022-10-10,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo14,2022-01-03,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo23,2021-03-01,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo14,2021-09-27,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo31,2022-12-05,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo2,2022-09-26,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo14,2022-09-12,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo35,2021-10-04,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression"
+Geo15,2022-09-05,5,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Promo"
+Geo31,2021-10-04,5,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo2,2022-08-29,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo2,2022-09-05,5,"Channel0_impression, Channel0_spend, Channel4_impression, Channel4_spend, Promo"
+Geo14,2021-11-15,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo34,2022-09-26,5,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo, sentiment_score_control"
+Geo2,2022-07-11,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo27,2023-10-23,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo14,2022-09-26,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo36,2022-06-27,5,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Promo"
+Geo31,2023-06-26,5,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo, conversions"
+Geo15,2022-06-06,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo27,2023-08-21,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo34,2021-03-01,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo33,2022-10-03,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo33,2022-10-17,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo12,2022-10-10,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo2,2023-09-11,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo39,2022-10-31,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo17,2023-09-04,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo17,2024-01-08,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo39,2022-05-30,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo2,2023-12-04,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo31,2021-11-29,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo15,2022-11-21,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo21,2023-02-20,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, sentiment_score_control"
+Geo12,2021-06-07,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo36,2022-01-24,5,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Promo"
+Geo14,2022-08-08,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo2,2021-09-20,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo18,2021-12-13,5,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo, sentiment_score_control"
+Geo2,2024-01-15,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo28,2023-10-23,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo35,2021-12-13,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo36,2023-09-25,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo2,2023-08-28,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo23,2023-12-11,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo31,2021-06-21,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo23,2022-10-03,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo25,2022-10-31,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo23,2022-12-05,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo10,2023-10-02,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo10,2023-10-09,5,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo, conversions"
+Geo35,2023-11-27,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo10,2022-10-31,5,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo, conversions"
+Geo17,2022-08-22,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo10,2022-07-18,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo36,2021-07-26,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo10,2023-05-29,5,"Channel1_impression, Channel1_spend, Channel4_impression, Channel4_spend, Promo"
+Geo10,2022-12-12,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo10,2023-05-01,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo35,2023-12-04,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo25,2023-09-04,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo35,2022-12-26,5,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Promo"
+Geo17,2021-06-28,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo25,2021-08-30,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo25,2022-09-26,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo7,2023-11-13,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo20,2021-12-13,5,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo, sentiment_score_control"
+Geo20,2021-11-22,5,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo, sentiment_score_control"
+Geo23,2024-01-01,5,"Channel0_impression, Channel0_spend, Channel4_impression, Channel4_spend, Promo"
+Geo35,2022-11-07,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, competitor_sales_control"
+Geo7,2022-05-23,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo7,2022-05-30,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo7,2022-06-13,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo7,2021-10-25,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo7,2021-03-22,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, Promo"
+Geo10,2021-05-10,5,"Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo, conversions"
+Geo10,2021-06-28,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Organic_channel0_impression"
+Geo20,2022-10-31,5,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend, Promo"
+Geo39,2024-01-01,5,"Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo, conversions"
+Geo2,2021-12-06,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo23,2022-09-26,5,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend, Promo"
+Geo39,2023-08-07,5,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo17,2022-06-20,5,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend, Promo"
+Geo35,2023-09-25,5,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend, competitor_sales_control"
+Geo31,2021-10-11,5,"Channel1_impression, Channel1_spend, Channel4_impression, Channel4_spend, Promo"
+Geo31,2021-02-01,4,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend"
+Geo36,2023-07-31,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo2,2023-10-09,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo2,2022-11-28,4,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend"
+Geo7,2023-01-09,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo31,2021-07-26,4,"Channel1_impression, Channel1_spend, Channel4_impression, Channel4_spend"
+Geo36,2024-01-08,4,"Channel1_impression, Channel1_spend, Channel4_impression, Channel4_spend"
+Geo2,2022-09-12,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo7,2021-12-13,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo7,2021-08-09,4,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend"
+Geo2,2023-02-20,4,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend"
+Geo20,2021-11-15,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo20,2021-08-30,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo36,2023-03-27,4,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend"
+Geo35,2021-01-25,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo7,2023-02-27,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo32,2023-07-24,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo19,2021-08-02,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo17,2023-11-06,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo34,2021-11-22,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo34,2022-05-09,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo13,2021-11-22,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, sentiment_score_control"
+Geo36,2022-07-11,4,"Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo36,2022-07-04,4,"Channel2_impression, Channel2_spend, Promo, conversions"
+Geo23,2021-02-22,4,"Channel3_impression, Channel3_spend, Channel4_impression, Channel4_spend"
+Geo36,2022-06-20,4,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend"
+Geo28,2022-07-11,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo28,2021-12-13,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo25,2023-12-04,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo36,2022-01-03,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo23,2022-06-13,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo23,2023-11-06,4,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend"
+Geo23,2022-08-22,4,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend"
+Geo36,2021-11-29,4,"Channel3_impression, Channel3_spend, Organic_channel0_impression, Promo"
+Geo31,2023-01-02,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo28,2022-09-12,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo36,2023-08-14,4,"Channel0_impression, Channel0_spend, Promo, conversions"
+Geo23,2022-08-01,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo14,2022-08-22,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo25,2023-09-18,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo7,2021-05-17,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo2,2023-06-26,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo23,2022-09-12,4,"Channel1_impression, Channel1_spend, Channel3_impression, Channel3_spend"
+Geo39,2023-11-13,4,"Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo14,2023-10-09,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, competitor_sales_control"
+Geo7,2023-10-09,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo25,2022-02-07,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo36,2022-09-26,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo35,2022-10-17,4,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend"
+Geo31,2022-01-03,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo17,2021-03-29,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo2,2023-11-06,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo32,2021-08-02,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo23,2022-01-24,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo25,2021-09-20,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo39,2023-08-28,4,"Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo35,2022-10-03,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo9,2022-01-03,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo31,2022-07-11,4,"Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo2,2021-09-13,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo9,2023-10-02,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo29,2023-02-20,4,"Channel2_impression, Channel2_spend, Promo, competitor_sales_control"
+Geo31,2022-04-11,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo31,2022-10-17,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo35,2022-12-05,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo25,2021-11-22,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo32,2023-11-20,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo21,2021-11-29,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo7,2021-11-22,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo14,2022-06-13,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo21,2021-11-15,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo28,2023-09-04,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo28,2022-11-07,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo28,2022-11-14,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo28,2023-01-09,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo2,2021-03-08,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo36,2021-02-22,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo17,2021-12-27,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo28,2023-10-16,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo8,2022-09-12,4,"Channel2_impression, Channel2_spend, Promo, competitor_sales_control"
+Geo28,2023-11-13,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo11,2022-10-17,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, competitor_sales_control"
+Geo18,2021-11-22,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo17,2022-11-14,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, sentiment_score_control"
+Geo17,2023-07-24,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo21,2023-07-24,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo31,2023-11-27,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo32,2021-08-09,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, sentiment_score_control"
+Geo7,2023-08-07,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo2,2021-06-14,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo15,2023-08-21,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, competitor_sales_control"
+Geo18,2024-01-15,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo35,2021-06-07,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo16,2023-08-14,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo12,2022-08-01,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo2,2022-05-02,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo23,2023-08-21,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo23,2021-09-13,4,"Channel1_impression, Channel1_spend, Channel4_impression, Channel4_spend"
+Geo23,2021-09-27,4,"Channel1_impression, Channel1_spend, Channel4_impression, Channel4_spend"
+Geo23,2023-09-25,4,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend"
+Geo22,2023-08-07,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, sentiment_score_control"
+Geo11,2021-11-08,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo23,2021-10-25,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo36,2021-08-09,4,"Channel0_impression, Channel0_spend, Channel3_impression, Channel3_spend"
+Geo2,2022-08-22,4,"Channel0_impression, Channel0_spend, Channel1_impression, Channel1_spend"
+Geo5,2021-09-20,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo2,2022-07-04,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo28,2021-05-03,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo28,2021-06-07,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo32,2022-12-05,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo27,2023-12-04,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo28,2021-01-25,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo5,2023-10-23,4,"Channel2_impression, Channel2_spend, Promo, sentiment_score_control"
+Geo32,2022-08-22,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo32,2022-08-29,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo11,2024-01-15,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo32,2023-08-07,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo4,2023-09-25,4,"Channel2_impression, Channel2_spend, Promo, competitor_sales_control"
+Geo32,2023-04-10,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo30,2022-01-17,4,"Channel2_impression, Channel2_spend, Promo, competitor_sales_control"
+Geo32,2023-12-11,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo11,2023-05-01,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo15,2022-08-01,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo33,2022-10-10,4,"Channel2_impression, Channel2_spend, Promo, competitor_sales_control"
+Geo17,2022-08-29,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo39,2022-11-14,4,"Channel0_impression, Channel0_spend, Promo, conversions"
+Geo9,2021-11-22,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo35,2023-10-02,4,"Channel0_impression, Channel0_spend, Channel2_impression, Channel2_spend"
+Geo39,2022-06-27,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo39,2022-02-28,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo39,2022-10-10,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo15,2023-08-07,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo10,2023-08-07,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo10,2023-07-17,4,"Channel1_impression, Channel1_spend, Channel4_impression, Channel4_spend"
+Geo15,2023-08-14,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo18,2022-10-17,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo15,2023-10-30,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo23,2022-10-10,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo31,2023-04-17,4,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend"
+Geo10,2021-12-06,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo12,2023-06-26,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo25,2023-11-20,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo31,2023-09-18,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo35,2021-11-01,4,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend"
+Geo31,2023-06-12,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo34,2023-11-27,4,"Channel1_impression, Channel1_spend, Channel2_impression, Channel2_spend"
+Geo18,2023-10-09,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo25,2022-11-07,4,"Channel2_impression, Channel2_spend, Channel3_impression, Channel3_spend"
+Geo31,2022-11-07,4,"Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo23,2023-04-24,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo17,2023-10-02,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo23,2021-03-22,4,"Channel4_impression, Channel4_spend, Organic_channel0_impression, Promo"
+Geo14,2021-02-22,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo23,2023-05-01,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo31,2023-08-14,4,"Channel0_impression, Channel0_spend, Promo, conversions"
+Geo15,2021-04-12,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo25,2023-08-14,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo22,2023-09-25,4,"Channel2_impression, Channel2_spend, Promo, competitor_sales_control"
+Geo25,2022-12-26,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo2,2021-12-27,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo39,2021-05-17,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo39,2021-06-07,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo39,2021-02-22,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo2,2022-01-17,4,"Channel2_impression, Channel2_spend, Channel4_impression, Channel4_spend"
+Geo15,2022-02-14,4,"Channel0_impression, Channel0_spend, Organic_channel0_impression, Promo"
+Geo39,2021-10-18,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo10,2023-08-21,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo35,2023-08-14,4,"Channel1_impression, Channel1_spend, Organic_channel0_impression, Promo"
+Geo14,2023-11-13,4,"Channel2_impression, Channel2_spend, Organic_channel0_impression, Promo"
+Geo34,2023-07-31,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2023-01-23,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2022-01-24,3,"Channel2_impression, Channel2_spend, Promo"
+Geo16,2024-01-01,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo35,2022-02-21,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2023-06-19,3,"Channel0_impression, Channel0_spend, Promo"
+Geo35,2022-07-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo34,2023-09-04,3,"Channel1_impression, Channel1_spend, Promo"
+Geo17,2022-10-10,3,"Channel4_impression, Channel4_spend, competitor_sales_control"
+Geo34,2024-01-01,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo17,2021-07-26,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo35,2021-07-26,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo16,2021-11-22,3,"Channel2_impression, Channel2_spend, Promo"
+Geo16,2022-12-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo34,2023-09-25,3,"Channel2_impression, Channel2_spend, Promo"
+Geo17,2021-10-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo16,2023-01-23,3,"Channel2_impression, Channel2_spend, Promo"
+Geo17,2021-09-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2022-11-21,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo35,2021-11-08,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2021-02-08,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2021-03-29,3,"Channel2_impression, Channel2_spend, Promo"
+Geo16,2022-07-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo17,2022-05-02,3,"Channel0_impression, Channel0_spend, Promo"
+Geo16,2023-09-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo16,2024-01-15,3,"Channel2_impression, Channel2_spend, sentiment_score_control"
+Geo35,2021-10-11,3,"Channel1_impression, Channel1_spend, Promo"
+Geo17,2021-11-15,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo16,2022-09-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2021-10-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2022-10-31,3,"Channel2_impression, Channel2_spend, Promo"
+Geo34,2023-07-10,3,"Channel2_impression, Channel2_spend, Promo"
+Geo17,2022-02-28,3,"Channel4_impression, Channel4_spend, Promo"
+Geo35,2023-02-27,3,"Channel2_impression, Channel2_spend, Promo"
+Geo16,2023-10-23,3,"Channel2_impression, Channel2_spend, Promo"
+Geo25,2022-09-12,3,"Channel0_impression, Channel0_spend, Promo"
+Geo25,2022-08-22,3,"Channel2_impression, Channel2_spend, Promo"
+Geo25,2022-12-05,3,"Channel2_impression, Channel2_spend, Promo"
+Geo32,2021-07-05,3,"Channel2_impression, Channel2_spend, Promo"
+Geo1,2021-08-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2021-08-09,3,"Channel2_impression, Channel2_spend, sentiment_score_control"
+Geo9,2023-09-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2023-06-05,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2021-10-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo32,2023-09-04,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo32,2023-08-21,3,"Channel0_impression, Channel0_spend, Organic_channel0_impression"
+Geo32,2022-10-31,3,"Channel1_impression, Channel1_spend, Promo"
+Geo32,2022-09-26,3,"Channel0_impression, Channel0_spend, Promo"
+Geo35,2022-09-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo32,2022-06-13,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo2,2021-11-29,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo2,2021-11-15,3,"Channel2_impression, Channel2_spend, Promo"
+Geo2,2021-05-17,3,"Channel2_impression, Channel2_spend, Promo"
+Geo2,2021-10-04,3,"Channel0_impression, Channel0_spend, Organic_channel0_impression"
+Geo2,2021-04-05,3,"Channel2_impression, Channel2_spend, Promo"
+Geo2,2022-10-17,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo18,2023-11-20,3,"Channel2_impression, Channel2_spend, Promo"
+Geo33,2021-11-22,3,"Channel2_impression, Channel2_spend, Promo"
+Geo33,2021-11-15,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo33,2022-05-16,3,"Channel2_impression, Channel2_spend, Promo"
+Geo33,2022-03-14,3,"Channel2_impression, Channel2_spend, Promo"
+Geo18,2023-07-24,3,"Channel2_impression, Channel2_spend, Promo"
+Geo32,2022-07-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2023-08-07,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo9,2023-11-06,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2023-10-23,3,"Channel2_impression, Channel2_spend, Promo"
+Geo25,2021-04-12,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo19,2023-11-20,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2023-10-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo32,2021-10-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2023-01-02,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2022-11-21,3,"Channel2_impression, Channel2_spend, Promo"
+Geo2,2021-02-01,3,"Channel0_impression, Channel0_spend, Organic_channel0_impression"
+Geo19,2023-11-27,3,"Channel2_impression, Channel2_spend, Promo"
+Geo32,2021-09-27,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo32,2021-09-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo25,2023-05-01,3,"Channel2_impression, Channel2_spend, Promo"
+Geo31,2023-11-13,3,"Channel4_impression, Channel4_spend, Promo"
+Geo31,2024-01-08,3,"Channel1_impression, Channel1_spend, Promo"
+Geo25,2022-01-03,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo32,2023-11-06,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2021-10-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo32,2023-06-26,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo25,2021-08-02,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo25,2023-09-25,3,"Channel2_impression, Channel2_spend, Promo"
+Geo25,2023-09-11,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo25,2024-01-01,3,"Channel4_impression, Channel4_spend, Promo"
+Geo25,2023-12-11,3,"Channel0_impression, Channel0_spend, Promo"
+Geo25,2023-07-24,3,"Channel2_impression, Channel2_spend, Promo"
+Geo25,2023-06-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo25,2023-11-06,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo31,2023-12-11,3,"Channel4_impression, Channel4_spend, Promo"
+Geo34,2022-01-10,3,"Channel1_impression, Channel1_spend, Promo"
+Geo34,2021-12-13,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo34,2022-05-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo34,2021-08-30,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo34,2021-10-11,3,"Channel1_impression, Channel1_spend, Promo"
+Geo34,2022-02-21,3,"Channel2_impression, Channel2_spend, Promo"
+Geo33,2023-09-25,3,"Channel2_impression, Channel2_spend, Promo"
+Geo33,2023-08-28,3,"Channel2_impression, Channel2_spend, Promo"
+Geo34,2021-02-08,3,"Channel2_impression, Channel2_spend, Promo"
+Geo33,2024-01-01,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo2,2023-08-14,3,"Channel4_impression, Channel4_spend, Promo"
+Geo2,2023-07-24,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo2,2022-10-31,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo33,2021-10-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo17,2023-11-20,3,"Channel2_impression, Channel2_spend, Promo"
+Geo17,2023-05-29,3,"Channel4_impression, Channel4_spend, Promo"
+Geo17,2023-05-01,3,"Channel2_impression, Channel2_spend, Promo"
+Geo17,2023-09-25,3,"Channel2_impression, Channel2_spend, Promo"
+Geo17,2023-09-18,3,"Channel0_impression, Channel0_spend, Promo"
+Geo17,2022-12-12,3,"Channel1_impression, Channel1_spend, Promo"
+Geo18,2021-06-07,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo2,2023-10-16,3,"Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo20,2021-02-01,3,"Channel2_impression, Channel2_spend, Promo"
+Geo2,2023-12-25,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo20,2021-06-28,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo31,2022-08-08,3,"Channel0_impression, Channel0_spend, Promo"
+Geo31,2022-06-13,3,"Channel0_impression, Channel0_spend, Organic_channel0_impression"
+Geo20,2021-08-02,3,"Channel2_impression, Channel2_spend, Promo"
+Geo33,2021-09-13,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo33,2021-12-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2021-12-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2021-11-22,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2021-10-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2022-06-20,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2022-05-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2022-10-31,3,"Channel2_impression, Channel2_spend, Promo"
+Geo18,2023-01-02,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo18,2022-12-26,3,"Channel1_impression, Channel1_spend, Promo"
+Geo33,2022-12-05,3,"Channel1_impression, Channel1_spend, Promo"
+Geo33,2023-06-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo18,2022-07-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo17,2024-01-01,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2021-07-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2021-05-10,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2021-04-12,3,"Channel2_impression, Channel2_spend, Promo"
+Geo2,2022-05-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo2,2022-03-14,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo2,2022-02-21,3,"Channel2_impression, Channel2_spend, Promo"
+Geo31,2023-10-09,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo31,2023-09-04,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo31,2022-11-21,3,"Channel0_impression, Channel0_spend, Organic_channel0_impression"
+Geo31,2022-10-31,3,"Channel1_impression, Channel1_spend, Promo"
+Geo34,2022-09-12,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo34,2023-01-02,3,"Channel2_impression, Channel2_spend, Promo"
+Geo34,2022-11-21,3,"Channel2_impression, Channel2_spend, Promo"
+Geo34,2022-10-31,3,"Channel2_impression, Channel2_spend, Promo"
+Geo19,2021-04-05,3,"Channel2_impression, Channel2_spend, Promo"
+Geo11,2022-12-12,3,"Channel2_impression, Channel2_spend, Promo"
+Geo11,2022-08-22,3,"Channel1_impression, Channel1_spend, Promo"
+Geo11,2022-09-12,3,"Channel2_impression, Channel2_spend, Promo"
+Geo11,2022-09-19,3,"Channel2_impression, Channel2_spend, Promo"
+Geo27,2021-12-06,3,"Channel2_impression, Channel2_spend, Promo"
+Geo23,2022-07-25,3,"Channel0_impression, Channel0_spend, Promo"
+Geo27,2023-04-10,3,"Channel2_impression, Channel2_spend, Promo"
+Geo27,2022-09-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo14,2023-09-04,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo23,2021-04-19,3,"Channel0_impression, Channel0_spend, Promo"
+Geo23,2021-05-03,3,"Channel0_impression, Channel0_spend, Promo"
+Geo23,2021-06-28,3,"Channel3_impression, Channel3_spend, Promo"
+Geo11,2023-10-23,3,"Channel2_impression, Channel2_spend, Promo"
+Geo11,2023-11-20,3,"Channel1_impression, Channel1_spend, Promo"
+Geo11,2023-11-27,3,"Channel2_impression, Channel2_spend, Promo"
+Geo11,2023-12-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo11,2023-05-22,3,"Channel2_impression, Channel2_spend, Promo"
+Geo27,2022-10-31,3,"Channel2_impression, Channel2_spend, Promo"
+Geo11,2021-12-13,3,"Channel1_impression, Channel1_spend, Promo"
+Geo11,2021-08-30,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo23,2023-07-17,3,"Channel1_impression, Channel1_spend, Promo"
+Geo27,2021-08-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo27,2021-02-22,3,"Channel2_impression, Channel2_spend, Promo"
+Geo26,2023-11-27,3,"Channel2_impression, Channel2_spend, Promo"
+Geo23,2022-04-11,3,"Channel0_impression, Channel0_spend, Promo"
+Geo23,2022-02-21,3,"Channel2_impression, Channel2_spend, Promo"
+Geo4,2022-01-03,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2023-12-04,3,"Channel1_impression, Channel1_spend, Promo"
+Geo39,2023-12-18,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo39,2023-09-04,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo4,2021-06-28,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2024-01-15,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2023-10-16,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo39,2023-10-30,3,"Channel0_impression, Channel0_spend, Promo"
+Geo11,2022-09-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo23,2022-03-21,3,"Channel2_impression, Channel2_spend, conversions"
+Geo12,2022-12-12,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo12,2023-01-09,3,"Channel2_impression, Channel2_spend, Promo"
+Geo12,2022-09-12,3,"Channel2_impression, Channel2_spend, Promo"
+Geo23,2021-10-04,3,"Channel3_impression, Channel3_spend, Organic_channel0_impression"
+Geo27,2023-11-20,3,"Channel2_impression, Channel2_spend, Promo"
+Geo27,2023-06-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo22,2023-01-02,3,"Channel2_impression, Channel2_spend, Promo"
+Geo27,2023-11-27,3,"Channel2_impression, Channel2_spend, Promo"
+Geo11,2023-07-10,3,"Channel0_impression, Channel0_spend, Promo"
+Geo22,2023-10-09,3,"Channel2_impression, Channel2_spend, Promo"
+Geo22,2022-12-19,3,"Channel2_impression, Channel2_spend, Promo"
+Geo38,2023-11-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2021-10-04,3,"Channel4_impression, Channel4_spend, conversions"
+Geo39,2021-11-15,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo12,2023-09-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo12,2023-10-23,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo12,2023-06-12,3,"Channel2_impression, Channel2_spend, Promo"
+Geo22,2023-09-04,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo11,2023-12-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo11,2023-09-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2022-12-19,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2023-01-09,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo12,2021-10-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2023-09-18,3,"Channel1_impression, Channel1_spend, Promo"
+Geo39,2023-09-25,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2023-05-29,3,"Channel2_impression, Channel2_spend, Promo"
+Geo11,2023-08-14,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2023-06-26,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo39,2022-11-21,3,"Channel1_impression, Channel1_spend, Promo"
+Geo39,2022-06-20,3,"Channel2_impression, Channel2_spend, Promo"
+Geo12,2022-07-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo12,2021-10-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo12,2021-11-22,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo12,2021-12-13,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo11,2023-07-24,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2023-06-19,3,"Channel0_impression, Channel0_spend, Promo"
+Geo8,2023-11-06,3,"Channel2_impression, Channel2_spend, Promo"
+Geo8,2022-10-10,3,"Channel2_impression, Channel2_spend, Promo"
+Geo8,2022-11-14,3,"Channel2_impression, Channel2_spend, Promo"
+Geo8,2022-12-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo7,2022-01-24,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo7,2022-05-16,3,"Channel2_impression, Channel2_spend, Promo"
+Geo7,2021-12-06,3,"Channel2_impression, Channel2_spend, Promo"
+Geo7,2022-12-12,3,"Channel2_impression, Channel2_spend, Promo"
+Geo11,2021-05-10,3,"Channel2_impression, Channel2_spend, Promo"
+Geo7,2022-07-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo7,2023-02-20,3,"Channel2_impression, Channel2_spend, Promo"
+Geo1,2022-10-17,3,"Channel2_impression, Channel2_spend, Promo"
+Geo7,2022-10-17,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo7,2021-07-26,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo10,2022-10-03,3,"Channel2_impression, Channel2_spend, Promo"
+Geo7,2021-08-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo7,2021-03-29,3,"Channel2_impression, Channel2_spend, Promo"
+Geo7,2022-07-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2024-01-15,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2023-12-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2023-12-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2022-11-14,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2022-09-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2021-08-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo25,2021-08-23,3,"Channel1_impression, Channel1_spend, Promo"
+Geo25,2022-03-28,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo8,2023-12-25,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2023-08-28,3,"Channel2_impression, Channel2_spend, Promo"
+Geo25,2022-10-10,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo25,2022-07-04,3,"Channel0_impression, Channel0_spend, Promo"
+Geo25,2022-02-14,3,"Channel1_impression, Channel1_spend, Promo"
+Geo7,2023-09-11,3,"Channel0_impression, Channel0_spend, Promo"
+Geo8,2022-05-02,3,"Channel2_impression, Channel2_spend, Promo"
+Geo8,2021-09-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo8,2021-10-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo25,2021-12-27,3,"Channel0_impression, Channel0_spend, Promo"
+Geo5,2021-09-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo5,2021-10-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo5,2022-09-12,3,"Channel2_impression, Channel2_spend, Promo"
+Geo5,2021-12-27,3,"Channel2_impression, Channel2_spend, Promo"
+Geo5,2024-01-15,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo5,2023-09-25,3,"Channel2_impression, Channel2_spend, Promo"
+Geo10,2023-08-14,3,"Channel0_impression, Channel0_spend, Promo"
+Geo10,2023-05-08,3,"Channel1_impression, Channel1_spend, Promo"
+Geo10,2021-03-22,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo11,2023-02-06,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo11,2023-02-13,3,"Channel0_impression, Channel0_spend, Promo"
+Geo11,2022-11-07,3,"Channel2_impression, Channel2_spend, Promo"
+Geo10,2023-12-11,3,"Channel0_impression, Channel0_spend, conversions"
+Geo10,2023-12-18,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo5,2021-03-29,3,"Channel2_impression, Channel2_spend, Promo"
+Geo4,2023-12-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo4,2023-09-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo4,2022-11-14,3,"Channel2_impression, Channel2_spend, Promo"
+Geo10,2021-04-26,3,"Channel1_impression, Channel1_spend, Promo"
+Geo10,2021-06-07,3,"Channel3_impression, Channel3_spend, Promo"
+Geo26,2022-09-19,3,"Channel2_impression, Channel2_spend, Promo"
+Geo26,2022-01-03,3,"Channel2_impression, Channel2_spend, Promo"
+Geo26,2022-02-21,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo23,2023-02-20,3,"Channel2_impression, Channel2_spend, Promo"
+Geo23,2022-10-17,3,"Channel2_impression, Channel2_spend, Promo"
+Geo23,2022-10-24,3,"Channel1_impression, Channel1_spend, Promo"
+Geo5,2021-08-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo23,2023-06-05,3,"Channel1_impression, Channel1_spend, sentiment_score_control"
+Geo10,2023-09-11,3,"Channel4_impression, Channel4_spend, Promo"
+Geo10,2021-12-20,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo10,2022-01-03,3,"Channel4_impression, Channel4_spend, Promo"
+Geo10,2022-09-12,3,"Channel2_impression, Channel2_spend, Promo"
+Geo10,2022-03-07,3,"Channel0_impression, Channel0_spend, Promo"
+Geo10,2022-05-16,3,"Organic_channel0_impression, Promo, conversions"
+Geo10,2022-06-20,3,"Channel4_impression, Channel4_spend, Promo"
+Geo23,2022-11-07,3,"Channel4_impression, Channel4_spend, Organic_channel0_impression"
+Geo29,2023-07-10,3,"Channel2_impression, Channel2_spend, Promo"
+Geo21,2021-10-25,3,"Channel4_impression, Channel4_spend, Promo"
+Geo21,2022-01-24,3,"Channel2_impression, Channel2_spend, Promo"
+Geo21,2021-08-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo36,2022-05-23,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo36,2022-03-21,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo14,2023-10-16,3,"Channel2_impression, Channel2_spend, Promo"
+Geo14,2023-11-27,3,"Channel2_impression, Channel2_spend, Promo"
+Geo12,2023-07-24,3,"Channel2_impression, Channel2_spend, Promo"
+Geo15,2022-01-24,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo15,2021-08-09,3,"Channel0_impression, Channel0_spend, Promo"
+Geo15,2023-11-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo15,2023-11-20,3,"Channel2_impression, Channel2_spend, Promo"
+Geo15,2022-10-10,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo15,2022-10-17,3,"Channel2_impression, Channel2_spend, Promo"
+Geo15,2022-10-24,3,"Channel2_impression, Channel2_spend, Promo"
+Geo15,2022-07-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo15,2021-11-29,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo14,2023-10-02,3,"Channel2_impression, Channel2_spend, Promo"
+Geo36,2023-01-02,3,"Channel0_impression, Channel0_spend, Promo"
+Geo36,2022-08-08,3,"Channel0_impression, Channel0_spend, Promo"
+Geo36,2022-09-05,3,"Channel1_impression, Channel1_spend, Promo"
+Geo36,2022-09-19,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo21,2023-11-20,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo21,2023-12-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo21,2023-08-28,3,"Channel2_impression, Channel2_spend, Promo"
+Geo29,2023-06-26,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo21,2023-10-09,3,"Channel2_impression, Channel2_spend, Promo"
+Geo29,2022-12-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo29,2022-08-22,3,"Channel2_impression, Channel2_spend, Promo"
+Geo29,2022-10-10,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo21,2021-10-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo3,2021-08-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo3,2021-05-10,3,"Channel2_impression, Channel2_spend, Promo"
+Geo29,2023-08-21,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo21,2023-09-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2023-12-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2023-12-18,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo15,2023-12-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo15,2023-12-11,3,"Channel0_impression, Channel0_spend, Promo"
+Geo31,2021-03-29,3,"Channel0_impression, Channel0_spend, Promo"
+Geo31,2021-05-10,3,"Channel2_impression, Channel2_spend, Promo"
+Geo31,2021-06-28,3,"Channel0_impression, Channel0_spend, Organic_channel0_impression"
+Geo31,2021-01-25,3,"Channel4_impression, Channel4_spend, Promo"
+Geo15,2023-02-27,3,"Channel2_impression, Channel2_spend, Promo"
+Geo20,2022-03-14,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo20,2022-10-03,3,"Channel2_impression, Channel2_spend, Promo"
+Geo20,2022-10-24,3,"Channel2_impression, Channel2_spend, Promo"
+Geo20,2022-12-19,3,"Channel2_impression, Channel2_spend, Promo"
+Geo20,2023-01-02,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2022-10-10,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo17,2021-05-10,3,"Channel1_impression, Channel1_spend, Promo"
+Geo35,2022-08-22,3,"Channel2_impression, Channel2_spend, Promo"
+Geo20,2022-01-24,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo15,2022-09-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo36,2021-10-18,3,"Channel0_impression, Channel0_spend, Promo"
+Geo3,2022-12-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo21,2022-09-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo20,2023-07-24,3,"Channel2_impression, Channel2_spend, Promo"
+Geo30,2022-10-31,3,"Channel2_impression, Channel2_spend, Promo"
+Geo30,2021-07-05,3,"Channel2_impression, Channel2_spend, Promo"
+Geo30,2021-08-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo36,2021-05-31,3,"Channel1_impression, Channel1_spend, Promo"
+Geo20,2023-09-25,3,"Channel2_impression, Channel2_spend, Promo"
+Geo20,2023-10-23,3,"Channel2_impression, Channel2_spend, Promo"
+Geo20,2023-06-26,3,"Channel2_impression, Channel2_spend, Promo"
+Geo31,2021-03-22,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo30,2023-11-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo30,2023-12-04,3,"Channel2_impression, Channel2_spend, sentiment_score_control"
+Geo36,2021-02-15,3,"Channel2_impression, Channel2_spend, Promo"
+Geo35,2023-10-23,3,"Channel2_impression, Channel2_spend, Promo"
+Geo21,2021-03-22,3,"Channel1_impression, Channel1_spend, Promo"
+Geo38,2022-01-10,3,"Channel2_impression, Channel2_spend, Promo"
+Geo38,2022-01-17,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2022-12-19,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2022-07-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2022-10-17,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2021-12-27,3,"Channel2_impression, Channel2_spend, Promo"
+Geo28,2021-11-08,3,"Channel2_impression, Channel2_spend, Promo"
+Geo28,2021-11-22,3,"Channel4_impression, Channel4_spend, Promo"
+Geo14,2023-09-25,3,"Channel2_impression, Channel2_spend, competitor_sales_control"
+Geo28,2022-05-02,3,"Channel2_impression, Channel2_spend, Promo"
+Geo22,2021-11-08,3,"Channel2_impression, Channel2_spend, Promo"
+Geo22,2021-12-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo22,2021-08-30,3,"Channel2_impression, Channel2_spend, sentiment_score_control"
+Geo21,2024-01-01,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo28,2023-01-23,3,"Channel2_impression, Channel2_spend, Promo"
+Geo28,2022-07-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo28,2022-09-05,3,"Channel1_impression, Channel1_spend, Promo"
+Geo22,2023-11-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2021-12-06,3,"Channel2_impression, Channel2_spend, Promo"
+Geo39,2022-01-03,3,"Channel4_impression, Channel4_spend, Promo"
+Geo39,2022-01-10,3,"Channel4_impression, Channel4_spend, Promo"
+Geo13,2021-04-05,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2021-06-28,3,"Channel2_impression, Channel2_spend, Promo"
+Geo37,2021-10-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo14,2021-05-17,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo14,2021-02-08,3,"Channel1_impression, Channel1_spend, Organic_channel0_impression"
+Geo38,2022-09-12,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2023-10-02,3,"Channel2_impression, Channel2_spend, Promo"
+Geo37,2023-10-02,3,"Channel2_impression, Channel2_spend, Promo"
+Geo37,2022-10-10,3,"Channel2_impression, Channel2_spend, Promo"
+Geo37,2022-10-24,3,"Channel2_impression, Channel2_spend, Promo"
+Geo37,2022-11-14,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2022-07-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2021-08-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2021-10-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo14,2021-03-22,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo28,2023-01-02,3,"Channel2_impression, Channel2_spend, Promo"
+Geo28,2023-10-09,3,"Channel2_impression, Channel2_spend, Promo"
+Geo28,2023-06-26,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo29,2021-08-30,3,"Channel2_impression, Channel2_spend, Promo"
+Geo29,2021-10-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo29,2021-10-18,3,"Channel2_impression, Channel2_spend, Promo"
+Geo29,2021-05-03,3,"Channel2_impression, Channel2_spend, Promo"
+Geo21,2022-12-05,3,"Channel2_impression, Channel2_spend, Promo"
+Geo14,2022-08-01,3,"Channel2_impression, Channel2_spend, Promo"
+Geo14,2023-02-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo14,2022-10-03,3,"Channel1_impression, Channel1_spend, Promo"
+Geo14,2022-10-10,3,"Channel2_impression, Channel2_spend, Promo"
+Geo14,2022-10-17,3,"Channel2_impression, Channel2_spend, Promo"
+Geo14,2023-06-26,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo14,2023-01-09,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo8,2022-09-19,3,"Channel2_impression, Channel2_spend, sentiment_score_control"
+Geo14,2023-09-11,3,"Channel2_impression, Channel2_spend, Promo"
+Geo29,2021-12-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo36,2023-11-06,3,"Channel1_impression, Channel1_spend, Promo"
+Geo36,2023-11-13,3,"Channel0_impression, Channel0_spend, Promo"
+Geo36,2023-12-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo36,2023-12-11,3,"Channel3_impression, Channel3_spend, Promo"
+Geo13,2023-10-16,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2023-11-13,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2023-11-27,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2023-05-01,3,"Channel2_impression, Channel2_spend, Promo"
+Geo28,2022-10-31,3,"Channel1_impression, Channel1_spend, Promo"
+Geo13,2023-08-14,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2023-08-28,3,"Channel2_impression, Channel2_spend, Promo"
+Geo13,2023-09-04,3,"Channel2_impression, Channel2_spend, Promo"
+Geo36,2023-05-01,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo36,2022-11-14,3,"Channel4_impression, Channel4_spend, Promo"
+Geo36,2023-05-15,3,"Channel0_impression, Channel0_spend, Promo"
+Geo14,2022-09-19,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo28,2023-07-31,3,"Channel2_impression, Channel2_spend, Organic_channel0_impression"
+Geo13,2023-08-07,3,"Channel2_impression, Channel2_spend, Promo"
+Geo9,2023-01-02,2,"Channel2_impression, Channel2_spend"
+Geo9,2021-02-22,2,"Channel2_impression, Channel2_spend"
+Geo8,2022-02-21,2,"Channel2_impression, Channel2_spend"
+Geo8,2021-09-27,2,"Channel2_impression, Channel2_spend"
+Geo8,2021-11-22,2,"Channel2_impression, Channel2_spend"
+Geo7,2023-12-25,2,"Organic_channel0_impression, Promo"
+Geo8,2021-03-29,2,"Channel2_impression, Channel2_spend"
+Geo8,2021-05-10,2,"Channel2_impression, Channel2_spend"
+Geo7,2023-11-06,2,"Organic_channel0_impression, Promo"
+Geo7,2023-11-20,2,"Channel2_impression, Channel2_spend"
+Geo7,2023-09-18,2,"Channel1_impression, Channel1_spend"
+Geo7,2023-10-02,2,"Channel2_impression, Channel2_spend"
+Geo7,2023-06-12,2,"Channel0_impression, Channel0_spend"
+Geo7,2023-07-17,2,"Channel2_impression, Channel2_spend"
+Geo25,2022-10-03,2,"Organic_channel0_impression, Promo"
+Geo25,2022-06-06,2,"Channel1_impression, Channel1_spend"
+Geo25,2022-08-08,2,"Channel1_impression, Channel1_spend"
+Geo25,2022-04-18,2,"Channel2_impression, Channel2_spend"
+Geo25,2021-10-25,2,"Organic_channel0_impression, Promo"
+Geo25,2022-01-10,2,"Channel2_impression, Channel2_spend"
+Geo25,2021-08-09,2,"Channel0_impression, Channel0_spend"
+Geo10,2021-05-03,2,"Channel0_impression, Channel0_spend"
+Geo10,2021-05-17,2,"Channel1_impression, Channel1_spend"
+Geo1,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo10,2021-02-01,2,"Channel0_impression, Channel0_spend"
+Geo7,2021-09-13,2,"Channel2_impression, Channel2_spend"
+Geo7,2021-02-22,2,"Channel2_impression, Channel2_spend"
+Geo10,2022-09-26,2,"Organic_channel0_impression, Promo"
+Geo10,2022-10-10,2,"Channel4_impression, Channel4_spend"
+Geo24,2021-07-05,2,"Promo, sentiment_score_control"
+Geo23,2023-11-27,2,"Channel2_impression, Channel2_spend"
+Geo23,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo10,2021-06-14,2,"Channel4_impression, Channel4_spend"
+Geo10,2021-06-21,2,"Organic_channel0_impression, conversions"
+Geo10,2021-07-05,2,"Promo, conversions"
+Geo10,2021-07-26,2,"Channel1_impression, Channel1_spend"
+Geo10,2021-04-12,2,"Channel1_impression, Channel1_spend"
+Geo10,2021-12-27,2,"Organic_channel0_impression, Promo"
+Geo10,2023-09-25,2,"Channel2_impression, Channel2_spend"
+Geo10,2023-07-03,2,"Channel4_impression, Channel4_spend"
+Geo23,2023-03-27,2,"Organic_channel0_impression, conversions"
+Geo23,2023-01-02,2,"Channel2_impression, Channel2_spend"
+Geo23,2023-01-23,2,"Channel4_impression, Channel4_spend"
+Geo26,2022-10-17,2,"Channel2_impression, Channel2_spend"
+Geo24,2021-12-13,2,"Promo, sentiment_score_control"
+Geo5,2021-07-26,2,"Channel2_impression, Channel2_spend"
+Geo5,2021-10-04,2,"Channel2_impression, Channel2_spend"
+Geo10,2022-11-07,2,"Channel3_impression, Channel3_spend"
+Geo10,2022-07-11,2,"Organic_channel0_impression, conversions"
+Geo10,2022-08-01,2,"Organic_channel0_impression, Promo"
+Geo10,2022-02-07,2,"Organic_channel0_impression, Promo"
+Geo10,2022-03-14,2,"Organic_channel0_impression, conversions"
+Geo10,2022-04-18,2,"Channel2_impression, Channel2_spend"
+Geo19,2022-07-11,2,"Channel2_impression, Channel2_spend"
+Geo19,2022-05-09,2,"Channel2_impression, Channel2_spend"
+Geo18,2023-05-22,2,"Channel2_impression, Channel2_spend"
+Geo18,2023-01-09,2,"Channel2_impression, Channel2_spend"
+Geo18,2022-08-22,2,"Channel1_impression, Channel1_spend"
+Geo18,2022-08-29,2,"Channel2_impression, Channel2_spend"
+Geo18,2022-09-05,2,"Channel1_impression, Channel1_spend"
+Geo18,2022-09-26,2,"Channel2_impression, Channel2_spend"
+Geo18,2023-07-10,2,"Channel2_impression, Channel2_spend"
+Geo33,2022-02-21,2,"Channel2_impression, Channel2_spend"
+Geo33,2022-05-02,2,"Channel2_impression, Channel2_spend"
+Geo33,2022-01-03,2,"Channel1_impression, Channel1_spend"
+Geo33,2021-07-26,2,"Channel2_impression, Channel2_spend"
+Geo33,2021-08-02,2,"Channel2_impression, Channel2_spend"
+Geo33,2021-02-01,2,"Channel2_impression, Channel2_spend"
+Geo33,2021-06-14,2,"Channel2_impression, Channel2_spend"
+Geo2,2022-10-24,2,"Organic_channel0_impression, Promo"
+Geo2,2022-06-20,2,"Channel1_impression, Channel1_spend"
+Geo2,2022-06-27,2,"Channel1_impression, Channel1_spend"
+Geo19,2021-02-22,2,"Channel2_impression, Channel2_spend"
+Geo18,2023-10-23,2,"Channel2_impression, Channel2_spend"
+Geo18,2023-11-27,2,"Organic_channel0_impression, Promo"
+Geo18,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo18,2023-06-05,2,"Organic_channel0_impression, Promo"
+Geo2,2021-06-07,2,"Channel1_impression, Channel1_spend"
+Geo2,2021-06-21,2,"Channel1_impression, Channel1_spend"
+Geo2,2021-07-26,2,"Channel2_impression, Channel2_spend"
+Geo2,2021-02-08,2,"Organic_channel0_impression, Promo"
+Geo2,2021-02-22,2,"Channel2_impression, Channel2_spend"
+Geo2,2021-04-12,2,"Channel2_impression, Channel2_spend"
+Geo2,2022-10-03,2,"Channel1_impression, Channel1_spend"
+Geo2,2022-10-10,2,"Channel2_impression, Channel2_spend"
+Geo33,2023-11-06,2,"Organic_channel0_impression, Promo"
+Geo33,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo33,2023-08-21,2,"Channel2_impression, Channel2_spend"
+Geo31,2022-12-19,2,"Channel2_impression, Channel2_spend"
+Geo2,2023-08-21,2,"Channel4_impression, Channel4_spend"
+Geo2,2023-09-04,2,"Channel3_impression, Channel3_spend"
+Geo2,2023-09-25,2,"Channel2_impression, Channel2_spend"
+Geo2,2023-04-24,2,"Channel1_impression, Channel1_spend"
+Geo17,2023-12-18,2,"Channel1_impression, Channel1_spend"
+Geo34,2022-12-19,2,"Channel2_impression, Channel2_spend"
+Geo34,2022-09-19,2,"Channel2_impression, Channel2_spend"
+Geo34,2022-08-22,2,"Channel2_impression, Channel2_spend"
+Geo34,2021-09-20,2,"Organic_channel0_impression, Promo"
+Geo34,2021-10-04,2,"Channel2_impression, Channel2_spend"
+Geo34,2021-03-08,2,"Channel2_impression, Channel2_spend"
+Geo34,2021-05-10,2,"Channel1_impression, Channel1_spend"
+Geo19,2021-06-14,2,"Channel2_impression, Channel2_spend"
+Geo18,2023-12-18,2,"Organic_channel0_impression, Promo"
+Geo19,2021-02-01,2,"Channel2_impression, Channel2_spend"
+Geo2,2022-07-18,2,"Channel2_impression, Channel2_spend"
+Geo2,2022-07-25,2,"Organic_channel0_impression, Promo"
+Geo2,2022-01-24,2,"Organic_channel0_impression, Promo"
+Geo2,2022-03-28,2,"Promo, competitor_sales_control"
+Geo31,2023-07-31,2,"Organic_channel0_impression, Promo"
+Geo18,2022-04-11,2,"Channel2_impression, Channel2_spend"
+Geo18,2022-04-25,2,"Channel2_impression, Channel2_spend"
+Geo33,2022-12-19,2,"Channel2_impression, Channel2_spend"
+Geo33,2023-01-30,2,"Channel2_impression, Channel2_spend"
+Geo33,2022-09-19,2,"Channel2_impression, Channel2_spend"
+Geo33,2022-06-27,2,"Promo, competitor_sales_control"
+Geo33,2022-07-18,2,"Channel2_impression, Channel2_spend"
+Geo19,2021-06-07,2,"Channel2_impression, Channel2_spend"
+Geo18,2021-08-30,2,"Organic_channel0_impression, Promo"
+Geo18,2021-10-04,2,"Channel2_impression, Channel2_spend"
+Geo18,2021-05-10,2,"Organic_channel0_impression, Promo"
+Geo18,2021-06-14,2,"Channel0_impression, Channel0_spend"
+Geo2,2023-11-13,2,"Channel1_impression, Channel1_spend"
+Geo2,2023-11-20,2,"Organic_channel0_impression, Promo"
+Geo31,2022-08-22,2,"Channel1_impression, Channel1_spend"
+Geo31,2022-09-19,2,"Channel2_impression, Channel2_spend"
+Geo17,2023-02-13,2,"Channel0_impression, Channel0_spend"
+Geo17,2023-06-12,2,"Organic_channel0_impression, Promo"
+Geo17,2022-12-05,2,"Channel1_impression, Channel1_spend"
+Geo17,2023-01-09,2,"Channel2_impression, Channel2_spend"
+Geo18,2022-01-03,2,"Channel4_impression, Channel4_spend"
+Geo18,2022-01-17,2,"Channel2_impression, Channel2_spend"
+Geo18,2022-02-21,2,"Channel2_impression, Channel2_spend"
+Geo18,2021-08-09,2,"Channel2_impression, Channel2_spend"
+Geo20,2021-08-09,2,"Channel2_impression, Channel2_spend"
+Geo20,2021-04-19,2,"Channel2_impression, Channel2_spend"
+Geo17,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo17,2023-07-31,2,"Organic_channel0_impression, Promo"
+Geo17,2023-08-07,2,"Organic_channel0_impression, Promo"
+Geo17,2023-08-21,2,"Channel2_impression, Channel2_spend"
+Geo17,2023-08-28,2,"Channel2_impression, Channel2_spend"
+Geo17,2023-09-11,2,"Channel4_impression, Channel4_spend"
+Geo2,2023-05-22,2,"Channel1_impression, Channel1_spend"
+Geo2,2023-07-17,2,"Channel2_impression, Channel2_spend"
+Geo2,2023-01-09,2,"Organic_channel0_impression, Promo"
+Geo2,2023-02-13,2,"Channel0_impression, Channel0_spend"
+Geo2,2023-03-13,2,"Channel2_impression, Channel2_spend"
+Geo2,2022-11-21,2,"Channel1_impression, Channel1_spend"
+Geo2,2022-12-05,2,"Channel0_impression, Channel0_spend"
+Geo20,2021-07-26,2,"Channel2_impression, Channel2_spend"
+Geo17,2022-10-17,2,"Channel2_impression, Channel2_spend"
+Geo35,2023-06-05,2,"Organic_channel0_impression, Promo"
+Geo35,2023-02-06,2,"Channel1_impression, Channel1_spend"
+Geo35,2022-10-24,2,"Organic_channel0_impression, Promo"
+Geo35,2022-11-28,2,"Channel4_impression, Channel4_spend"
+Geo35,2022-08-15,2,"Organic_channel0_impression, Promo"
+Geo35,2022-09-12,2,"Channel2_impression, Channel2_spend"
+Geo17,2021-06-14,2,"Channel2_impression, Channel2_spend"
+Geo34,2023-05-01,2,"Channel2_impression, Channel2_spend"
+Geo34,2023-06-26,2,"Channel2_impression, Channel2_spend"
+Geo17,2023-10-16,2,"Organic_channel0_impression, Promo"
+Geo17,2023-10-23,2,"Organic_channel0_impression, Promo"
+Geo16,2023-11-20,2,"Channel2_impression, Channel2_spend"
+Geo17,2021-03-15,2,"Channel2_impression, Channel2_spend"
+Geo35,2022-06-13,2,"Organic_channel0_impression, Promo"
+Geo35,2021-07-05,2,"Channel1_impression, Channel1_spend"
+Geo17,2021-10-04,2,"Channel2_impression, Channel2_spend"
+Geo17,2021-10-25,2,"Channel1_impression, Channel1_spend"
+Geo35,2021-03-08,2,"Channel2_impression, Channel2_spend"
+Geo35,2021-04-05,2,"Channel2_impression, Channel2_spend"
+Geo34,2023-11-20,2,"Organic_channel0_impression, Promo"
+Geo34,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo34,2023-12-11,2,"Organic_channel0_impression, Promo"
+Geo34,2023-10-09,2,"Channel2_impression, Channel2_spend"
+Geo31,2022-09-26,2,"Organic_channel0_impression, Promo"
+Geo31,2021-12-13,2,"Channel1_impression, Channel1_spend"
+Geo31,2021-12-27,2,"Channel2_impression, Channel2_spend"
+Geo31,2021-09-13,2,"Channel2_impression, Channel2_spend"
+Geo31,2021-09-27,2,"Channel2_impression, Channel2_spend"
+Geo17,2022-07-18,2,"Channel2_impression, Channel2_spend"
+Geo17,2022-02-07,2,"Channel1_impression, Channel1_spend"
+Geo17,2021-08-02,2,"Channel2_impression, Channel2_spend"
+Geo36,2021-04-19,2,"competitor_sales_control, conversions"
+Geo36,2021-04-26,2,"Organic_channel0_impression, Promo"
+Geo35,2023-10-09,2,"Channel2_impression, Channel2_spend"
+Geo31,2021-02-22,2,"Channel1_impression, Channel1_spend"
+Geo30,2023-10-09,2,"Channel2_impression, Channel2_spend"
+Geo30,2023-11-27,2,"Channel2_impression, Channel2_spend"
+Geo21,2021-05-24,2,"Channel2_impression, Channel2_spend"
+Geo21,2021-06-14,2,"Channel2_impression, Channel2_spend"
+Geo15,2023-10-16,2,"Channel2_impression, Channel2_spend"
+Geo15,2023-11-06,2,"Organic_channel0_impression, Promo"
+Geo15,2023-06-26,2,"Channel2_impression, Channel2_spend"
+Geo15,2023-07-31,2,"Organic_channel0_impression, Promo"
+Geo36,2021-08-02,2,"Channel2_impression, Channel2_spend"
+Geo36,2021-09-06,2,"Channel1_impression, Channel1_spend"
+Geo36,2021-03-08,2,"Channel4_impression, Channel4_spend"
+Geo36,2021-03-29,2,"Channel1_impression, Channel1_spend"
+Geo20,2021-12-27,2,"Organic_channel0_impression, Promo"
+Geo31,2021-07-05,2,"Organic_channel0_impression, Promo"
+Geo31,2021-08-02,2,"Channel2_impression, Channel2_spend"
+Geo31,2021-08-09,2,"Channel0_impression, Channel0_spend"
+Geo31,2021-08-23,2,"Channel1_impression, Channel1_spend"
+Geo31,2021-06-14,2,"Channel2_impression, Channel2_spend"
+Geo16,2021-05-17,2,"Channel2_impression, Channel2_spend"
+Geo15,2023-09-04,2,"Channel1_impression, Channel1_spend"
+Geo31,2021-11-15,2,"Channel1_impression, Channel1_spend"
+Geo31,2021-11-22,2,"Channel1_impression, Channel1_spend"
+Geo20,2022-12-26,2,"Channel2_impression, Channel2_spend"
+Geo20,2022-08-29,2,"Channel2_impression, Channel2_spend"
+Geo20,2022-09-26,2,"Channel2_impression, Channel2_spend"
+Geo20,2022-10-10,2,"Channel2_impression, Channel2_spend"
+Geo20,2022-07-11,2,"Organic_channel0_impression, Promo"
+Geo20,2022-08-08,2,"Channel2_impression, Channel2_spend"
+Geo15,2022-09-12,2,"Channel2_impression, Channel2_spend"
+Geo16,2021-07-26,2,"Channel2_impression, Channel2_spend"
+Geo15,2023-11-27,2,"Channel1_impression, Channel1_spend"
+Geo15,2021-12-06,2,"Channel2_impression, Channel2_spend"
+Geo15,2021-07-12,2,"Channel2_impression, Channel2_spend"
+Geo15,2021-08-02,2,"Channel1_impression, Channel1_spend"
+Geo15,2021-05-03,2,"Channel2_impression, Channel2_spend"
+Geo14,2023-10-23,2,"Organic_channel0_impression, Promo"
+Geo36,2021-09-27,2,"Promo, conversions"
+Geo36,2021-11-01,2,"Channel0_impression, Channel0_spend"
+Geo15,2022-12-26,2,"Channel2_impression, Channel2_spend"
+Geo15,2023-01-02,2,"Channel2_impression, Channel2_spend"
+Geo15,2023-02-13,2,"Channel2_impression, Channel2_spend"
+Geo15,2022-09-19,2,"Channel2_impression, Channel2_spend"
+Geo15,2022-10-03,2,"Organic_channel0_impression, Promo"
+Geo15,2022-08-22,2,"Channel1_impression, Channel1_spend"
+Geo3,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo21,2022-10-10,2,"Channel2_impression, Channel2_spend"
+Geo21,2022-05-16,2,"Promo, competitor_sales_control"
+Geo21,2022-06-13,2,"Organic_channel0_impression, Promo"
+Geo21,2022-06-20,2,"Channel2_impression, Channel2_spend"
+Geo36,2022-01-10,2,"Channel0_impression, Channel0_spend"
+Geo36,2022-01-17,2,"Channel2_impression, Channel2_spend"
+Geo36,2021-09-13,2,"Channel1_impression, Channel1_spend"
+Geo21,2021-07-26,2,"Channel2_impression, Channel2_spend"
+Geo20,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo20,2023-12-25,2,"Channel2_impression, Channel2_spend"
+Geo21,2021-03-29,2,"Channel2_impression, Channel2_spend"
+Geo30,2023-09-04,2,"Channel2_impression, Channel2_spend"
+Geo30,2021-10-04,2,"Channel2_impression, Channel2_spend"
+Geo30,2021-02-01,2,"Channel2_impression, Channel2_spend"
+Geo3,2023-11-27,2,"Channel2_impression, Channel2_spend"
+Geo15,2021-11-08,2,"Organic_channel0_impression, Promo"
+Geo15,2021-11-15,2,"Organic_channel0_impression, Promo"
+Geo21,2023-06-19,2,"Organic_channel0_impression, Promo"
+Geo21,2022-10-24,2,"Organic_channel0_impression, Promo"
+Geo21,2022-12-12,2,"Channel2_impression, Channel2_spend"
+Geo29,2022-02-21,2,"Channel2_impression, Channel2_spend"
+Geo29,2021-08-02,2,"Channel2_impression, Channel2_spend"
+Geo29,2021-11-15,2,"Channel2_impression, Channel2_spend"
+Geo21,2023-09-18,2,"Organic_channel0_impression, Promo"
+Geo21,2023-09-25,2,"Channel2_impression, Channel2_spend"
+Geo14,2023-07-17,2,"Channel2_impression, Channel2_spend"
+Geo14,2023-09-18,2,"Channel1_impression, Channel1_spend"
+Geo14,2023-04-03,2,"Channel1_impression, Channel1_spend"
+Geo14,2022-12-19,2,"Channel2_impression, Channel2_spend"
+Geo14,2023-01-02,2,"Channel2_impression, Channel2_spend"
+Geo14,2022-11-07,2,"Channel4_impression, Channel4_spend"
+Geo21,2021-09-13,2,"Channel2_impression, Channel2_spend"
+Geo21,2021-09-20,2,"Channel2_impression, Channel2_spend"
+Geo3,2022-09-19,2,"Channel2_impression, Channel2_spend"
+Geo29,2023-12-25,2,"Channel2_impression, Channel2_spend"
+Geo29,2023-03-13,2,"competitor_sales_control, sentiment_score_control"
+Geo29,2022-10-17,2,"Channel2_impression, Channel2_spend"
+Geo29,2022-10-24,2,"Channel2_impression, Channel2_spend"
+Geo29,2022-03-14,2,"Channel2_impression, Channel2_spend"
+Geo14,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo36,2022-06-13,2,"Organic_channel0_impression, Promo"
+Geo36,2022-07-25,2,"competitor_sales_control, conversions"
+Geo36,2022-03-28,2,"Promo, conversions"
+Geo36,2022-05-02,2,"Channel2_impression, Channel2_spend"
+Geo36,2022-05-16,2,"Promo, conversions"
+Geo36,2022-05-30,2,"Channel3_impression, Channel3_spend"
+Geo21,2021-08-02,2,"Channel2_impression, Channel2_spend"
+Geo36,2023-08-07,2,"Channel2_impression, Channel2_spend"
+Geo36,2023-08-21,2,"Channel0_impression, Channel0_spend"
+Geo36,2023-09-04,2,"Channel0_impression, Channel0_spend"
+Geo14,2022-08-15,2,"Channel2_impression, Channel2_spend"
+Geo28,2022-08-29,2,"Channel1_impression, Channel1_spend"
+Geo28,2022-10-03,2,"Channel2_impression, Channel2_spend"
+Geo28,2022-10-10,2,"Channel4_impression, Channel4_spend"
+Geo28,2022-10-17,2,"Channel2_impression, Channel2_spend"
+Geo36,2023-01-16,2,"Channel2_impression, Channel2_spend"
+Geo36,2023-01-23,2,"Channel2_impression, Channel2_spend"
+Geo36,2023-04-10,2,"Channel0_impression, Channel0_spend"
+Geo36,2022-10-31,2,"Channel2_impression, Channel2_spend"
+Geo37,2021-02-08,2,"Channel2_impression, Channel2_spend"
+Geo36,2024-01-01,2,"Channel2_impression, Channel2_spend"
+Geo36,2024-01-15,2,"Channel3_impression, Channel3_spend"
+Geo36,2023-11-20,2,"Channel2_impression, Channel2_spend"
+Geo14,2022-02-21,2,"Channel2_impression, Channel2_spend"
+Geo14,2021-08-30,2,"Channel2_impression, Channel2_spend"
+Geo14,2021-09-13,2,"Channel2_impression, Channel2_spend"
+Geo14,2021-10-04,2,"Channel2_impression, Channel2_spend"
+Geo14,2021-10-18,2,"Channel2_impression, Channel2_spend"
+Geo36,2023-05-29,2,"Promo, conversions"
+Geo36,2023-06-05,2,"Channel0_impression, Channel0_spend"
+Geo36,2023-06-19,2,"competitor_sales_control, conversions"
+Geo29,2021-11-22,2,"Channel2_impression, Channel2_spend"
+Geo28,2023-11-27,2,"Channel2_impression, Channel2_spend"
+Geo28,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo28,2022-11-21,2,"Organic_channel0_impression, Promo"
+Geo14,2022-08-29,2,"Channel2_impression, Channel2_spend"
+Geo14,2022-05-02,2,"Channel2_impression, Channel2_spend"
+Geo14,2021-12-13,2,"Organic_channel0_impression, Promo"
+Geo14,2021-12-27,2,"Organic_channel0_impression, Promo"
+Geo39,2022-02-07,2,"Channel2_impression, Channel2_spend"
+Geo12,2023-11-13,2,"Channel2_impression, Channel2_spend"
+Geo13,2021-03-22,2,"Promo, sentiment_score_control"
+Geo12,2023-09-25,2,"Channel2_impression, Channel2_spend"
+Geo12,2023-04-10,2,"Channel2_impression, Channel2_spend"
+Geo12,2023-07-03,2,"Channel2_impression, Channel2_spend"
+Geo39,2021-09-13,2,"Channel2_impression, Channel2_spend"
+Geo39,2021-05-03,2,"Organic_channel0_impression, Promo"
+Geo13,2021-09-20,2,"Channel2_impression, Channel2_spend"
+Geo13,2021-11-15,2,"Channel2_impression, Channel2_spend"
+Geo37,2022-12-19,2,"Channel2_impression, Channel2_spend"
+Geo37,2021-11-22,2,"Channel2_impression, Channel2_spend"
+Geo37,2021-06-28,2,"Channel2_impression, Channel2_spend"
+Geo37,2021-07-26,2,"Channel2_impression, Channel2_spend"
+Geo14,2021-06-07,2,"Channel1_impression, Channel1_spend"
+Geo14,2021-07-26,2,"Channel4_impression, Channel4_spend"
+Geo28,2022-04-04,2,"Channel2_impression, Channel2_spend"
+Geo28,2021-10-04,2,"Channel2_impression, Channel2_spend"
+Geo28,2021-06-28,2,"Channel2_impression, Channel2_spend"
+Geo28,2021-08-30,2,"Channel2_impression, Channel2_spend"
+Geo28,2021-09-13,2,"Channel2_impression, Channel2_spend"
+Geo13,2022-10-24,2,"Channel2_impression, Channel2_spend"
+Geo13,2023-02-27,2,"Promo, competitor_sales_control"
+Geo13,2022-09-19,2,"Channel2_impression, Channel2_spend"
+Geo22,2022-03-14,2,"Channel2_impression, Channel2_spend"
+Geo22,2022-05-09,2,"Channel2_impression, Channel2_spend"
+Geo22,2021-09-13,2,"Channel2_impression, Channel2_spend"
+Geo22,2021-10-18,2,"Channel2_impression, Channel2_spend"
+Geo22,2021-01-25,2,"Channel2_impression, Channel2_spend"
+Geo28,2022-05-23,2,"Channel2_impression, Channel2_spend"
+Geo28,2022-06-20,2,"Channel2_impression, Channel2_spend"
+Geo28,2022-02-28,2,"Organic_channel0_impression, Promo"
+Geo39,2022-07-25,2,"Channel0_impression, Channel0_spend"
+Geo39,2022-08-08,2,"Channel4_impression, Channel4_spend"
+Geo39,2023-05-22,2,"Channel2_impression, Channel2_spend"
+Geo39,2022-12-05,2,"Channel2_impression, Channel2_spend"
+Geo12,2021-08-23,2,"Channel1_impression, Channel1_spend"
+Geo12,2021-09-13,2,"Channel2_impression, Channel2_spend"
+Geo11,2023-12-18,2,"Channel1_impression, Channel1_spend"
+Geo12,2021-04-05,2,"Channel2_impression, Channel2_spend"
+Geo12,2022-06-13,2,"Channel2_impression, Channel2_spend"
+Geo12,2021-11-08,2,"Channel2_impression, Channel2_spend"
+Geo12,2022-01-03,2,"Channel2_impression, Channel2_spend"
+Geo39,2022-08-29,2,"Channel2_impression, Channel2_spend"
+Geo39,2022-09-05,2,"Channel1_impression, Channel1_spend"
+Geo39,2022-10-03,2,"Channel1_impression, Channel1_spend"
+Geo39,2022-11-07,2,"Channel2_impression, Channel2_spend"
+Geo39,2022-07-04,2,"Channel2_impression, Channel2_spend"
+Geo28,2021-03-15,2,"Channel2_impression, Channel2_spend"
+Geo27,2023-10-02,2,"Channel2_impression, Channel2_spend"
+Geo27,2023-10-30,2,"Channel2_impression, Channel2_spend"
+Geo27,2023-11-13,2,"Organic_channel0_impression, Promo"
+Geo27,2023-07-10,2,"Channel2_impression, Channel2_spend"
+Geo27,2023-07-24,2,"Channel2_impression, Channel2_spend"
+Geo12,2022-12-19,2,"Channel2_impression, Channel2_spend"
+Geo12,2022-10-31,2,"Organic_channel0_impression, Promo"
+Geo39,2021-05-10,2,"Channel1_impression, Channel1_spend"
+Geo39,2021-08-09,2,"Channel1_impression, Channel1_spend"
+Geo39,2021-04-26,2,"Channel1_impression, Channel1_spend"
+Geo22,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo22,2024-01-15,2,"Channel2_impression, Channel2_spend"
+Geo22,2022-09-05,2,"Channel2_impression, Channel2_spend"
+Geo28,2021-03-29,2,"Channel2_impression, Channel2_spend"
+Geo28,2021-05-10,2,"Organic_channel0_impression, Promo"
+Geo4,2022-08-22,2,"Channel2_impression, Channel2_spend"
+Geo4,2021-10-04,2,"Channel2_impression, Channel2_spend"
+Geo4,2021-04-05,2,"Channel2_impression, Channel2_spend"
+Geo23,2022-09-19,2,"Channel2_impression, Channel2_spend"
+Geo23,2022-05-30,2,"Channel1_impression, Channel1_spend"
+Geo23,2022-03-28,2,"conversions, sentiment_score_control"
+Geo23,2022-04-04,2,"Channel1_impression, Channel1_spend"
+Geo23,2022-01-17,2,"Channel4_impression, Channel4_spend"
+Geo11,2022-11-14,2,"Channel2_impression, Channel2_spend"
+Geo11,2022-12-05,2,"Channel2_impression, Channel2_spend"
+Geo11,2022-12-26,2,"Channel2_impression, Channel2_spend"
+Geo11,2022-09-05,2,"Channel1_impression, Channel1_spend"
+Geo11,2022-10-03,2,"Channel2_impression, Channel2_spend"
+Geo11,2022-06-20,2,"Organic_channel0_impression, Promo"
+Geo11,2022-07-11,2,"Promo, sentiment_score_control"
+Geo4,2022-08-01,2,"Channel2_impression, Channel2_spend"
+Geo23,2021-04-05,2,"Channel2_impression, Channel2_spend"
+Geo23,2021-05-31,2,"Channel1_impression, Channel1_spend"
+Geo23,2021-02-01,2,"Channel1_impression, Channel1_spend"
+Geo23,2021-02-15,2,"Channel1_impression, Channel1_spend"
+Geo27,2023-03-13,2,"Promo, competitor_sales_control"
+Geo27,2022-10-03,2,"Channel2_impression, Channel2_spend"
+Geo27,2021-12-13,2,"Organic_channel0_impression, Promo"
+Geo27,2022-02-21,2,"Channel2_impression, Channel2_spend"
+Geo12,2021-05-24,2,"Channel1_impression, Channel1_spend"
+Geo11,2023-09-11,2,"Organic_channel0_impression, Promo"
+Geo11,2023-06-26,2,"Organic_channel0_impression, Promo"
+Geo11,2023-07-03,2,"Channel2_impression, Channel2_spend"
+Geo23,2021-06-21,2,"Channel1_impression, Channel1_spend"
+Geo23,2021-07-26,2,"Channel0_impression, Channel0_spend"
+Geo23,2021-08-02,2,"Channel2_impression, Channel2_spend"
+Geo23,2021-08-09,2,"Channel2_impression, Channel2_spend"
+Geo10,2023-02-06,2,"Channel2_impression, Channel2_spend"
+Geo10,2023-02-13,2,"Promo, conversions"
+Geo10,2023-02-20,2,"Promo, conversions"
+Geo5,2023-05-01,2,"Channel2_impression, Channel2_spend"
+Geo5,2022-11-07,2,"Channel2_impression, Channel2_spend"
+Geo5,2022-11-28,2,"Channel2_impression, Channel2_spend"
+Geo5,2022-01-03,2,"Channel2_impression, Channel2_spend"
+Geo5,2022-05-16,2,"Promo, competitor_sales_control"
+Geo5,2021-03-08,2,"Channel2_impression, Channel2_spend"
+Geo4,2023-10-09,2,"Channel2_impression, Channel2_spend"
+Geo4,2022-12-19,2,"Channel2_impression, Channel2_spend"
+Geo4,2023-01-09,2,"Channel2_impression, Channel2_spend"
+Geo11,2023-02-20,2,"Channel2_impression, Channel2_spend"
+Geo10,2023-07-24,2,"Organic_channel0_impression, Promo"
+Geo10,2023-03-20,2,"Organic_channel0_impression, Promo"
+Geo10,2023-01-02,2,"Channel1_impression, Channel1_spend"
+Geo11,2021-07-12,2,"Channel2_impression, Channel2_spend"
+Geo11,2021-08-23,2,"Organic_channel0_impression, Promo"
+Geo11,2021-10-18,2,"Channel2_impression, Channel2_spend"
+Geo10,2024-01-15,2,"Channel3_impression, Channel3_spend"
+Geo11,2021-04-05,2,"Channel2_impression, Channel2_spend"
+Geo11,2021-05-03,2,"Organic_channel0_impression, Promo"
+Geo10,2023-11-13,2,"Channel1_impression, Channel1_spend"
+Geo10,2023-11-27,2,"Channel1_impression, Channel1_spend"
+Geo23,2022-01-31,2,"Channel1_impression, Channel1_spend"
+Geo27,2021-07-05,2,"Organic_channel0_impression, Promo"
+Geo27,2021-09-13,2,"Channel2_impression, Channel2_spend"
+Geo27,2021-09-20,2,"Organic_channel0_impression, Promo"
+Geo27,2021-03-15,2,"Channel2_impression, Channel2_spend"
+Geo26,2023-08-21,2,"Channel2_impression, Channel2_spend"
+Geo23,2023-08-07,2,"Channel3_impression, Channel3_spend"
+Geo11,2021-05-31,2,"Channel2_impression, Channel2_spend"
+Geo9,2023-06-26,2,"Channel2_impression, Channel2_spend"
+Geo9,2021-12-06,2,"Channel2_impression, Channel2_spend"
+Geo9,2022-10-10,2,"Channel2_impression, Channel2_spend"
+Geo9,2022-10-17,2,"Channel2_impression, Channel2_spend"
+Geo9,2022-10-31,2,"Channel2_impression, Channel2_spend"
+Geo9,2022-07-18,2,"Channel2_impression, Channel2_spend"
+Geo0,2021-11-22,2,"Promo, sentiment_score_control"
+Geo25,2021-09-06,2,"Channel2_impression, Channel2_spend"
+Geo25,2022-08-15,2,"Channel2_impression, Channel2_spend"
+Geo25,2022-08-29,2,"Channel2_impression, Channel2_spend"
+Geo25,2022-09-05,2,"Channel1_impression, Channel1_spend"
+Geo1,2021-06-28,2,"Promo, competitor_sales_control"
+Geo1,2021-03-29,2,"Channel2_impression, Channel2_spend"
+Geo1,2021-12-13,2,"Promo, sentiment_score_control"
+Geo9,2023-05-01,2,"Channel2_impression, Channel2_spend"
+Geo9,2021-08-02,2,"Channel2_impression, Channel2_spend"
+Geo7,2021-12-27,2,"Channel0_impression, Channel0_spend"
+Geo25,2023-10-09,2,"Channel2_impression, Channel2_spend"
+Geo25,2023-10-16,2,"Organic_channel0_impression, Promo"
+Geo25,2023-06-12,2,"Channel1_impression, Channel1_spend"
+Geo25,2023-07-31,2,"Channel2_impression, Channel2_spend"
+Geo25,2023-08-28,2,"Channel2_impression, Channel2_spend"
+Geo25,2022-10-24,2,"Channel2_impression, Channel2_spend"
+Geo25,2022-11-14,2,"Organic_channel0_impression, Promo"
+Geo7,2023-07-24,2,"Channel2_impression, Channel2_spend"
+Geo7,2023-01-23,2,"Channel2_impression, Channel2_spend"
+Geo1,2023-09-25,2,"Channel2_impression, Channel2_spend"
+Geo7,2022-10-31,2,"Organic_channel0_impression, Promo"
+Geo7,2022-12-05,2,"Channel1_impression, Channel1_spend"
+Geo7,2022-02-28,2,"Channel2_impression, Channel2_spend"
+Geo7,2022-03-21,2,"Channel2_impression, Channel2_spend"
+Geo7,2021-11-15,2,"Organic_channel0_impression, Promo"
+Geo32,2023-07-31,2,"Channel2_impression, Channel2_spend"
+Geo32,2022-09-12,2,"Channel2_impression, Channel2_spend"
+Geo32,2022-10-24,2,"Channel1_impression, Channel1_spend"
+Geo32,2022-11-21,2,"Channel2_impression, Channel2_spend"
+Geo32,2022-01-03,2,"Channel2_impression, Channel2_spend"
+Geo32,2022-03-14,2,"Channel2_impression, Channel2_spend"
+Geo2,2022-01-03,2,"Organic_channel0_impression, Promo"
+Geo2,2022-01-10,2,"Channel2_impression, Channel2_spend"
+Geo32,2021-06-07,2,"Channel2_impression, Channel2_spend"
+Geo31,2023-11-20,2,"Channel4_impression, Channel4_spend"
+Geo19,2022-02-28,2,"Channel2_impression, Channel2_spend"
+Geo19,2021-09-13,2,"Channel2_impression, Channel2_spend"
+Geo19,2021-10-04,2,"Channel2_impression, Channel2_spend"
+Geo32,2023-11-27,2,"Channel2_impression, Channel2_spend"
+Geo32,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo32,2023-09-18,2,"Promo, sentiment_score_control"
+Geo19,2023-11-13,2,"Promo, sentiment_score_control"
+Geo19,2023-12-04,2,"Channel2_impression, Channel2_spend"
+Geo19,2023-08-07,2,"Promo, competitor_sales_control"
+Geo32,2021-07-26,2,"Channel1_impression, Channel1_spend"
+Geo32,2021-08-30,2,"Organic_channel0_impression, Promo"
+Geo32,2021-10-04,2,"Channel2_impression, Channel2_spend"
+Geo32,2021-03-22,2,"Organic_channel0_impression, Promo"
+Geo32,2021-05-17,2,"Channel2_impression, Channel2_spend"
+Geo25,2021-01-25,2,"Channel0_impression, Channel0_spend"
+Geo25,2021-02-01,2,"Channel1_impression, Channel1_spend"
+Geo25,2021-05-03,2,"Channel2_impression, Channel2_spend"
+Geo9,2023-10-09,2,"Channel2_impression, Channel2_spend"
+Geo9,2022-10-03,2,"Channel2_impression, Channel2_spend"
+Geo32,2022-05-02,2,"Channel2_impression, Channel2_spend"
+Geo32,2021-11-08,2,"Channel2_impression, Channel2_spend"
+Geo32,2021-11-15,2,"Channel2_impression, Channel2_spend"
+Geo0,2021-04-19,1,Promo
+Geo0,2021-09-27,1,Promo
+Geo0,2021-04-26,1,Promo
+Geo0,2021-05-03,1,Promo
+Geo0,2021-07-05,1,Promo
+Geo0,2021-08-02,1,Promo
+Geo0,2021-08-16,1,Promo
+Geo0,2021-09-06,1,Promo
+Geo0,2021-09-20,1,Promo
+Geo0,2023-11-13,1,Promo
+Geo0,2023-12-04,1,Promo
+Geo0,2023-12-11,1,Promo
+Geo1,2021-03-22,1,Promo
+Geo1,2021-05-31,1,Promo
+Geo1,2021-06-21,1,Promo
+Geo1,2021-07-05,1,Promo
+Geo1,2021-08-09,1,Promo
+Geo0,2023-06-26,1,Promo
+Geo0,2023-07-10,1,Promo
+Geo0,2023-08-07,1,Promo
+Geo0,2023-08-14,1,Promo
+Geo0,2023-09-04,1,Promo
+Geo0,2023-09-11,1,Promo
+Geo0,2023-09-25,1,Promo
+Geo0,2023-10-23,1,Promo
+Geo9,2021-03-22,1,Promo
+Geo9,2021-03-29,1,Promo
+Geo0,2023-02-13,1,Promo
+Geo0,2021-02-15,1,Promo
+Geo0,2023-02-27,1,Promo
+Geo0,2023-05-01,1,Promo
+Geo0,2023-05-22,1,Promo
+Geo0,2023-05-29,1,Promo
+Geo8,2023-08-07,1,Promo
+Geo8,2023-10-23,1,Promo
+Geo8,2023-11-27,1,Promo
+Geo8,2023-12-04,1,Promo
+Geo8,2023-12-11,1,Promo
+Geo8,2023-12-18,1,Promo
+Geo8,2024-01-01,1,Promo
+Geo9,2021-03-01,1,Promo
+Geo24,2022-10-10,1,Promo
+Geo24,2022-12-12,1,Promo
+Geo24,2023-01-02,1,Promo
+Geo24,2023-01-09,1,Promo
+Geo24,2023-02-20,1,Promo
+Geo24,2023-04-10,1,Promo
+Geo24,2023-05-08,1,Promo
+Geo24,2023-05-15,1,Promo
+Geo24,2022-06-20,1,Promo
+Geo24,2022-06-27,1,Promo
+Geo24,2022-07-04,1,Promo
+Geo24,2022-07-11,1,Promo
+Geo24,2022-07-18,1,Promo
+Geo24,2022-08-22,1,Promo
+Geo24,2022-08-29,1,Promo
+Geo24,2022-09-26,1,Promo
+Geo25,2021-05-10,1,Organic_channel0_impression
+Geo25,2021-05-17,1,Promo
+Geo25,2021-07-26,1,Organic_channel0_impression
+Geo25,2022-01-24,1,Promo
+Geo25,2022-04-04,1,Promo
+Geo25,2022-04-11,1,Promo
+Geo25,2022-05-16,1,Promo
+Geo25,2022-05-23,1,Promo
+Geo9,2023-08-14,1,Promo
+Geo9,2023-09-25,1,Promo
+Geo9,2023-11-20,1,Promo
+Geo9,2023-11-27,1,Organic_channel0_impression
+Geo24,2024-01-01,1,Promo
+Geo25,2021-02-22,1,Promo
+Geo25,2021-03-22,1,Promo
+Geo25,2021-03-29,1,Promo
+Geo25,2023-03-27,1,Promo
+Geo25,2023-05-15,1,Promo
+Geo25,2023-05-29,1,Promo
+Geo25,2023-06-19,1,Promo
+Geo25,2023-11-27,1,Promo
+Geo25,2024-01-15,1,Promo
+Geo26,2021-02-08,1,Promo
+Geo26,2021-03-08,1,Promo
+Geo25,2022-05-30,1,Promo
+Geo25,2022-06-20,1,Promo
+Geo25,2022-06-27,1,Promo
+Geo25,2022-07-11,1,Promo
+Geo25,2022-07-18,1,Promo
+Geo25,2022-10-17,1,Promo
+Geo25,2023-01-02,1,Promo
+Geo25,2023-03-13,1,Promo
+Geo24,2023-08-28,1,Promo
+Geo24,2023-09-04,1,Promo
+Geo24,2023-09-11,1,Promo
+Geo24,2023-10-09,1,Promo
+Geo24,2023-10-23,1,Promo
+Geo24,2023-10-30,1,Promo
+Geo24,2023-11-20,1,Promo
+Geo24,2023-12-11,1,Promo
+Geo24,2023-05-22,1,Promo
+Geo24,2023-05-29,1,Promo
+Geo24,2023-06-05,1,Promo
+Geo24,2023-07-03,1,Promo
+Geo24,2023-07-10,1,Promo
+Geo24,2023-07-24,1,Promo
+Geo24,2023-07-31,1,Promo
+Geo24,2023-08-14,1,Promo
+Geo24,2021-11-22,1,Promo
+Geo24,2021-12-27,1,Promo
+Geo24,2022-01-10,1,Promo
+Geo24,2022-01-17,1,Promo
+Geo24,2022-03-28,1,Promo
+Geo24,2022-05-02,1,Promo
+Geo24,2022-06-06,1,Promo
+Geo24,2022-06-13,1,Promo
+Geo24,2021-04-05,1,Promo
+Geo24,2021-05-10,1,Promo
+Geo24,2021-06-14,1,Promo
+Geo24,2021-08-09,1,Promo
+Geo24,2021-08-30,1,Promo
+Geo24,2021-10-18,1,Promo
+Geo24,2021-11-08,1,Promo
+Geo24,2021-11-15,1,Promo
+Geo26,2021-10-11,1,Promo
+Geo23,2023-10-16,1,Organic_channel0_impression
+Geo23,2023-11-13,1,Promo
+Geo23,2023-12-18,1,Promo
+Geo23,2024-01-15,1,Promo
+Geo24,2021-02-15,1,Promo
+Geo24,2021-03-01,1,Promo
+Geo24,2021-03-22,1,Promo
+Geo26,2021-05-31,1,Promo
+Geo26,2021-06-28,1,Promo
+Geo26,2021-07-05,1,Promo
+Geo26,2021-08-09,1,Promo
+Geo26,2021-08-23,1,Promo
+Geo26,2021-08-30,1,Promo
+Geo26,2021-09-20,1,Promo
+Geo26,2021-09-27,1,Promo
+Geo26,2023-04-17,1,Promo
+Geo26,2023-05-01,1,Promo
+Geo26,2023-05-15,1,Promo
+Geo26,2023-05-29,1,Promo
+Geo23,2023-01-09,1,Promo
+Geo23,2023-02-27,1,Promo
+Geo23,2023-03-20,1,competitor_sales_control
+Geo23,2023-04-10,1,Promo
+Geo26,2022-10-03,1,Promo
+Geo26,2022-10-24,1,Promo
+Geo26,2022-11-07,1,Promo
+Geo26,2022-11-14,1,Promo
+Geo26,2022-12-05,1,Promo
+Geo26,2023-01-02,1,Promo
+Geo26,2023-02-27,1,Promo
+Geo26,2023-04-03,1,Promo
+Geo26,2022-06-27,1,Promo
+Geo26,2022-07-04,1,Promo
+Geo26,2022-07-11,1,Promo
+Geo26,2022-07-18,1,Promo
+Geo26,2022-08-08,1,Promo
+Geo26,2022-08-22,1,Promo
+Geo26,2022-08-29,1,Promo
+Geo26,2022-09-26,1,Promo
+Geo26,2021-10-18,1,Promo
+Geo26,2021-11-08,1,Promo
+Geo26,2021-11-15,1,Promo
+Geo26,2021-12-13,1,Promo
+Geo26,2022-01-10,1,sentiment_score_control
+Geo26,2022-04-04,1,Promo
+Geo26,2022-05-02,1,Promo
+Geo26,2022-05-30,1,Promo
+Geo27,2021-06-21,1,Promo
+Geo27,2021-08-02,1,Promo
+Geo27,2021-10-11,1,Promo
+Geo23,2021-11-29,1,Organic_channel0_impression
+Geo23,2021-12-27,1,Promo
+Geo23,2022-02-07,1,Promo
+Geo23,2022-02-28,1,conversions
+Geo23,2022-04-18,1,sentiment_score_control
+Geo26,2023-12-25,1,Promo
+Geo26,2024-01-01,1,Promo
+Geo27,2021-03-01,1,Promo
+Geo27,2021-04-05,1,Promo
+Geo27,2021-04-26,1,Promo
+Geo27,2021-05-10,1,Promo
+Geo27,2021-05-17,1,Organic_channel0_impression
+Geo27,2021-05-31,1,Promo
+Geo26,2023-08-14,1,Promo
+Geo26,2023-08-28,1,Promo
+Geo26,2023-09-11,1,Promo
+Geo26,2023-10-09,1,Promo
+Geo26,2023-10-23,1,Promo
+Geo26,2023-11-06,1,Promo
+Geo26,2023-11-20,1,Promo
+Geo26,2023-12-11,1,Promo
+Geo23,2023-05-15,1,Promo
+Geo23,2023-06-12,1,Promo
+Geo23,2023-07-31,1,Promo
+Geo26,2023-06-05,1,Promo
+Geo26,2023-06-26,1,Promo
+Geo26,2023-07-24,1,Promo
+Geo26,2023-07-31,1,Promo
+Geo26,2023-08-07,1,Promo
+Geo27,2023-02-20,1,Promo
+Geo27,2023-02-27,1,Promo
+Geo27,2023-04-03,1,Promo
+Geo27,2023-04-17,1,Promo
+Geo27,2023-05-15,1,Promo
+Geo23,2021-02-08,1,Promo
+Geo23,2021-03-08,1,Organic_channel0_impression
+Geo23,2021-03-29,1,Organic_channel0_impression
+Geo27,2022-08-15,1,Promo
+Geo27,2022-08-22,1,Promo
+Geo27,2022-08-29,1,Promo
+Geo27,2022-09-05,1,Promo
+Geo27,2022-10-10,1,Promo
+Geo27,2022-12-26,1,Promo
+Geo27,2023-01-02,1,Promo
+Geo27,2023-01-30,1,Promo
+Geo27,2022-03-14,1,Promo
+Geo27,2022-03-28,1,Promo
+Geo27,2022-06-06,1,Promo
+Geo27,2022-06-13,1,Organic_channel0_impression
+Geo27,2022-06-27,1,Promo
+Geo27,2022-07-04,1,Promo
+Geo27,2022-07-25,1,Organic_channel0_impression
+Geo27,2022-08-08,1,Promo
+Geo23,2022-05-02,1,Promo
+Geo23,2022-05-23,1,Promo
+Geo23,2022-06-06,1,Organic_channel0_impression
+Geo23,2022-06-27,1,Organic_channel0_impression
+Geo23,2022-07-04,1,Promo
+Geo27,2021-10-25,1,Promo
+Geo27,2021-12-27,1,Promo
+Geo27,2022-01-10,1,Promo
+Geo22,2023-02-13,1,Promo
+Geo22,2023-04-03,1,Promo
+Geo22,2023-04-10,1,Promo
+Geo22,2023-05-22,1,Promo
+Geo22,2023-05-29,1,Promo
+Geo22,2023-06-05,1,Promo
+Geo22,2023-06-26,1,Promo
+Geo22,2023-07-10,1,Promo
+Geo28,2021-04-19,1,competitor_sales_control
+Geo28,2021-05-17,1,Promo
+Geo28,2021-06-21,1,Promo
+Geo22,2022-08-22,1,Promo
+Geo22,2022-10-03,1,Promo
+Geo22,2022-10-17,1,Promo
+Geo22,2022-10-24,1,Promo
+Geo22,2023-01-09,1,Promo
+Geo27,2023-09-18,1,Promo
+Geo27,2023-09-25,1,Promo
+Geo27,2023-11-06,1,Promo
+Geo27,2024-01-01,1,Promo
+Geo28,2021-02-08,1,competitor_sales_control
+Geo28,2021-02-15,1,Promo
+Geo28,2021-03-22,1,Promo
+Geo28,2021-04-05,1,Promo
+Geo23,2021-04-26,1,sentiment_score_control
+Geo23,2021-06-07,1,conversions
+Geo23,2021-07-05,1,Promo
+Geo23,2021-07-19,1,Promo
+Geo27,2023-05-22,1,Promo
+Geo27,2023-06-05,1,Organic_channel0_impression
+Geo27,2023-08-07,1,Promo
+Geo27,2023-08-28,1,Promo
+Geo28,2022-05-16,1,Promo
+Geo28,2022-05-30,1,Promo
+Geo28,2022-06-27,1,Promo
+Geo21,2024-01-15,1,Promo
+Geo22,2021-02-08,1,Promo
+Geo22,2021-02-15,1,Promo
+Geo22,2021-03-08,1,sentiment_score_control
+Geo22,2021-03-29,1,Promo
+Geo28,2021-10-18,1,Promo
+Geo28,2021-11-15,1,Promo
+Geo28,2021-12-06,1,Promo
+Geo28,2021-12-27,1,Promo
+Geo28,2022-01-10,1,Promo
+Geo28,2022-01-17,1,Promo
+Geo28,2022-03-21,1,competitor_sales_control
+Geo28,2022-04-25,1,Promo
+Geo22,2024-01-08,1,Promo
+Geo28,2021-07-05,1,Promo
+Geo28,2021-07-19,1,sentiment_score_control
+Geo28,2021-07-26,1,Promo
+Geo28,2021-08-16,1,Promo
+Geo28,2021-09-06,1,Promo
+Geo28,2021-09-20,1,Promo
+Geo28,2021-09-27,1,Promo
+Geo22,2023-08-14,1,Promo
+Geo22,2023-09-18,1,Promo
+Geo22,2023-10-02,1,Promo
+Geo22,2023-10-16,1,Promo
+Geo22,2023-11-06,1,Promo
+Geo22,2023-11-20,1,Promo
+Geo22,2023-12-11,1,Promo
+Geo22,2023-12-18,1,Promo
+Geo28,2023-08-28,1,Promo
+Geo28,2023-09-11,1,Organic_channel0_impression
+Geo28,2023-10-30,1,Promo
+Geo28,2023-11-06,1,Promo
+Geo28,2023-12-18,1,Promo
+Geo28,2023-12-25,1,Promo
+Geo28,2024-01-01,1,Promo
+Geo29,2021-02-08,1,Promo
+Geo22,2022-07-04,1,Promo
+Geo22,2022-07-25,1,Promo
+Geo28,2022-09-26,1,Promo
+Geo28,2023-02-06,1,Organic_channel0_impression
+Geo28,2023-02-20,1,Organic_channel0_impression
+Geo28,2023-04-17,1,Promo
+Geo28,2023-07-03,1,Promo
+Geo28,2023-08-14,1,Promo
+Geo22,2021-12-20,1,Promo
+Geo22,2021-12-27,1,Promo
+Geo22,2022-01-03,1,Promo
+Geo22,2022-02-14,1,Promo
+Geo22,2022-04-18,1,Promo
+Geo22,2022-05-02,1,Promo
+Geo22,2022-05-16,1,Promo
+Geo22,2022-06-13,1,Promo
+Geo22,2021-04-05,1,Promo
+Geo22,2021-04-19,1,Promo
+Geo22,2021-05-03,1,Promo
+Geo22,2021-06-14,1,Promo
+Geo22,2021-06-28,1,Promo
+Geo22,2021-08-09,1,Promo
+Geo22,2021-11-22,1,Promo
+Geo22,2021-12-06,1,Promo
+Geo21,2023-05-29,1,Promo
+Geo21,2023-07-10,1,Promo
+Geo21,2023-08-14,1,Promo
+Geo21,2023-08-21,1,Promo
+Geo21,2023-09-04,1,Promo
+Geo21,2023-11-06,1,Promo
+Geo21,2023-11-27,1,Promo
+Geo21,2023-12-11,1,Promo
+Geo21,2023-01-02,1,Promo
+Geo21,2023-01-09,1,Promo
+Geo21,2023-02-06,1,Promo
+Geo21,2023-03-06,1,sentiment_score_control
+Geo21,2023-03-27,1,Promo
+Geo21,2023-04-03,1,Promo
+Geo21,2023-04-10,1,Promo
+Geo21,2023-05-22,1,Promo
+Geo29,2021-07-19,1,Promo
+Geo29,2021-11-29,1,Promo
+Geo29,2021-12-06,1,Promo
+Geo29,2021-12-27,1,Promo
+Geo29,2022-01-03,1,Promo
+Geo29,2022-01-10,1,Promo
+Geo29,2022-01-24,1,Promo
+Geo29,2022-03-07,1,Promo
+Geo29,2021-03-01,1,Promo
+Geo29,2021-03-22,1,Promo
+Geo29,2021-04-05,1,Promo
+Geo29,2021-04-26,1,Promo
+Geo29,2021-05-17,1,Promo
+Geo29,2021-06-21,1,Promo
+Geo29,2021-06-28,1,Promo
+Geo29,2021-07-05,1,Promo
+Geo29,2023-11-06,1,Promo
+Geo29,2023-11-20,1,Promo
+Geo29,2023-12-04,1,Promo
+Geo29,2023-12-18,1,Promo
+Geo3,2021-02-15,1,Promo
+Geo3,2021-03-29,1,Promo
+Geo3,2021-04-26,1,sentiment_score_control
+Geo3,2021-05-17,1,Promo
+Geo29,2023-04-03,1,Promo
+Geo29,2023-04-10,1,Promo
+Geo29,2023-05-15,1,Promo
+Geo29,2023-05-29,1,Promo
+Geo29,2023-06-05,1,Promo
+Geo29,2023-06-12,1,Promo
+Geo29,2023-07-24,1,Promo
+Geo29,2023-08-14,1,Promo
+Geo29,2022-08-08,1,Promo
+Geo29,2022-08-29,1,Promo
+Geo29,2022-09-26,1,Promo
+Geo29,2022-11-21,1,Promo
+Geo29,2022-12-12,1,Promo
+Geo29,2023-01-09,1,Promo
+Geo29,2023-03-20,1,competitor_sales_control
+Geo29,2023-03-27,1,Promo
+Geo21,2023-12-18,1,Promo
+Geo21,2023-12-25,1,Promo
+Geo29,2022-03-21,1,Promo
+Geo29,2022-04-04,1,Promo
+Geo29,2022-06-27,1,Promo
+Geo29,2022-07-04,1,Promo
+Geo29,2022-07-18,1,Promo
+Geo29,2022-07-25,1,Promo
+Geo21,2021-12-13,1,sentiment_score_control
+Geo21,2022-03-28,1,Promo
+Geo21,2022-04-11,1,Promo
+Geo21,2022-04-18,1,sentiment_score_control
+Geo21,2022-05-02,1,Organic_channel0_impression
+Geo21,2022-07-04,1,Promo
+Geo21,2022-07-11,1,Promo
+Geo21,2022-07-18,1,Promo
+Geo3,2022-10-17,1,Promo
+Geo3,2022-11-07,1,Promo
+Geo3,2022-11-21,1,Promo
+Geo21,2021-08-09,1,Promo
+Geo21,2021-09-27,1,Promo
+Geo21,2021-10-04,1,Promo
+Geo21,2021-10-18,1,Promo
+Geo21,2021-11-08,1,Promo
+Geo3,2022-01-24,1,Promo
+Geo3,2022-02-07,1,Promo
+Geo3,2022-03-28,1,Promo
+Geo3,2022-04-04,1,Promo
+Geo3,2022-06-20,1,Promo
+Geo3,2022-06-27,1,Promo
+Geo3,2022-07-04,1,Promo
+Geo3,2022-09-26,1,Promo
+Geo3,2021-06-07,1,Promo
+Geo3,2021-06-14,1,Promo
+Geo3,2021-06-21,1,Promo
+Geo3,2021-06-28,1,Promo
+Geo3,2021-08-09,1,Promo
+Geo3,2021-10-11,1,Promo
+Geo3,2021-12-20,1,Promo
+Geo3,2021-12-27,1,Promo
+Geo30,2021-06-14,1,Promo
+Geo30,2021-06-21,1,Promo
+Geo30,2021-09-20,1,Promo
+Geo30,2021-10-11,1,Promo
+Geo30,2021-10-18,1,Promo
+Geo30,2021-11-15,1,Promo
+Geo30,2021-12-13,1,Promo
+Geo30,2021-12-20,1,Promo
+Geo3,2023-11-20,1,Promo
+Geo3,2023-12-11,1,Promo
+Geo3,2024-01-15,1,Promo
+Geo30,2021-02-15,1,Promo
+Geo30,2021-02-22,1,Promo
+Geo30,2021-03-22,1,Promo
+Geo30,2021-04-05,1,Promo
+Geo30,2021-05-31,1,Promo
+Geo3,2023-05-01,1,Promo
+Geo3,2023-05-15,1,competitor_sales_control
+Geo3,2023-05-29,1,Promo
+Geo3,2023-07-17,1,Promo
+Geo3,2023-07-31,1,Promo
+Geo3,2023-08-07,1,Promo
+Geo3,2023-10-30,1,Promo
+Geo3,2023-11-06,1,Promo
+Geo21,2022-08-08,1,Promo
+Geo21,2022-08-15,1,Promo
+Geo21,2022-08-22,1,Promo
+Geo21,2022-08-29,1,Promo
+Geo21,2022-09-19,1,Promo
+Geo3,2022-12-12,1,Promo
+Geo3,2023-01-02,1,Promo
+Geo3,2023-04-10,1,Promo
+Geo30,2023-08-14,1,Promo
+Geo30,2023-09-11,1,Promo
+Geo30,2023-09-18,1,Promo
+Geo20,2023-03-06,1,Promo
+Geo20,2023-05-01,1,Promo
+Geo20,2023-05-22,1,Promo
+Geo20,2023-06-12,1,Promo
+Geo20,2023-07-10,1,Promo
+Geo30,2022-12-12,1,Promo
+Geo30,2023-01-09,1,Promo
+Geo30,2023-02-13,1,Promo
+Geo30,2023-03-06,1,Promo
+Geo30,2023-04-03,1,competitor_sales_control
+Geo30,2023-05-15,1,Promo
+Geo30,2023-06-05,1,Promo
+Geo30,2023-08-07,1,Promo
+Geo30,2022-07-04,1,Promo
+Geo30,2022-07-18,1,Promo
+Geo30,2022-09-05,1,Promo
+Geo30,2022-09-26,1,Promo
+Geo30,2022-10-03,1,Promo
+Geo30,2022-10-10,1,Promo
+Geo30,2022-11-21,1,Promo
+Geo30,2022-12-05,1,Promo
+Geo30,2021-12-27,1,Promo
+Geo30,2022-02-07,1,Promo
+Geo30,2022-03-28,1,Promo
+Geo30,2022-04-25,1,Promo
+Geo30,2022-05-16,1,Promo
+Geo30,2022-06-06,1,Promo
+Geo30,2022-06-20,1,Promo
+Geo30,2022-06-27,1,Promo
+Geo31,2021-04-05,1,Promo
+Geo31,2021-04-19,1,Promo
+Geo31,2021-06-07,1,Promo
+Geo31,2021-07-19,1,Organic_channel0_impression
+Geo31,2021-09-06,1,Organic_channel0_impression
+Geo20,2021-12-06,1,Promo
+Geo20,2021-12-20,1,Promo
+Geo20,2022-04-04,1,Promo
+Geo30,2023-09-25,1,Promo
+Geo30,2023-10-02,1,Promo
+Geo30,2023-11-06,1,Promo
+Geo30,2023-11-20,1,Promo
+Geo30,2023-12-11,1,Promo
+Geo30,2023-12-18,1,Promo
+Geo31,2021-02-08,1,Promo
+Geo31,2021-02-15,1,Promo
+Geo20,2024-01-01,1,Promo
+Geo21,2021-02-08,1,Promo
+Geo21,2021-04-12,1,Promo
+Geo21,2021-04-19,1,Promo
+Geo21,2021-05-17,1,Promo
+Geo21,2021-06-21,1,Promo
+Geo21,2021-06-28,1,Promo
+Geo21,2021-07-05,1,Promo
+Geo20,2023-08-07,1,Promo
+Geo20,2023-08-14,1,Promo
+Geo20,2023-08-21,1,Promo
+Geo20,2023-08-28,1,Promo
+Geo20,2023-09-18,1,sentiment_score_control
+Geo20,2023-11-06,1,Promo
+Geo20,2023-11-27,1,Promo
+Geo20,2023-12-11,1,Promo
+Geo2,2023-12-18,1,Promo
+Geo2,2024-01-08,1,Organic_channel0_impression
+Geo20,2021-02-08,1,Promo
+Geo20,2021-02-15,1,Promo
+Geo20,2021-05-17,1,Promo
+Geo20,2021-05-24,1,Promo
+Geo20,2021-05-31,1,Promo
+Geo20,2021-07-05,1,Promo
+Geo31,2022-03-28,1,Organic_channel0_impression
+Geo31,2022-05-30,1,Organic_channel0_impression
+Geo31,2022-06-27,1,Promo
+Geo31,2022-08-01,1,Organic_channel0_impression
+Geo31,2022-08-15,1,Promo
+Geo31,2022-09-12,1,Organic_channel0_impression
+Geo31,2022-10-24,1,Promo
+Geo2,2023-12-11,1,Promo
+Geo20,2022-11-21,1,Promo
+Geo20,2022-12-05,1,Promo
+Geo20,2023-01-09,1,Promo
+Geo20,2023-01-16,1,Promo
+Geo20,2023-02-13,1,Promo
+Geo31,2021-10-25,1,Promo
+Geo31,2022-03-14,1,conversions
+Geo31,2022-03-21,1,Promo
+Geo20,2022-05-23,1,Promo
+Geo20,2022-05-30,1,Promo
+Geo20,2022-06-27,1,Promo
+Geo20,2022-07-04,1,Promo
+Geo20,2022-07-25,1,Promo
+Geo20,2022-08-22,1,Promo
+Geo20,2022-10-17,1,Promo
+Geo20,2022-11-14,1,Promo
+Geo31,2023-09-11,1,conversions
+Geo2,2022-02-07,1,Organic_channel0_impression
+Geo2,2022-02-28,1,conversions
+Geo2,2022-04-04,1,Promo
+Geo2,2022-04-25,1,Promo
+Geo2,2022-05-23,1,Promo
+Geo2,2022-06-06,1,Organic_channel0_impression
+Geo2,2022-08-01,1,Promo
+Geo31,2023-03-06,1,Organic_channel0_impression
+Geo31,2023-03-13,1,Organic_channel0_impression
+Geo31,2023-04-24,1,Organic_channel0_impression
+Geo31,2023-05-01,1,Promo
+Geo31,2023-05-15,1,Promo
+Geo31,2023-05-22,1,Promo
+Geo31,2023-05-29,1,competitor_sales_control
+Geo31,2023-06-05,1,Organic_channel0_impression
+Geo2,2023-04-10,1,Promo
+Geo2,2023-05-29,1,Promo
+Geo2,2023-07-31,1,Organic_channel0_impression
+Geo2,2023-08-07,1,Promo
+Geo31,2022-12-26,1,Promo
+Geo31,2023-01-16,1,Organic_channel0_impression
+Geo31,2023-02-06,1,Organic_channel0_impression
+Geo31,2023-02-27,1,Promo
+Geo20,2021-10-11,1,Promo
+Geo20,2021-10-18,1,Promo
+Geo20,2021-10-25,1,Promo
+Geo2,2022-12-12,1,Promo
+Geo2,2022-12-26,1,Organic_channel0_impression
+Geo2,2023-01-02,1,sentiment_score_control
+Geo2,2023-01-23,1,Promo
+Geo2,2023-03-27,1,Promo
+Geo19,2022-11-14,1,Promo
+Geo19,2022-12-12,1,Promo
+Geo19,2022-12-19,1,Promo
+Geo19,2023-01-09,1,Promo
+Geo19,2023-01-16,1,Promo
+Geo19,2023-02-20,1,Promo
+Geo19,2023-02-27,1,Promo
+Geo19,2023-03-13,1,Promo
+Geo32,2021-01-25,1,Promo
+Geo32,2021-02-01,1,Organic_channel0_impression
+Geo32,2021-02-22,1,Promo
+Geo32,2021-03-08,1,Organic_channel0_impression
+Geo32,2021-05-10,1,Promo
+Geo32,2021-05-24,1,Promo
+Geo32,2021-07-12,1,Promo
+Geo32,2021-08-23,1,Promo
+Geo2,2021-10-18,1,Promo
+Geo2,2021-11-01,1,competitor_sales_control
+Geo31,2023-10-23,1,Promo
+Geo31,2023-11-06,1,Promo
+Geo31,2023-12-18,1,Promo
+Geo31,2023-12-25,1,Organic_channel0_impression
+Geo31,2024-01-01,1,Promo
+Geo31,2024-01-15,1,Organic_channel0_impression
+Geo2,2021-03-22,1,Promo
+Geo2,2021-05-03,1,Promo
+Geo2,2021-05-10,1,Promo
+Geo2,2021-05-31,1,Promo
+Geo2,2021-06-28,1,Promo
+Geo2,2021-08-02,1,Promo
+Geo2,2021-08-09,1,Promo
+Geo2,2021-08-23,1,Promo
+Geo32,2022-06-06,1,Promo
+Geo32,2022-07-11,1,Promo
+Geo32,2022-07-18,1,Promo
+Geo32,2022-10-03,1,Promo
+Geo32,2022-10-17,1,Promo
+Geo32,2022-12-12,1,Promo
+Geo32,2022-12-19,1,Promo
+Geo32,2023-01-02,1,Promo
+Geo32,2021-11-22,1,Promo
+Geo32,2021-12-06,1,Promo
+Geo32,2021-12-27,1,Promo
+Geo32,2022-01-31,1,Promo
+Geo32,2022-02-14,1,Organic_channel0_impression
+Geo32,2022-03-28,1,sentiment_score_control
+Geo32,2022-04-11,1,Organic_channel0_impression
+Geo32,2022-05-16,1,Promo
+Geo19,2023-08-21,1,Promo
+Geo19,2023-08-28,1,Promo
+Geo19,2023-09-11,1,Promo
+Geo19,2023-10-02,1,Promo
+Geo19,2023-10-09,1,Promo
+Geo19,2023-12-11,1,Promo
+Geo19,2024-01-01,1,Promo
+Geo32,2021-10-25,1,Promo
+Geo19,2023-04-03,1,Promo
+Geo19,2023-04-10,1,Promo
+Geo19,2023-05-08,1,Promo
+Geo19,2023-05-22,1,Promo
+Geo19,2023-06-12,1,Promo
+Geo19,2023-06-26,1,Promo
+Geo19,2023-07-03,1,Promo
+Geo19,2023-08-14,1,Promo
+Geo19,2022-04-04,1,Promo
+Geo19,2022-04-11,1,Promo
+Geo19,2022-06-13,1,Promo
+Geo19,2022-07-04,1,Promo
+Geo19,2022-07-18,1,Promo
+Geo19,2022-08-01,1,Promo
+Geo19,2022-08-29,1,Promo
+Geo19,2022-09-12,1,Promo
+Geo19,2021-08-23,1,Promo
+Geo19,2021-09-06,1,Promo
+Geo19,2021-09-20,1,Promo
+Geo19,2021-11-08,1,Promo
+Geo19,2021-11-15,1,Promo
+Geo19,2021-12-27,1,Promo
+Geo19,2022-01-17,1,Promo
+Geo19,2022-03-28,1,Promo
+Geo32,2023-08-28,1,Promo
+Geo32,2023-09-25,1,Promo
+Geo32,2023-10-02,1,Promo
+Geo32,2023-10-23,1,Promo
+Geo32,2024-01-01,1,Promo
+Geo32,2024-01-15,1,Organic_channel0_impression
+Geo33,2021-01-25,1,Promo
+Geo19,2021-08-09,1,Promo
+Geo32,2023-01-09,1,Promo
+Geo32,2023-02-27,1,Promo
+Geo32,2023-03-20,1,sentiment_score_control
+Geo32,2023-05-08,1,Promo
+Geo32,2023-05-29,1,Promo
+Geo32,2023-06-05,1,Promo
+Geo32,2023-07-10,1,Promo
+Geo32,2023-08-14,1,Promo
+Geo18,2023-08-14,1,Promo
+Geo18,2023-10-02,1,Organic_channel0_impression
+Geo18,2023-11-06,1,Promo
+Geo18,2024-01-01,1,Promo
+Geo19,2021-01-25,1,Promo
+Geo19,2021-03-01,1,Promo
+Geo19,2021-03-22,1,Promo
+Geo19,2021-05-17,1,Promo
+Geo33,2022-04-11,1,Promo
+Geo33,2022-04-25,1,Promo
+Geo33,2022-05-30,1,Promo
+Geo18,2023-06-19,1,Promo
+Geo18,2023-06-26,1,Organic_channel0_impression
+Geo18,2023-07-03,1,Promo
+Geo18,2023-07-31,1,Promo
+Geo18,2023-08-07,1,Promo
+Geo33,2021-08-09,1,Promo
+Geo33,2021-08-23,1,Promo
+Geo33,2021-08-30,1,Promo
+Geo33,2021-09-20,1,Promo
+Geo33,2021-11-29,1,Promo
+Geo33,2021-12-06,1,Promo
+Geo33,2021-12-27,1,Promo
+Geo33,2022-02-07,1,Promo
+Geo19,2022-10-03,1,Promo
+Geo19,2022-10-10,1,competitor_sales_control
+Geo33,2021-02-22,1,Promo
+Geo33,2021-03-22,1,Promo
+Geo33,2021-04-05,1,Promo
+Geo33,2021-05-10,1,Promo
+Geo33,2021-05-31,1,Promo
+Geo33,2021-07-05,1,Promo
+Geo18,2022-06-20,1,Promo
+Geo18,2022-06-27,1,Promo
+Geo18,2022-07-18,1,Promo
+Geo18,2022-08-01,1,Promo
+Geo18,2022-08-15,1,Promo
+Geo18,2022-10-24,1,Promo
+Geo18,2022-10-31,1,Promo
+Geo18,2022-11-07,1,competitor_sales_control
+Geo33,2023-03-20,1,competitor_sales_control
+Geo33,2023-04-03,1,competitor_sales_control
+Geo33,2023-04-10,1,Promo
+Geo33,2023-05-29,1,Promo
+Geo33,2023-06-05,1,Promo
+Geo33,2023-07-10,1,Promo
+Geo18,2022-03-28,1,Promo
+Geo18,2022-04-18,1,Promo
+Geo33,2022-10-31,1,Promo
+Geo33,2022-11-14,1,Promo
+Geo33,2022-11-21,1,Promo
+Geo33,2022-12-12,1,Promo
+Geo33,2023-01-02,1,Promo
+Geo33,2023-01-23,1,Promo
+Geo33,2023-02-13,1,Promo
+Geo33,2023-02-20,1,Promo
+Geo19,2021-05-31,1,Promo
+Geo33,2022-07-04,1,Promo
+Geo33,2022-07-11,1,Promo
+Geo33,2022-08-15,1,Promo
+Geo33,2022-08-22,1,Promo
+Geo33,2022-08-29,1,Organic_channel0_impression
+Geo33,2022-09-05,1,Promo
+Geo33,2022-09-26,1,Promo
+Geo34,2021-10-18,1,Promo
+Geo34,2021-11-08,1,Promo
+Geo34,2021-11-15,1,Promo
+Geo34,2021-12-20,1,Promo
+Geo34,2021-12-27,1,Promo
+Geo34,2022-02-07,1,Promo
+Geo34,2022-03-28,1,Promo
+Geo34,2022-06-06,1,Promo
+Geo34,2021-01-25,1,Organic_channel0_impression
+Geo34,2021-03-29,1,Promo
+Geo34,2021-04-05,1,Promo
+Geo34,2021-05-17,1,Promo
+Geo34,2021-05-31,1,Promo
+Geo34,2021-08-09,1,Promo
+Geo34,2021-09-06,1,Promo
+Geo34,2021-09-13,1,Promo
+Geo18,2023-05-15,1,Promo
+Geo18,2023-05-29,1,Promo
+Geo33,2023-07-24,1,Promo
+Geo33,2023-07-31,1,Promo
+Geo33,2023-08-07,1,Promo
+Geo33,2023-08-14,1,Promo
+Geo33,2023-12-11,1,Promo
+Geo33,2023-12-25,1,Promo
+Geo18,2022-11-21,1,Promo
+Geo18,2022-12-12,1,Promo
+Geo18,2022-12-19,1,Promo
+Geo18,2023-01-23,1,Promo
+Geo18,2023-02-13,1,Promo
+Geo18,2023-03-13,1,Promo
+Geo18,2023-04-17,1,Promo
+Geo18,2023-05-01,1,Promo
+Geo18,2021-07-26,1,Organic_channel0_impression
+Geo18,2021-08-16,1,Promo
+Geo18,2021-09-20,1,Promo
+Geo18,2021-10-18,1,Promo
+Geo18,2021-10-25,1,Promo
+Geo18,2021-11-08,1,Promo
+Geo18,2021-12-06,1,Promo
+Geo17,2022-11-07,1,Promo
+Geo18,2021-03-29,1,Promo
+Geo18,2021-04-05,1,Promo
+Geo18,2021-05-03,1,Promo
+Geo18,2021-05-17,1,Organic_channel0_impression
+Geo18,2021-05-31,1,Promo
+Geo18,2021-06-28,1,Promo
+Geo18,2021-07-05,1,Promo
+Geo18,2021-07-19,1,Promo
+Geo34,2022-10-24,1,Promo
+Geo34,2022-12-12,1,Promo
+Geo34,2023-01-09,1,Organic_channel0_impression
+Geo34,2023-01-23,1,Promo
+Geo34,2023-01-30,1,Organic_channel0_impression
+Geo17,2023-12-11,1,Promo
+Geo17,2023-12-25,1,Organic_channel0_impression
+Geo18,2021-02-08,1,Promo
+Geo34,2022-06-27,1,Promo
+Geo34,2022-07-11,1,Promo
+Geo34,2022-08-08,1,Promo
+Geo34,2022-08-29,1,Promo
+Geo34,2022-09-05,1,Promo
+Geo34,2022-10-03,1,Promo
+Geo34,2022-10-10,1,Promo
+Geo34,2022-10-17,1,Promo
+Geo17,2021-12-20,1,Promo
+Geo17,2022-01-24,1,Organic_channel0_impression
+Geo17,2022-04-11,1,Promo
+Geo17,2022-05-23,1,Promo
+Geo17,2022-06-06,1,Promo
+Geo17,2022-06-27,1,Promo
+Geo17,2022-07-04,1,Promo
+Geo17,2022-08-15,1,Promo
+Geo34,2023-10-23,1,Promo
+Geo34,2023-11-06,1,Promo
+Geo34,2023-11-13,1,Promo
+Geo35,2021-03-22,1,Promo
+Geo35,2021-04-19,1,Promo
+Geo35,2021-04-26,1,sentiment_score_control
+Geo17,2021-10-11,1,Promo
+Geo17,2021-11-08,1,Promo
+Geo34,2023-02-20,1,Promo
+Geo34,2023-04-10,1,Promo
+Geo34,2023-05-29,1,Promo
+Geo34,2023-07-03,1,Promo
+Geo34,2023-08-07,1,Promo
+Geo34,2023-08-14,1,Promo
+Geo34,2023-09-11,1,Organic_channel0_impression
+Geo34,2023-10-02,1,Organic_channel0_impression
+Geo17,2022-11-21,1,Promo
+Geo17,2022-12-26,1,Promo
+Geo17,2023-01-02,1,Promo
+Geo17,2023-02-20,1,Promo
+Geo17,2023-02-27,1,Promo
+Geo17,2023-05-22,1,Promo
+Geo17,2023-11-27,1,Promo
+Geo34,2023-02-13,1,Promo
+Geo16,2023-08-28,1,Promo
+Geo16,2023-09-11,1,Organic_channel0_impression
+Geo16,2023-09-18,1,Promo
+Geo16,2023-10-02,1,Promo
+Geo16,2023-10-30,1,Promo
+Geo16,2023-11-06,1,Promo
+Geo16,2023-11-13,1,Promo
+Geo16,2023-12-11,1,Promo
+Geo35,2022-07-18,1,Promo
+Geo35,2022-08-08,1,Promo
+Geo16,2023-05-01,1,Promo
+Geo16,2023-05-29,1,Promo
+Geo16,2023-06-05,1,Promo
+Geo16,2023-06-26,1,Promo
+Geo16,2023-07-10,1,Promo
+Geo16,2023-08-21,1,Promo
+Geo35,2021-07-12,1,Promo
+Geo35,2021-12-27,1,Promo
+Geo35,2022-01-10,1,Promo
+Geo35,2022-02-07,1,Promo
+Geo35,2022-03-28,1,Promo
+Geo35,2022-04-04,1,Promo
+Geo35,2022-04-25,1,Promo
+Geo35,2022-06-27,1,Promo
+Geo17,2022-09-12,1,Promo
+Geo17,2022-09-26,1,Promo
+Geo35,2021-05-03,1,Promo
+Geo35,2021-05-17,1,Promo
+Geo35,2021-05-24,1,Organic_channel0_impression
+Geo35,2021-05-31,1,Promo
+Geo35,2021-06-21,1,Promo
+Geo35,2021-06-28,1,competitor_sales_control
+Geo16,2022-03-14,1,Promo
+Geo16,2022-03-28,1,Promo
+Geo16,2022-05-16,1,Promo
+Geo16,2022-05-30,1,Promo
+Geo16,2022-06-27,1,Promo
+Geo16,2022-07-04,1,Promo
+Geo16,2022-07-25,1,Promo
+Geo16,2022-08-15,1,Promo
+Geo16,2021-10-18,1,Promo
+Geo16,2021-10-25,1,Promo
+Geo16,2021-12-13,1,Promo
+Geo16,2021-12-20,1,Promo
+Geo16,2022-01-03,1,Promo
+Geo16,2022-01-17,1,Promo
+Geo16,2022-02-07,1,Promo
+Geo16,2022-02-21,1,Promo
+Geo35,2023-05-01,1,Promo
+Geo35,2023-05-08,1,Promo
+Geo35,2023-05-22,1,Promo
+Geo35,2023-05-29,1,Promo
+Geo35,2023-06-26,1,Promo
+Geo35,2023-07-10,1,Promo
+Geo35,2023-08-07,1,Promo
+Geo16,2021-10-11,1,Promo
+Geo17,2021-02-01,1,Organic_channel0_impression
+Geo17,2021-02-08,1,Promo
+Geo17,2021-03-22,1,Promo
+Geo17,2021-04-19,1,competitor_sales_control
+Geo35,2022-12-12,1,Promo
+Geo35,2023-01-02,1,Promo
+Geo35,2023-02-13,1,Promo
+Geo35,2023-04-10,1,Promo
+Geo15,2023-07-10,1,Promo
+Geo15,2023-08-28,1,Promo
+Geo15,2023-09-11,1,competitor_sales_control
+Geo15,2023-09-18,1,Promo
+Geo15,2023-10-23,1,Organic_channel0_impression
+Geo15,2024-01-08,1,Promo
+Geo16,2021-04-05,1,Promo
+Geo16,2021-05-24,1,Promo
+Geo36,2021-03-15,1,Organic_channel0_impression
+Geo36,2021-03-22,1,Promo
+Geo36,2021-05-17,1,Organic_channel0_impression
+Geo36,2021-07-05,1,Organic_channel0_impression
+Geo36,2021-07-19,1,Promo
+Geo36,2021-08-16,1,Organic_channel0_impression
+Geo15,2023-04-10,1,Promo
+Geo15,2023-05-29,1,Promo
+Geo16,2023-04-03,1,Promo
+Geo16,2023-04-10,1,Promo
+Geo35,2023-08-21,1,Promo
+Geo35,2023-11-06,1,Promo
+Geo35,2023-12-25,1,Promo
+Geo35,2024-01-01,1,Promo
+Geo36,2021-02-01,1,Organic_channel0_impression
+Geo36,2021-03-01,1,Promo
+Geo16,2022-08-29,1,Promo
+Geo16,2022-09-05,1,Promo
+Geo16,2022-11-21,1,Promo
+Geo16,2022-12-05,1,Promo
+Geo16,2023-01-02,1,Promo
+Geo16,2023-02-13,1,Promo
+Geo16,2023-02-20,1,Promo
+Geo16,2023-03-27,1,Promo
+Geo36,2022-06-06,1,Promo
+Geo36,2022-07-18,1,conversions
+Geo14,2023-11-20,1,Promo
+Geo14,2023-12-18,1,Promo
+Geo14,2023-12-25,1,Promo
+Geo14,2024-01-01,1,Promo
+Geo15,2021-02-08,1,Promo
+Geo15,2021-04-05,1,Promo
+Geo15,2022-11-14,1,Promo
+Geo15,2022-12-12,1,Promo
+Geo15,2023-04-03,1,Promo
+Geo36,2021-11-08,1,Organic_channel0_impression
+Geo36,2021-11-15,1,Organic_channel0_impression
+Geo36,2021-12-20,1,Promo
+Geo36,2022-02-21,1,Promo
+Geo36,2022-03-14,1,Organic_channel0_impression
+Geo15,2022-03-28,1,Promo
+Geo15,2022-05-02,1,Promo
+Geo15,2022-05-23,1,Promo
+Geo15,2022-06-27,1,Promo
+Geo15,2022-07-04,1,Promo
+Geo15,2022-07-25,1,Promo
+Geo15,2022-08-08,1,Promo
+Geo15,2022-10-31,1,Promo
+Geo16,2021-06-07,1,Promo
+Geo16,2021-06-14,1,Promo
+Geo16,2021-08-09,1,Promo
+Geo16,2021-08-30,1,Promo
+Geo16,2021-09-20,1,sentiment_score_control
+Geo16,2021-10-04,1,Promo
+Geo15,2022-02-07,1,Promo
+Geo15,2022-03-21,1,Organic_channel0_impression
+Geo36,2023-03-13,1,Promo
+Geo36,2023-06-12,1,Promo
+Geo36,2023-06-26,1,Promo
+Geo14,2021-08-23,1,Organic_channel0_impression
+Geo14,2021-09-20,1,Promo
+Geo14,2021-11-22,1,Organic_channel0_impression
+Geo14,2021-12-06,1,Promo
+Geo14,2022-02-07,1,Promo
+Geo14,2023-04-17,1,Promo
+Geo14,2023-05-08,1,sentiment_score_control
+Geo14,2023-07-10,1,Promo
+Geo14,2023-08-28,1,Promo
+Geo36,2022-10-10,1,Promo
+Geo36,2022-12-12,1,Promo
+Geo36,2022-12-19,1,conversions
+Geo36,2023-02-06,1,Organic_channel0_impression
+Geo14,2022-10-31,1,Organic_channel0_impression
+Geo14,2022-12-05,1,Promo
+Geo14,2022-12-12,1,Promo
+Geo14,2022-12-26,1,Promo
+Geo14,2023-01-16,1,Promo
+Geo14,2023-02-06,1,Promo
+Geo14,2023-02-27,1,Promo
+Geo14,2023-04-10,1,Organic_channel0_impression
+Geo15,2021-05-31,1,Promo
+Geo15,2021-06-14,1,Promo
+Geo15,2021-06-21,1,Promo
+Geo15,2021-07-05,1,Promo
+Geo15,2021-07-19,1,Promo
+Geo15,2021-09-20,1,Promo
+Geo15,2021-10-11,1,Promo
+Geo15,2021-12-20,1,Organic_channel0_impression
+Geo13,2024-01-01,1,Promo
+Geo13,2024-01-08,1,Promo
+Geo13,2024-01-15,1,Promo
+Geo14,2021-02-01,1,Organic_channel0_impression
+Geo14,2021-04-05,1,Promo
+Geo14,2021-05-03,1,Promo
+Geo14,2021-05-10,1,Organic_channel0_impression
+Geo14,2021-05-24,1,Promo
+Geo37,2021-05-10,1,Promo
+Geo37,2021-05-17,1,Promo
+Geo13,2023-06-26,1,Promo
+Geo13,2023-07-03,1,Promo
+Geo13,2023-07-10,1,Promo
+Geo13,2023-10-23,1,Promo
+Geo13,2023-11-20,1,Promo
+Geo13,2023-12-11,1,Promo
+Geo36,2023-10-16,1,Organic_channel0_impression
+Geo36,2023-11-27,1,Promo
+Geo36,2023-12-18,1,Organic_channel0_impression
+Geo37,2021-01-25,1,Promo
+Geo37,2021-02-01,1,Promo
+Geo37,2021-02-22,1,Promo
+Geo37,2021-04-05,1,Promo
+Geo37,2021-05-03,1,Promo
+Geo14,2022-04-18,1,sentiment_score_control
+Geo14,2022-05-16,1,competitor_sales_control
+Geo14,2022-06-06,1,Promo
+Geo14,2022-06-20,1,Promo
+Geo14,2022-07-04,1,Promo
+Geo14,2022-09-05,1,Promo
+Geo36,2023-07-24,1,Organic_channel0_impression
+Geo36,2023-08-28,1,Promo
+Geo37,2022-10-17,1,Promo
+Geo37,2022-11-07,1,Promo
+Geo37,2022-11-21,1,Promo
+Geo37,2022-12-26,1,Promo
+Geo37,2023-01-02,1,Promo
+Geo37,2023-01-09,1,Promo
+Geo37,2023-01-16,1,Promo
+Geo37,2023-01-23,1,Promo
+Geo37,2022-05-02,1,Promo
+Geo37,2022-05-16,1,Promo
+Geo37,2022-06-06,1,Promo
+Geo37,2022-06-27,1,Promo
+Geo37,2022-07-11,1,Promo
+Geo37,2022-09-05,1,Promo
+Geo37,2022-09-26,1,Promo
+Geo37,2022-10-03,1,Promo
+Geo37,2021-11-15,1,Promo
+Geo37,2021-12-06,1,Promo
+Geo37,2021-12-20,1,Promo
+Geo37,2021-12-27,1,Promo
+Geo37,2022-01-03,1,Promo
+Geo37,2022-03-07,1,Promo
+Geo37,2022-03-14,1,Promo
+Geo37,2022-03-28,1,Promo
+Geo14,2021-05-31,1,Promo
+Geo14,2021-07-19,1,Promo
+Geo14,2021-08-09,1,Promo
+Geo37,2021-06-14,1,Promo
+Geo37,2021-06-21,1,Promo
+Geo37,2021-08-23,1,Promo
+Geo37,2021-09-20,1,Promo
+Geo37,2021-10-04,1,Promo
+Geo38,2021-04-19,1,Promo
+Geo38,2021-05-17,1,Promo
+Geo38,2021-05-31,1,Promo
+Geo38,2021-07-05,1,Promo
+Geo38,2021-08-23,1,Promo
+Geo38,2021-10-11,1,Promo
+Geo38,2021-10-18,1,Promo
+Geo38,2021-11-22,1,Promo
+Geo37,2023-11-13,1,Promo
+Geo37,2023-11-20,1,Promo
+Geo37,2023-11-27,1,Promo
+Geo37,2023-12-11,1,Promo
+Geo37,2023-12-25,1,Promo
+Geo38,2021-02-22,1,Promo
+Geo38,2021-03-08,1,Promo
+Geo38,2021-03-22,1,Promo
+Geo37,2023-07-10,1,Promo
+Geo37,2023-08-07,1,Promo
+Geo37,2023-08-14,1,Promo
+Geo37,2023-09-04,1,Promo
+Geo37,2023-10-09,1,Promo
+Geo37,2023-10-16,1,Promo
+Geo37,2023-10-23,1,Promo
+Geo37,2023-11-06,1,Promo
+Geo37,2023-02-13,1,Promo
+Geo37,2023-03-13,1,Promo
+Geo37,2023-04-03,1,Promo
+Geo37,2023-04-10,1,Promo
+Geo37,2023-04-17,1,Promo
+Geo37,2023-05-01,1,Promo
+Geo37,2023-05-29,1,Promo
+Geo37,2023-06-05,1,Promo
+Geo13,2021-08-09,1,Promo
+Geo13,2021-08-23,1,Promo
+Geo13,2021-10-18,1,Promo
+Geo13,2022-01-10,1,Promo
+Geo13,2022-02-28,1,Promo
+Geo13,2022-03-07,1,Promo
+Geo13,2022-05-16,1,Promo
+Geo13,2022-06-27,1,Promo
+Geo38,2023-03-06,1,Promo
+Geo38,2023-03-27,1,Promo
+Geo38,2023-04-10,1,Promo
+Geo38,2023-05-01,1,Promo
+Geo38,2023-05-29,1,Promo
+Geo38,2023-07-10,1,Promo
+Geo38,2023-07-31,1,Promo
+Geo13,2021-07-05,1,Promo
+Geo38,2022-08-15,1,Promo
+Geo38,2022-08-29,1,Promo
+Geo38,2022-10-31,1,Promo
+Geo38,2022-12-12,1,Promo
+Geo38,2023-01-09,1,Promo
+Geo38,2023-02-06,1,Promo
+Geo38,2023-02-13,1,Promo
+Geo38,2023-02-20,1,Promo
+Geo38,2021-12-13,1,sentiment_score_control
+Geo38,2021-12-20,1,Promo
+Geo38,2022-01-03,1,Promo
+Geo38,2022-05-30,1,Promo
+Geo38,2022-06-20,1,Promo
+Geo38,2022-06-27,1,Promo
+Geo38,2022-07-11,1,Promo
+Geo38,2022-07-25,1,Promo
+Geo39,2021-07-19,1,conversions
+Geo39,2021-09-27,1,conversions
+Geo12,2023-04-17,1,Promo
+Geo12,2023-05-29,1,Promo
+Geo12,2023-06-05,1,Promo
+Geo12,2023-08-07,1,Promo
+Geo12,2023-08-14,1,Promo
+Geo12,2023-09-11,1,Promo
+Geo38,2023-12-04,1,Promo
+Geo38,2023-12-11,1,Promo
+Geo38,2024-01-08,1,Promo
+Geo39,2021-02-01,1,Promo
+Geo39,2021-02-08,1,Promo
+Geo39,2021-03-15,1,Organic_channel0_impression
+Geo39,2021-04-12,1,Promo
+Geo39,2021-06-21,1,Promo
+Geo13,2023-04-03,1,Promo
+Geo13,2023-04-17,1,Promo
+Geo38,2023-08-07,1,Promo
+Geo38,2023-08-14,1,Promo
+Geo38,2023-09-25,1,Promo
+Geo38,2023-10-16,1,Promo
+Geo38,2023-10-23,1,Promo
+Geo38,2023-11-06,1,Promo
+Geo13,2022-07-25,1,Promo
+Geo13,2022-08-01,1,Promo
+Geo13,2022-08-29,1,Promo
+Geo13,2022-09-05,1,Promo
+Geo13,2022-10-10,1,Promo
+Geo13,2022-11-07,1,Promo
+Geo13,2022-11-21,1,Promo
+Geo13,2023-01-02,1,Promo
+Geo39,2022-05-23,1,Promo
+Geo39,2022-08-15,1,Promo
+Geo39,2022-08-22,1,Promo
+Geo12,2021-11-29,1,Organic_channel0_impression
+Geo12,2022-01-24,1,Organic_channel0_impression
+Geo12,2022-02-07,1,Promo
+Geo12,2022-02-14,1,Promo
+Geo12,2022-04-25,1,Promo
+Geo39,2021-12-20,1,Promo
+Geo39,2022-01-24,1,Organic_channel0_impression
+Geo39,2022-02-14,1,Promo
+Geo39,2022-03-28,1,Organic_channel0_impression
+Geo39,2022-04-04,1,competitor_sales_control
+Geo39,2022-05-02,1,Promo
+Geo39,2022-05-09,1,Organic_channel0_impression
+Geo39,2022-05-16,1,Promo
+Geo13,2021-04-19,1,Promo
+Geo13,2021-04-26,1,Promo
+Geo13,2021-05-03,1,Promo
+Geo13,2021-05-10,1,Promo
+Geo13,2021-05-17,1,Promo
+Geo13,2021-06-21,1,Promo
+Geo39,2021-11-29,1,conversions
+Geo39,2021-12-13,1,Promo
+Geo12,2023-09-18,1,Promo
+Geo12,2023-11-06,1,Promo
+Geo12,2023-12-04,1,Organic_channel0_impression
+Geo12,2023-12-11,1,Promo
+Geo13,2021-02-01,1,Promo
+Geo13,2021-02-08,1,Promo
+Geo13,2021-02-15,1,Promo
+Geo13,2021-03-01,1,Promo
+Geo39,2023-03-13,1,conversions
+Geo39,2023-03-20,1,sentiment_score_control
+Geo39,2023-04-24,1,conversions
+Geo39,2023-05-01,1,Promo
+Geo39,2023-06-12,1,Organic_channel0_impression
+Geo39,2023-08-21,1,Promo
+Geo4,2021-02-22,1,Promo
+Geo4,2021-03-01,1,Promo
+Geo12,2021-05-10,1,Promo
+Geo12,2021-05-17,1,Promo
+Geo12,2021-07-05,1,Promo
+Geo12,2021-08-30,1,Promo
+Geo12,2021-10-04,1,Promo
+Geo39,2023-01-02,1,Promo
+Geo39,2023-01-16,1,conversions
+Geo39,2023-02-20,1,Promo
+Geo12,2022-12-26,1,Organic_channel0_impression
+Geo12,2023-01-23,1,Promo
+Geo12,2023-02-13,1,Promo
+Geo12,2023-02-20,1,Promo
+Geo12,2023-04-03,1,Promo
+Geo11,2023-05-29,1,Promo
+Geo11,2023-10-09,1,Organic_channel0_impression
+Geo12,2021-03-22,1,Promo
+Geo12,2022-05-30,1,Promo
+Geo12,2022-06-20,1,Promo
+Geo12,2022-06-27,1,Promo
+Geo12,2022-07-04,1,Promo
+Geo12,2022-09-05,1,Promo
+Geo12,2022-09-19,1,Promo
+Geo12,2022-10-17,1,Promo
+Geo12,2022-11-07,1,Promo
+Geo11,2022-05-02,1,Promo
+Geo11,2022-05-23,1,Promo
+Geo11,2022-06-13,1,Promo
+Geo11,2022-06-27,1,Promo
+Geo11,2022-07-04,1,Promo
+Geo11,2022-10-24,1,Promo
+Geo11,2022-10-31,1,Promo
+Geo11,2023-01-09,1,Organic_channel0_impression
+Geo4,2022-06-20,1,Promo
+Geo4,2022-06-27,1,Promo
+Geo4,2022-07-04,1,Promo
+Geo4,2022-07-11,1,Promo
+Geo4,2022-07-18,1,Promo
+Geo4,2022-08-29,1,Promo
+Geo4,2022-09-05,1,Promo
+Geo11,2022-04-04,1,Promo
+Geo4,2021-09-20,1,Promo
+Geo4,2021-12-06,1,Promo
+Geo4,2021-12-13,1,Promo
+Geo4,2021-12-27,1,Promo
+Geo4,2022-01-10,1,Promo
+Geo4,2022-03-28,1,Promo
+Geo4,2022-06-06,1,Promo
+Geo4,2022-06-13,1,Promo
+Geo4,2021-03-22,1,sentiment_score_control
+Geo4,2021-03-29,1,Promo
+Geo4,2021-05-17,1,Promo
+Geo4,2021-05-24,1,Promo
+Geo4,2021-05-31,1,Promo
+Geo4,2021-06-21,1,Promo
+Geo4,2021-07-05,1,Promo
+Geo4,2021-08-16,1,Promo
+Geo5,2021-04-19,1,Promo
+Geo5,2021-05-03,1,Promo
+Geo5,2021-05-31,1,Promo
+Geo5,2021-06-07,1,Promo
+Geo10,2023-10-30,1,conversions
+Geo10,2023-12-25,1,conversions
+Geo11,2021-02-08,1,Promo
+Geo11,2021-02-22,1,Promo
+Geo4,2023-09-11,1,Promo
+Geo4,2023-11-06,1,Promo
+Geo4,2023-11-27,1,Promo
+Geo4,2023-12-11,1,Promo
+Geo4,2023-12-25,1,Promo
+Geo4,2024-01-01,1,Promo
+Geo4,2024-01-15,1,Promo
+Geo5,2021-03-22,1,Promo
+Geo4,2022-12-05,1,Promo
+Geo4,2023-01-02,1,Promo
+Geo4,2023-02-20,1,Promo
+Geo4,2023-02-27,1,Promo
+Geo4,2023-05-15,1,Promo
+Geo4,2023-06-05,1,Promo
+Geo4,2023-08-14,1,Promo
+Geo4,2023-08-28,1,Promo
+Geo11,2023-01-23,1,Promo
+Geo11,2023-03-27,1,Promo
+Geo11,2023-04-03,1,Promo
+Geo11,2023-04-10,1,Promo
+Geo11,2023-05-15,1,Promo
+Geo4,2022-10-03,1,Promo
+Geo4,2022-10-24,1,Promo
+Geo4,2022-11-21,1,Promo
+Geo5,2022-10-10,1,Promo
+Geo5,2022-10-24,1,Promo
+Geo5,2022-10-31,1,Promo
+Geo5,2022-11-21,1,Promo
+Geo5,2022-12-05,1,Promo
+Geo5,2023-02-06,1,Promo
+Geo5,2023-02-13,1,Promo
+Geo5,2023-02-27,1,Promo
+Geo5,2022-06-06,1,Promo
+Geo5,2022-06-27,1,Promo
+Geo5,2022-07-04,1,Promo
+Geo5,2022-07-18,1,Promo
+Geo5,2022-08-01,1,Promo
+Geo5,2022-08-22,1,Promo
+Geo5,2022-09-05,1,Promo
+Geo5,2022-10-03,1,Promo
+Geo5,2021-06-28,1,Promo
+Geo5,2021-08-09,1,Promo
+Geo5,2021-11-29,1,Promo
+Geo5,2021-12-13,1,Promo
+Geo5,2022-02-07,1,Promo
+Geo5,2022-03-28,1,Promo
+Geo5,2022-05-02,1,Promo
+Geo5,2022-05-30,1,Promo
+Geo11,2021-04-19,1,Promo
+Geo11,2021-06-28,1,Promo
+Geo11,2021-10-25,1,Promo
+Geo11,2022-01-10,1,Promo
+Geo11,2022-01-17,1,Promo
+Geo11,2022-02-07,1,Promo
+Geo11,2022-02-14,1,Organic_channel0_impression
+Geo11,2022-03-14,1,Organic_channel0_impression
+Geo6,2021-07-19,1,Promo
+Geo6,2021-08-02,1,Promo
+Geo6,2021-08-09,1,Promo
+Geo6,2021-08-23,1,Promo
+Geo6,2021-09-06,1,sentiment_score_control
+Geo6,2021-09-20,1,Promo
+Geo6,2021-10-18,1,Promo
+Geo6,2021-11-15,1,Promo
+Geo6,2021-04-19,1,sentiment_score_control
+Geo6,2021-04-26,1,Promo
+Geo6,2021-05-03,1,Promo
+Geo6,2021-05-10,1,Promo
+Geo6,2021-05-31,1,Promo
+Geo6,2021-06-21,1,Promo
+Geo6,2021-06-28,1,Promo
+Geo6,2021-07-05,1,Promo
+Geo5,2023-09-18,1,Promo
+Geo5,2023-10-30,1,Promo
+Geo5,2023-11-06,1,Promo
+Geo5,2023-11-13,1,Promo
+Geo5,2023-11-20,1,Promo
+Geo5,2023-11-27,1,Promo
+Geo5,2023-12-11,1,Promo
+Geo5,2023-12-18,1,Promo
+Geo5,2023-04-10,1,Promo
+Geo5,2023-04-17,1,Promo
+Geo5,2023-04-24,1,Promo
+Geo5,2023-07-17,1,Promo
+Geo5,2023-07-24,1,Promo
+Geo5,2023-08-14,1,Promo
+Geo5,2023-08-28,1,Promo
+Geo5,2023-09-11,1,Promo
+Geo10,2022-11-28,1,conversions
+Geo10,2022-12-19,1,conversions
+Geo10,2023-01-23,1,Promo
+Geo10,2023-02-27,1,Promo
+Geo10,2023-03-27,1,Promo
+Geo10,2023-04-03,1,Promo
+Geo10,2023-05-15,1,Promo
+Geo10,2023-09-18,1,conversions
+Geo6,2022-11-21,1,Promo
+Geo6,2023-01-02,1,Promo
+Geo6,2023-01-23,1,Promo
+Geo6,2023-04-17,1,competitor_sales_control
+Geo6,2023-05-08,1,Promo
+Geo6,2023-05-15,1,Promo
+Geo6,2023-06-19,1,Promo
+Geo6,2023-06-26,1,Promo
+Geo6,2022-06-13,1,Promo
+Geo6,2022-07-04,1,Promo
+Geo6,2022-07-18,1,Promo
+Geo6,2022-08-15,1,Promo
+Geo6,2022-08-22,1,Promo
+Geo6,2022-09-05,1,Promo
+Geo6,2022-09-12,1,Promo
+Geo6,2022-10-03,1,Promo
+Geo6,2021-12-13,1,Promo
+Geo6,2021-12-27,1,Promo
+Geo6,2022-01-03,1,Promo
+Geo6,2022-03-14,1,sentiment_score_control
+Geo6,2022-05-02,1,Promo
+Geo6,2022-05-16,1,Promo
+Geo6,2022-05-23,1,Promo
+Geo6,2022-05-30,1,Promo
+Geo7,2021-09-20,1,Organic_channel0_impression
+Geo7,2021-09-27,1,Organic_channel0_impression
+Geo7,2021-10-18,1,Organic_channel0_impression
+Geo1,2023-11-06,1,Promo
+Geo1,2023-12-11,1,Promo
+Geo1,2024-01-01,1,Promo
+Geo10,2021-01-25,1,Organic_channel0_impression
+Geo10,2021-02-15,1,Promo
+Geo6,2023-12-04,1,Promo
+Geo6,2024-01-01,1,Promo
+Geo7,2021-03-01,1,Organic_channel0_impression
+Geo7,2021-03-08,1,Promo
+Geo7,2021-05-03,1,Organic_channel0_impression
+Geo7,2021-05-10,1,Promo
+Geo7,2021-05-31,1,Promo
+Geo7,2021-08-23,1,Promo
+Geo6,2023-08-07,1,Promo
+Geo6,2023-08-14,1,Promo
+Geo6,2023-08-28,1,Promo
+Geo6,2023-10-02,1,Promo
+Geo6,2023-10-16,1,Promo
+Geo6,2023-10-30,1,Promo
+Geo6,2023-11-06,1,Promo
+Geo6,2023-11-13,1,Promo
+Geo10,2022-01-10,1,conversions
+Geo10,2022-02-14,1,conversions
+Geo10,2022-03-28,1,Organic_channel0_impression
+Geo10,2022-04-04,1,Promo
+Geo10,2022-05-02,1,conversions
+Geo6,2023-07-03,1,Promo
+Geo6,2023-07-10,1,Promo
+Geo6,2023-07-17,1,Promo
+Geo1,2022-07-11,1,Promo
+Geo1,2022-08-01,1,Promo
+Geo1,2022-08-22,1,Promo
+Geo1,2022-09-05,1,Promo
+Geo1,2022-10-03,1,Promo
+Geo1,2022-11-14,1,Promo
+Geo1,2022-11-21,1,Promo
+Geo1,2022-12-05,1,Promo
+Geo1,2021-12-27,1,Promo
+Geo1,2022-01-10,1,Promo
+Geo1,2022-01-17,1,Promo
+Geo1,2022-02-07,1,Promo
+Geo1,2022-02-21,1,Promo
+Geo1,2022-04-25,1,Promo
+Geo1,2022-06-13,1,Promo
+Geo1,2022-06-27,1,Promo
+Geo7,2022-04-04,1,Promo
+Geo7,2022-04-18,1,sentiment_score_control
+Geo7,2022-06-06,1,Promo
+Geo7,2022-07-11,1,Organic_channel0_impression
+Geo7,2022-08-08,1,Promo
+Geo7,2022-08-15,1,Promo
+Geo7,2022-09-26,1,Promo
+Geo7,2022-10-03,1,Promo
+Geo10,2021-05-24,1,Promo
+Geo10,2021-05-31,1,Promo
+Geo10,2021-08-23,1,Promo
+Geo10,2021-09-27,1,Promo
+Geo10,2021-10-18,1,Promo
+Geo7,2022-01-03,1,Organic_channel0_impression
+Geo7,2022-01-10,1,conversions
+Geo7,2022-03-28,1,Promo
+Geo7,2023-10-16,1,Promo
+Geo7,2023-10-30,1,Promo
+Geo7,2023-12-04,1,Organic_channel0_impression
+Geo7,2023-12-18,1,Promo
+Geo8,2021-04-26,1,Promo
+Geo8,2021-05-24,1,Promo
+Geo8,2021-08-09,1,Promo
+Geo8,2021-08-30,1,Promo
+Geo7,2023-04-03,1,Promo
+Geo7,2023-05-01,1,Promo
+Geo7,2023-05-08,1,Promo
+Geo7,2023-05-15,1,Promo
+Geo7,2023-05-29,1,Promo
+Geo7,2023-07-03,1,Organic_channel0_impression
+Geo7,2023-07-10,1,Promo
+Geo7,2023-08-14,1,Promo
+Geo1,2023-08-07,1,Promo
+Geo1,2023-08-14,1,Promo
+Geo1,2023-08-21,1,Promo
+Geo1,2023-09-04,1,Promo
+Geo1,2023-10-09,1,Promo
+Geo1,2023-10-23,1,Promo
+Geo7,2023-02-06,1,Promo
+Geo7,2023-03-27,1,Promo
+Geo1,2022-12-19,1,Promo
+Geo1,2022-12-26,1,Promo
+Geo1,2023-01-02,1,Promo
+Geo1,2023-02-27,1,Promo
+Geo1,2023-03-13,1,Promo
+Geo1,2023-04-10,1,Promo
+Geo1,2023-06-05,1,Promo
+Geo1,2023-07-10,1,Promo
+Geo8,2023-04-24,1,competitor_sales_control
+Geo8,2023-05-01,1,Promo
+Geo8,2023-05-22,1,Promo
+Geo8,2023-05-29,1,Promo
+Geo8,2023-06-05,1,Promo
+Geo8,2023-06-19,1,sentiment_score_control
+Geo8,2023-06-26,1,Promo
+Geo8,2023-07-10,1,Promo
+Geo8,2022-11-21,1,Promo
+Geo8,2023-01-09,1,Promo
+Geo8,2023-01-23,1,Promo
+Geo8,2023-02-13,1,Promo
+Geo8,2023-02-20,1,Promo
+Geo8,2023-02-27,1,Promo
+Geo8,2023-04-03,1,Promo
+Geo8,2023-04-10,1,Promo
+Geo8,2022-04-11,1,Promo
+Geo8,2022-05-16,1,Promo
+Geo8,2022-05-30,1,Promo
+Geo8,2022-06-06,1,Promo
+Geo8,2022-06-20,1,Promo
+Geo8,2022-07-11,1,Promo
+Geo8,2022-08-08,1,Promo
+Geo8,2022-08-29,1,Promo
+Geo8,2021-10-18,1,Promo
+Geo8,2021-11-15,1,Promo
+Geo8,2021-12-27,1,Promo
+Geo8,2022-01-03,1,Promo
+Geo8,2022-02-07,1,Promo
+Geo8,2022-02-14,1,Promo
+Geo8,2022-03-21,1,Promo
+Geo8,2022-04-04,1,Promo
+Geo9,2022-07-04,1,Promo
+Geo9,2022-07-25,1,Promo
+Geo9,2022-08-01,1,Promo
+Geo9,2022-08-22,1,Promo
+Geo9,2022-09-05,1,Promo
+Geo9,2022-09-19,1,Promo
+Geo0,2023-02-20,1,sentiment_score_control
+Geo0,2021-04-12,1,Promo
+Geo9,2021-12-27,1,Promo
+Geo9,2022-02-07,1,Promo
+Geo9,2022-02-21,1,Promo
+Geo9,2022-04-11,1,Promo
+Geo9,2022-05-16,1,Promo
+Geo9,2022-06-06,1,Promo
+Geo9,2022-06-20,1,Promo
+Geo9,2022-06-27,1,Promo
+Geo9,2021-06-21,1,Promo
+Geo9,2021-06-28,1,Promo
+Geo9,2021-07-05,1,Promo
+Geo9,2021-08-23,1,Promo
+Geo0,2021-02-08,1,Promo
+Geo9,2021-11-08,1,Promo
+Geo9,2021-11-29,1,Promo
+Geo9,2021-12-13,1,Promo
+Geo1,2021-08-23,1,Promo
+Geo1,2021-10-11,1,Promo
+Geo1,2021-10-18,1,Promo
+Geo1,2021-11-22,1,Promo
+Geo1,2021-11-29,1,Promo
+Geo1,2021-12-06,1,Promo
+Geo9,2021-05-17,1,Promo
+Geo9,2021-06-07,1,Promo
+Geo9,2022-11-21,1,Promo
+Geo0,2021-03-22,1,Promo
+Geo9,2023-02-06,1,Promo
+Geo9,2023-04-10,1,Promo
+Geo9,2023-05-22,1,Promo
+Geo9,2023-07-10,1,Promo
+Geo9,2023-07-17,1,Promo
+Geo9,2023-07-31,1,Promo
+Geo0,2022-09-19,1,Promo
+Geo0,2022-09-26,1,Promo
+Geo0,2022-10-03,1,Promo
+Geo0,2022-11-14,1,Promo
+Geo0,2022-12-26,1,Promo
+Geo0,2021-03-29,1,Promo
+Geo9,2022-10-24,1,Promo
+Geo9,2022-11-07,1,Promo
+Geo0,2022-04-18,1,Promo
+Geo0,2022-05-09,1,Promo
+Geo0,2022-05-16,1,Promo
+Geo0,2022-05-30,1,Promo
+Geo0,2022-06-06,1,Promo
+Geo0,2022-07-04,1,Promo
+Geo0,2022-07-11,1,Promo
+Geo0,2022-08-29,1,Promo
+Geo0,2021-10-11,1,Promo
+Geo0,2021-10-18,1,Promo
+Geo0,2021-11-15,1,Promo
+Geo0,2021-12-27,1,Promo
+Geo0,2022-01-24,1,Promo
+Geo0,2022-02-28,1,Promo
+Geo0,2022-03-07,1,Promo
+Geo0,2022-03-28,1,Promo

@@ -1,0 +1,4 @@
+variable,min,max,std,distinct,zero_share,std_over_range,largest_national_change_date,largest_national_change,cv_interpretation
+competitor_sales_control,-4.8256345,3.924682,1.2100669813081917,6240,0.0,0.13828836720456816,2022-05-16,-2.3823157378744617,não usar em índice centrado/zero-inflado
+sentiment_score_control,-4.230392,4.320259,1.1754781141478525,6239,0.0,0.13747235317496323,2021-12-13,2.357147030307726,não usar em índice centrado/zero-inflado
+Promo,0.0,4.8005548,0.6942238172484361,3319,0.46826923076923077,0.14461324704561984,2023-08-21,-1.132996108302856,não usar em índice centrado/zero-inflado

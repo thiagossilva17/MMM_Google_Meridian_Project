@@ -48,8 +48,8 @@ def dictionary(panel: pd.DataFrame) -> pd.DataFrame:
         unit={'kpi':'conversões sintéticas (contínuas)', 'population':'população simulada',
               'media':'impressões', 'organic_media':'impressões orgânicas',
               'spend':'unidade monetária não especificada', 'control':'escala sintética; unidade não especificada',
-              'revenue_per_kpi':'moeda não especificada/conversão','non_media_treatment':'indicador sintético'}.get(role,role)
-        rows.append(dict(variable=col,role=role,dtype=str(x.dtype),dimension='geo' if role=='population' else 'geo × time',
+              'revenue_per_kpi':'moeda não especificada/conversão','non_media_treatment':'tratamento contínuo com massa em zero'}.get(role,role)
+        rows.append(dict(variable=col,role=role,dtype=str(x.dtype),dimension={'geo':'coordenada geo','time':'coordenada time','population':'geo'}.get(role,'geo × time'),paired_variable=col.replace('_impression','_spend') if role=='media' else col.replace('_spend','_impression') if role=='spend' else '',
                          unit=unit,missing=x.isna().sum(),zeros=x.eq(0).sum() if num else np.nan,
                          min=x.min(),max=x.max(),mean=x.mean() if num else np.nan,std=x.std(ddof=0) if num else np.nan))
     return pd.DataFrame(rows)

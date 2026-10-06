@@ -1022,3 +1022,593 @@
 2026-10-03 03:47:09,394 INFO Figura: /workspace/scratch/5d823022ed95/tcc-meridian/outputs/figures/relationships/vif.png
 2026-10-03 03:47:09,426 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-meridian/outputs/tables/exploratory_lags.csv (45 linhas)
 2026-10-03 03:47:26,240 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-03T10:47:26.239326+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:05:48,211 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-06T20:05:48.210081+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:06:25,169 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-06T20:06:25.168909+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:06:28,125 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-06T20:06:28.124844+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:06:28,922 INFO generated new fontManager
+2026-10-06 21:06:29,169 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/data_audit.csv (29 linhas)
+2026-10-06 21:06:29,176 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/data_dictionary.csv (19 linhas)
+2026-10-06 21:06:29,194 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/missing_summary.csv (19 linhas)
+2026-10-06 21:06:29,197 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/missing_by_geo.csv (40 linhas)
+2026-10-06 21:06:29,200 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/missing_by_time.csv (156 linhas)
+2026-10-06 21:06:29,201 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/missing_by_channel.csv (5 linhas)
+2026-10-06 21:06:29,202 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/duplicate_summary.csv (0 linhas)
+2026-10-06 21:06:29,597 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/data_audit/panel_completeness.svg
+2026-10-06 21:06:29,908 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/data_audit/panel_completeness.png
+2026-10-06 21:06:30,012 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/data_audit/missing_values.svg
+2026-10-06 21:06:30,123 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/data_audit/missing_values.png
+2026-10-06 21:06:30,141 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/cost_per_media_unit.csv (5 linhas)
+2026-10-06 21:06:30,872 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-06T20:06:30.871264+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:06:31,172 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/national_descriptive.csv (15 linhas)
+2026-10-06 21:06:32,184 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/channel_summary.csv (5 linhas)
+2026-10-06 21:06:32,185 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/channel_activity.csv (5 linhas)
+2026-10-06 21:06:32,214 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/activity_runs.csv (8417 linhas)
+2026-10-06 21:06:32,218 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/activity_streaks.csv (10 linhas)
+2026-10-06 21:06:32,394 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/outliers.csv (6039 linhas)
+2026-10-06 21:06:32,395 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_share.csv (5 linhas)
+2026-10-06 21:06:32,626 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/national_kpi.svg
+2026-10-06 21:06:32,765 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/national_kpi.png
+2026-10-06 21:06:32,876 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/spend_share.svg
+2026-10-06 21:06:32,983 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/spend_share.png
+2026-10-06 21:06:33,073 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/channel_activity.svg
+2026-10-06 21:06:33,170 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/channel_activity.png
+2026-10-06 21:06:33,292 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/kpi_distribution.svg
+2026-10-06 21:06:33,399 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/kpi_distribution.png
+2026-10-06 21:06:33,773 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/outlier_case_windows.csv (225 linhas)
+2026-10-06 21:06:33,802 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/outlier_coincidence.csv (2918 linhas)
+2026-10-06 21:06:33,804 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/outlier_group_review.csv (15 linhas)
+2026-10-06 21:06:33,806 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/outlier_case_review.csv (45 linhas)
+2026-10-06 21:06:34,276 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/activity_support_by_geo.csv (200 linhas)
+2026-10-06 21:06:34,282 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/activity_intensity_summary.csv (5 linhas)
+2026-10-06 21:06:34,283 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/national_zero_media_weeks.csv (4 linhas)
+2026-10-06 21:06:35,021 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-06T20:06:35.020605+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:06:35,847 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/national_timeseries.csv (156 linhas)
+2026-10-06 21:06:35,974 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/kpi_trend.svg
+2026-10-06 21:06:36,104 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/kpi_trend.png
+2026-10-06 21:06:36,140 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/kpi_stl_52.csv (156 linhas)
+2026-10-06 21:06:36,582 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/kpi_stl_52.svg
+2026-10-06 21:06:36,836 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/kpi_stl_52.png
+2026-10-06 21:06:36,839 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/kpi_level_changes.csv (156 linhas)
+2026-10-06 21:06:36,840 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/kpi_acf.csv (53 linhas)
+2026-10-06 21:06:37,082 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel0_timeseries.svg
+2026-10-06 21:06:37,304 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel0_timeseries.png
+2026-10-06 21:06:37,413 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel0_kpi_z.svg
+2026-10-06 21:06:37,540 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel0_kpi_z.png
+2026-10-06 21:06:37,790 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel1_timeseries.svg
+2026-10-06 21:06:38,021 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel1_timeseries.png
+2026-10-06 21:06:38,132 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel1_kpi_z.svg
+2026-10-06 21:06:38,256 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel1_kpi_z.png
+2026-10-06 21:06:38,499 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel2_timeseries.svg
+2026-10-06 21:06:38,731 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel2_timeseries.png
+2026-10-06 21:06:38,844 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel2_kpi_z.svg
+2026-10-06 21:06:38,969 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel2_kpi_z.png
+2026-10-06 21:06:39,340 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel3_timeseries.svg
+2026-10-06 21:06:39,595 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel3_timeseries.png
+2026-10-06 21:06:39,715 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel3_kpi_z.svg
+2026-10-06 21:06:39,871 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel3_kpi_z.png
+2026-10-06 21:06:40,134 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel4_timeseries.svg
+2026-10-06 21:06:40,360 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel4_timeseries.png
+2026-10-06 21:06:40,477 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel4_kpi_z.svg
+2026-10-06 21:06:40,640 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel4_kpi_z.png
+2026-10-06 21:06:40,643 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/national_cpmu.csv (156 linhas)
+2026-10-06 21:06:40,772 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/competitor_sales_control_time.svg
+2026-10-06 21:06:40,897 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/competitor_sales_control_time.png
+2026-10-06 21:06:40,988 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/competitor_sales_control_distribution.svg
+2026-10-06 21:06:41,064 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/competitor_sales_control_distribution.png
+2026-10-06 21:06:41,204 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/sentiment_score_control_time.svg
+2026-10-06 21:06:41,324 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/sentiment_score_control_time.png
+2026-10-06 21:06:41,413 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/sentiment_score_control_distribution.svg
+2026-10-06 21:06:41,484 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/sentiment_score_control_distribution.png
+2026-10-06 21:06:41,614 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Promo_time.svg
+2026-10-06 21:06:41,738 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Promo_time.png
+2026-10-06 21:06:41,837 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Promo_distribution.svg
+2026-10-06 21:06:41,914 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Promo_distribution.png
+2026-10-06 21:06:42,167 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Organic_channel0_impression_time.svg
+2026-10-06 21:06:42,280 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Organic_channel0_impression_time.png
+2026-10-06 21:06:42,362 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Organic_channel0_impression_distribution.svg
+2026-10-06 21:06:42,433 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Organic_channel0_impression_distribution.png
+2026-10-06 21:06:42,437 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/control_temporal_summary.csv (4 linhas)
+2026-10-06 21:06:42,453 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/temporal_interpretation.csv (1 linhas)
+2026-10-06 21:06:42,467 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/control_detailed_profile.csv (3 linhas)
+2026-10-06 21:06:43,463 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-06T20:06:43.462793+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:06:43,712 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_kpi_summary.csv (40 linhas)
+2026-10-06 21:06:43,713 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/population_summary.csv (40 linhas)
+2026-10-06 21:06:43,740 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/within_between_variance.csv (15 linhas)
+2026-10-06 21:06:43,740 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_time_r2.csv (15 linhas)
+2026-10-06 21:06:43,764 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_time_r2_per_capita.csv (12 linhas)
+2026-10-06 21:06:43,836 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/per_capita_panel.csv (6240 linhas)
+2026-10-06 21:06:44,307 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/population_kpi_correlation.csv (2 linhas)
+2026-10-06 21:06:44,308 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/kpi_concentration.csv (40 linhas)
+2026-10-06 21:06:44,452 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_by_geo.svg
+2026-10-06 21:06:44,574 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_by_geo.png
+2026-10-06 21:06:44,774 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/population_by_geo.svg
+2026-10-06 21:06:44,882 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/population_by_geo.png
+2026-10-06 21:06:45,016 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_per_capita.svg
+2026-10-06 21:06:45,132 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_per_capita.png
+2026-10-06 21:06:45,212 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/population_kpi.svg
+2026-10-06 21:06:45,285 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/population_kpi.png
+2026-10-06 21:06:45,355 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_concentration.svg
+2026-10-06 21:06:45,446 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_concentration.png
+2026-10-06 21:06:45,825 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/geo_correlation.svg
+2026-10-06 21:06:46,158 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/geo_correlation.png
+2026-10-06 21:06:46,163 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_kpi_correlation.csv (40 linhas)
+2026-10-06 21:06:46,164 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_plot_selection.csv (7 linhas)
+2026-10-06 21:06:46,670 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_small_multiples.svg
+2026-10-06 21:06:47,106 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_small_multiples.png
+2026-10-06 21:06:47,210 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/variance_decomposition.svg
+2026-10-06 21:06:47,338 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/variance_decomposition.png
+2026-10-06 21:06:47,481 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/geo_time_r2.svg
+2026-10-06 21:06:47,646 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/geo_time_r2.png
+2026-10-06 21:06:48,088 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/conversions_geo_time.svg
+2026-10-06 21:06:48,388 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/conversions_geo_time.png
+2026-10-06 21:06:48,743 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/competitor_sales_control_geo_time.svg
+2026-10-06 21:06:49,043 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/competitor_sales_control_geo_time.png
+2026-10-06 21:06:49,360 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/sentiment_score_control_geo_time.svg
+2026-10-06 21:06:49,702 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/sentiment_score_control_geo_time.png
+2026-10-06 21:06:50,024 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_pc_geo_time.svg
+2026-10-06 21:06:50,320 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_pc_geo_time.png
+2026-10-06 21:06:50,339 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_synchronization_pairs.csv (780 linhas)
+2026-10-06 21:06:50,340 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_synchronization_summary.csv (1 linhas)
+2026-10-06 21:06:51,112 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-06T20:06:51.111991+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:06:51,347 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_media_summary.csv (40 linhas)
+2026-10-06 21:06:51,348 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/media_mix.csv (40 linhas)
+2026-10-06 21:06:51,348 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_allocation.csv (40 linhas)
+2026-10-06 21:06:51,699 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/spend_geo_channel.svg
+2026-10-06 21:06:51,985 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/spend_geo_channel.png
+2026-10-06 21:06:52,285 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/media_mix.svg
+2026-10-06 21:06:52,561 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/media_mix.png
+2026-10-06 21:06:52,873 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/geo_allocation.svg
+2026-10-06 21:06:53,190 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/geo_allocation.png
+2026-10-06 21:06:53,500 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/spend_per_capita.svg
+2026-10-06 21:06:53,788 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/spend_per_capita.png
+2026-10-06 21:06:54,049 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/mix_stacked.svg
+2026-10-06 21:06:54,232 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/mix_stacked.png
+2026-10-06 21:06:54,778 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_population.svg
+2026-10-06 21:06:54,846 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_population.png
+2026-10-06 21:06:55,147 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_impression_geo_time.svg
+2026-10-06 21:06:55,427 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_impression_geo_time.png
+2026-10-06 21:06:55,731 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_impression_pc_geo_time.svg
+2026-10-06 21:06:56,020 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_impression_pc_geo_time.png
+2026-10-06 21:06:56,492 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_spend_geo_time.svg
+2026-10-06 21:06:56,817 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_spend_geo_time.png
+2026-10-06 21:06:57,161 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_spend_pc_geo_time.svg
+2026-10-06 21:06:57,472 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_spend_pc_geo_time.png
+2026-10-06 21:06:57,551 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_population.svg
+2026-10-06 21:06:57,636 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_population.png
+2026-10-06 21:06:57,967 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_impression_geo_time.svg
+2026-10-06 21:06:58,267 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_impression_geo_time.png
+2026-10-06 21:06:58,608 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_impression_pc_geo_time.svg
+2026-10-06 21:06:58,909 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_impression_pc_geo_time.png
+2026-10-06 21:06:59,238 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_spend_geo_time.svg
+2026-10-06 21:06:59,550 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_spend_geo_time.png
+2026-10-06 21:06:59,870 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_spend_pc_geo_time.svg
+2026-10-06 21:07:00,175 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_spend_pc_geo_time.png
+2026-10-06 21:07:00,277 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_population.svg
+2026-10-06 21:07:00,363 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_population.png
+2026-10-06 21:07:00,720 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_impression_geo_time.svg
+2026-10-06 21:07:01,050 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_impression_geo_time.png
+2026-10-06 21:07:01,517 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_impression_pc_geo_time.svg
+2026-10-06 21:07:01,868 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_impression_pc_geo_time.png
+2026-10-06 21:07:02,199 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_spend_geo_time.svg
+2026-10-06 21:07:02,509 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_spend_geo_time.png
+2026-10-06 21:07:02,845 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_spend_pc_geo_time.svg
+2026-10-06 21:07:03,152 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_spend_pc_geo_time.png
+2026-10-06 21:07:03,233 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_population.svg
+2026-10-06 21:07:03,307 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_population.png
+2026-10-06 21:07:03,650 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_impression_geo_time.svg
+2026-10-06 21:07:03,975 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_impression_geo_time.png
+2026-10-06 21:07:04,308 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_impression_pc_geo_time.svg
+2026-10-06 21:07:04,656 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_impression_pc_geo_time.png
+2026-10-06 21:07:04,985 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_spend_geo_time.svg
+2026-10-06 21:07:05,329 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_spend_geo_time.png
+2026-10-06 21:07:05,672 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_spend_pc_geo_time.svg
+2026-10-06 21:07:05,977 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_spend_pc_geo_time.png
+2026-10-06 21:07:06,195 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_population.svg
+2026-10-06 21:07:06,270 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_population.png
+2026-10-06 21:07:06,582 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_impression_geo_time.svg
+2026-10-06 21:07:06,876 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_impression_geo_time.png
+2026-10-06 21:07:07,196 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_impression_pc_geo_time.svg
+2026-10-06 21:07:07,520 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_impression_pc_geo_time.png
+2026-10-06 21:07:07,854 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_spend_geo_time.svg
+2026-10-06 21:07:08,173 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_spend_geo_time.png
+2026-10-06 21:07:08,513 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_spend_pc_geo_time.svg
+2026-10-06 21:07:08,827 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_spend_pc_geo_time.png
+2026-10-06 21:07:08,836 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/within_geo_cv.csv (200 linhas)
+2026-10-06 21:07:08,837 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/population_media_correlation.csv (10 linhas)
+2026-10-06 21:07:08,837 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/channel_geo_concentration.csv (5 linhas)
+2026-10-06 21:07:08,839 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_cpmu.csv (200 linhas)
+2026-10-06 21:07:09,173 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/within_geo_cv.svg
+2026-10-06 21:07:09,473 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/within_geo_cv.png
+2026-10-06 21:07:09,553 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/within_cv_distribution.svg
+2026-10-06 21:07:09,630 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/within_cv_distribution.png
+2026-10-06 21:07:09,654 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/channel_geo_interpretation.csv (5 linhas)
+2026-10-06 21:07:09,974 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/mix_deviations_pp.svg
+2026-10-06 21:07:10,277 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/mix_deviations_pp.png
+2026-10-06 21:07:11,147 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-06T20:07:11.146886+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:07:11,411 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_national_pearson.csv (15 linhas)
+2026-10-06 21:07:11,641 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_national.svg
+2026-10-06 21:07:11,806 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_national.png
+2026-10-06 21:07:11,807 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_national_pearson.csv (5 linhas)
+2026-10-06 21:07:11,808 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_national_pearson.csv (5 linhas)
+2026-10-06 21:07:11,810 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_national_spearman.csv (15 linhas)
+2026-10-06 21:07:11,811 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_national_spearman.csv (5 linhas)
+2026-10-06 21:07:11,812 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_national_spearman.csv (5 linhas)
+2026-10-06 21:07:11,816 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_overall_pearson.csv (15 linhas)
+2026-10-06 21:07:11,988 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_overall.svg
+2026-10-06 21:07:12,150 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_overall.png
+2026-10-06 21:07:12,152 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_overall_pearson.csv (5 linhas)
+2026-10-06 21:07:12,153 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_overall_pearson.csv (5 linhas)
+2026-10-06 21:07:12,161 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_overall_spearman.csv (15 linhas)
+2026-10-06 21:07:12,162 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_overall_spearman.csv (5 linhas)
+2026-10-06 21:07:12,163 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_overall_spearman.csv (5 linhas)
+2026-10-06 21:07:12,167 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_within_pearson.csv (15 linhas)
+2026-10-06 21:07:12,337 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_within.svg
+2026-10-06 21:07:12,494 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_within.png
+2026-10-06 21:07:12,496 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_within_pearson.csv (5 linhas)
+2026-10-06 21:07:12,497 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_within_pearson.csv (5 linhas)
+2026-10-06 21:07:12,506 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_within_spearman.csv (15 linhas)
+2026-10-06 21:07:12,507 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_within_spearman.csv (5 linhas)
+2026-10-06 21:07:12,508 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_within_spearman.csv (5 linhas)
+2026-10-06 21:07:12,512 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_two_way_pearson.csv (15 linhas)
+2026-10-06 21:07:12,691 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_two_way.svg
+2026-10-06 21:07:12,846 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_two_way.png
+2026-10-06 21:07:12,848 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_two_way_pearson.csv (5 linhas)
+2026-10-06 21:07:12,849 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_two_way_pearson.csv (5 linhas)
+2026-10-06 21:07:12,870 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_two_way_spearman.csv (15 linhas)
+2026-10-06 21:07:12,873 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_two_way_spearman.csv (5 linhas)
+2026-10-06 21:07:12,874 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_two_way_spearman.csv (5 linhas)
+2026-10-06 21:07:12,881 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_summary.csv (840 linhas)
+2026-10-06 21:07:12,935 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/vif_summary.csv (36 linhas)
+2026-10-06 21:07:13,080 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/vif.svg
+2026-10-06 21:07:13,212 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/vif.png
+2026-10-06 21:07:13,243 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/exploratory_lags.csv (45 linhas)
+2026-10-06 21:07:13,340 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/lags.svg
+2026-10-06 21:07:13,459 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/lags.png
+2026-10-06 21:07:13,478 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/substantive_pair_comparison.csv (72 linhas)
+2026-10-06 21:07:13,479 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/predictor_kpi_comparison.csv (72 linhas)
+2026-10-06 21:07:13,483 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/control_relationship_review.csv (3 linhas)
+2026-10-06 21:07:14,197 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-06T20:07:14.197023+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:07:18,153 INFO Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2026-10-06 21:07:37,863 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_cost_per_media_unit_0_cost_per_media_unit_da.csv (31200 linhas)
+2026-10-06 21:07:37,865 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_cost_per_media_unit_0_cost_media_unit_inconsistency_df.csv (0 linhas)
+2026-10-06 21:07:37,867 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_cost_per_media_unit_0_outlier_df.csv (200 linhas)
+2026-10-06 21:07:37,890 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_cost_per_media_unit_0_cost_per_media_unit_da.csv (780 linhas)
+2026-10-06 21:07:37,891 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_cost_per_media_unit_0_cost_media_unit_inconsistency_df.csv (0 linhas)
+2026-10-06 21:07:37,892 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_cost_per_media_unit_0_outlier_df.csv (15 linhas)
+2026-10-06 21:07:37,932 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_std_0_std_ds.csv (40 linhas)
+2026-10-06 21:07:37,934 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_std_0_outlier_df.csv (36 linhas)
+2026-10-06 21:07:37,936 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_std_1_std_ds.csv (360 linhas)
+2026-10-06 21:07:37,941 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_std_1_outlier_df.csv (1461 linhas)
+2026-10-06 21:07:37,960 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_std_0_std_ds.csv (1 linhas)
+2026-10-06 21:07:37,961 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_std_0_outlier_df.csv (1 linhas)
+2026-10-06 21:07:37,962 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_std_1_std_ds.csv (9 linhas)
+2026-10-06 21:07:37,963 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_std_1_outlier_df.csv (21 linhas)
+2026-10-06 21:07:37,976 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_overall_kpi_invariability_0_kpi_da.csv (6240 linhas)
+2026-10-06 21:07:37,976 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_overall_kpi_invariability_0_kpi_stdev.csv (1 linhas)
+2026-10-06 21:07:37,982 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_population_corr_raw_media_0_correlation_ds.csv (5 linhas)
+2026-10-06 21:07:37,988 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_population_corr_scaled_treatment_control_0_correlation_ds.csv (10 linhas)
+2026-10-06 21:07:38,039 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_pairwise_corr_0_corr_matrix.csv (81 linhas)
+2026-10-06 21:07:38,040 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_pairwise_corr_0_extreme_corr_var_pairs.csv (0 linhas)
+2026-10-06 21:07:38,048 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_pairwise_corr_1_corr_matrix.csv (3240 linhas)
+2026-10-06 21:07:38,048 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_pairwise_corr_1_extreme_corr_var_pairs.csv (0 linhas)
+2026-10-06 21:07:38,060 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_pairwise_corr_0_corr_matrix.csv (81 linhas)
+2026-10-06 21:07:38,060 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_pairwise_corr_0_extreme_corr_var_pairs.csv (0 linhas)
+2026-10-06 21:07:38,190 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_vif_0_vif_da.csv (9 linhas)
+2026-10-06 21:07:38,190 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_vif_0_outlier_df.csv (0 linhas)
+2026-10-06 21:07:38,192 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_vif_1_vif_da.csv (360 linhas)
+2026-10-06 21:07:38,193 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_vif_1_outlier_df.csv (0 linhas)
+2026-10-06 21:07:38,197 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_vif_0_vif_da.csv (9 linhas)
+2026-10-06 21:07:38,198 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_vif_0_outlier_df.csv (0 linhas)
+2026-10-06 21:07:39,091 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_variable_geo_time_collinearity_0_rsquared_ds.csv (9 linhas)
+2026-10-06 21:07:39,092 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/meridian_eda_checks.csv (16 linhas)
+2026-10-06 21:07:39,093 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/meridian_data_adequacy.csv (1 linhas)
+2026-10-06 21:07:39,140 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_r2_reconciliation.csv (9 linhas)
+2026-10-06 21:07:39,263 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_correlation_reconciliation.csv (72 linhas)
+2026-10-06 21:07:39,264 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_vif_reconciliation.csv (18 linhas)
+2026-10-06 21:07:39,311 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/custom_official_scale_comparison.csv (72 linhas)
+2026-10-06 21:07:40,578 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_cpmu_cases_geo.csv (200 linhas)
+2026-10-06 21:07:40,614 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_cpmu_cases_national.csv (15 linhas)
+2026-10-06 21:07:40,633 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_outlier_cases.csv (1519 linhas)
+2026-10-06 21:07:40,635 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_outlier_selected_cases.csv (35 linhas)
+2026-10-06 21:07:40,636 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_outlier_reconciliation.csv (4 linhas)
+2026-10-06 21:07:40,637 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_review_resolution.csv (6 linhas)
+2026-10-06 21:07:40,637 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_thresholds.csv (10 linhas)
+2026-10-06 21:07:40,639 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/meridian_warnings.csv (2 linhas)
+2026-10-06 21:07:40,643 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/custom_vs_meridian.csv (7 linhas)
+2026-10-06 21:07:40,644 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/custom_vs_meridian.csv (7 linhas)
+2026-10-06 21:07:42,929 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-06T20:07:42.928872+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:07:43,008 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/readiness_report.csv (18 linhas)
+2026-10-06 21:07:43,404 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/readiness_dashboard.svg
+2026-10-06 21:07:43,591 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/readiness_dashboard.png
+2026-10-06 21:07:43,618 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/channel_integrated_review.csv (5 linhas)
+2026-10-06 21:07:43,622 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/readiness_actions.csv (15 linhas)
+2026-10-06 21:07:44,396 INFO Dataset carregado e checksum validado: {'accessed_utc': '2026-10-06T20:07:44.395605+00:00', 'versions': {'python': '3.12.14', 'google-meridian': '2.1.0', 'numpy': '2.3.5', 'pandas': '2.3.3', 'scipy': '1.18.1', 'matplotlib': '3.10.9', 'statsmodels': '0.14.6', 'jax': '0.11.2', 'tensorflow': '2.21.0', 'nbformat': '5.11.1', 'nbclient': '0.11.0'}, 'sha256': 'd9ee016f7cd21f5c90b50da10a794af91a372b69f881d3caa266edd41fdafbf6', 'rows': 6240, 'geos': 40, 'periods': 156, 'seed': 20261003}
+2026-10-06 21:07:44,688 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/data_audit.csv (29 linhas)
+2026-10-06 21:07:44,693 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/data_dictionary.csv (19 linhas)
+2026-10-06 21:07:44,738 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/missing_summary.csv (19 linhas)
+2026-10-06 21:07:44,741 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/missing_by_geo.csv (40 linhas)
+2026-10-06 21:07:44,743 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/missing_by_time.csv (156 linhas)
+2026-10-06 21:07:44,744 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/missing_by_channel.csv (5 linhas)
+2026-10-06 21:07:44,746 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/duplicate_summary.csv (0 linhas)
+2026-10-06 21:07:45,080 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/data_audit/panel_completeness.svg
+2026-10-06 21:07:45,381 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/data_audit/panel_completeness.png
+2026-10-06 21:07:45,479 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/data_audit/missing_values.svg
+2026-10-06 21:07:45,575 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/data_audit/missing_values.png
+2026-10-06 21:07:45,592 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/cost_per_media_unit.csv (5 linhas)
+2026-10-06 21:07:45,681 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/national_descriptive.csv (15 linhas)
+2026-10-06 21:07:46,542 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/channel_summary.csv (5 linhas)
+2026-10-06 21:07:46,543 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/channel_activity.csv (5 linhas)
+2026-10-06 21:07:46,571 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/activity_runs.csv (8417 linhas)
+2026-10-06 21:07:46,574 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/activity_streaks.csv (10 linhas)
+2026-10-06 21:07:46,785 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/outliers.csv (6039 linhas)
+2026-10-06 21:07:46,786 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_share.csv (5 linhas)
+2026-10-06 21:07:46,941 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/national_kpi.svg
+2026-10-06 21:07:47,081 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/national_kpi.png
+2026-10-06 21:07:47,153 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/spend_share.svg
+2026-10-06 21:07:47,231 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/spend_share.png
+2026-10-06 21:07:47,297 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/channel_activity.svg
+2026-10-06 21:07:47,368 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/channel_activity.png
+2026-10-06 21:07:47,506 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/kpi_distribution.svg
+2026-10-06 21:07:47,608 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/general/kpi_distribution.png
+2026-10-06 21:07:47,965 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/outlier_case_windows.csv (225 linhas)
+2026-10-06 21:07:47,991 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/outlier_coincidence.csv (2918 linhas)
+2026-10-06 21:07:47,992 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/outlier_group_review.csv (15 linhas)
+2026-10-06 21:07:47,993 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/outlier_case_review.csv (45 linhas)
+2026-10-06 21:07:48,351 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/activity_support_by_geo.csv (200 linhas)
+2026-10-06 21:07:48,355 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/activity_intensity_summary.csv (5 linhas)
+2026-10-06 21:07:48,355 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/national_zero_media_weeks.csv (4 linhas)
+2026-10-06 21:07:48,990 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/national_timeseries.csv (156 linhas)
+2026-10-06 21:07:49,104 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/kpi_trend.svg
+2026-10-06 21:07:49,224 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/kpi_trend.png
+2026-10-06 21:07:49,256 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/kpi_stl_52.csv (156 linhas)
+2026-10-06 21:07:49,592 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/kpi_stl_52.svg
+2026-10-06 21:07:49,869 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/kpi_stl_52.png
+2026-10-06 21:07:49,874 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/kpi_level_changes.csv (156 linhas)
+2026-10-06 21:07:49,875 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/kpi_acf.csv (53 linhas)
+2026-10-06 21:07:50,110 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel0_timeseries.svg
+2026-10-06 21:07:50,326 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel0_timeseries.png
+2026-10-06 21:07:50,512 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel0_kpi_z.svg
+2026-10-06 21:07:50,635 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel0_kpi_z.png
+2026-10-06 21:07:50,900 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel1_timeseries.svg
+2026-10-06 21:07:51,143 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel1_timeseries.png
+2026-10-06 21:07:51,284 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel1_kpi_z.svg
+2026-10-06 21:07:51,408 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel1_kpi_z.png
+2026-10-06 21:07:51,652 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel2_timeseries.svg
+2026-10-06 21:07:51,899 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel2_timeseries.png
+2026-10-06 21:07:52,013 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel2_kpi_z.svg
+2026-10-06 21:07:52,138 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel2_kpi_z.png
+2026-10-06 21:07:52,386 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel3_timeseries.svg
+2026-10-06 21:07:52,612 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel3_timeseries.png
+2026-10-06 21:07:52,729 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel3_kpi_z.svg
+2026-10-06 21:07:52,862 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel3_kpi_z.png
+2026-10-06 21:07:53,104 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel4_timeseries.svg
+2026-10-06 21:07:53,326 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel4_timeseries.png
+2026-10-06 21:07:53,584 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel4_kpi_z.svg
+2026-10-06 21:07:53,712 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Channel4_kpi_z.png
+2026-10-06 21:07:53,715 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/national_cpmu.csv (156 linhas)
+2026-10-06 21:07:53,829 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/competitor_sales_control_time.svg
+2026-10-06 21:07:53,950 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/competitor_sales_control_time.png
+2026-10-06 21:07:54,030 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/competitor_sales_control_distribution.svg
+2026-10-06 21:07:54,100 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/competitor_sales_control_distribution.png
+2026-10-06 21:07:54,212 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/sentiment_score_control_time.svg
+2026-10-06 21:07:54,330 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/sentiment_score_control_time.png
+2026-10-06 21:07:54,409 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/sentiment_score_control_distribution.svg
+2026-10-06 21:07:54,480 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/sentiment_score_control_distribution.png
+2026-10-06 21:07:54,620 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Promo_time.svg
+2026-10-06 21:07:54,733 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Promo_time.png
+2026-10-06 21:07:54,818 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Promo_distribution.svg
+2026-10-06 21:07:54,912 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Promo_distribution.png
+2026-10-06 21:07:55,023 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Organic_channel0_impression_time.svg
+2026-10-06 21:07:55,136 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Organic_channel0_impression_time.png
+2026-10-06 21:07:55,217 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Organic_channel0_impression_distribution.svg
+2026-10-06 21:07:55,284 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/temporal/Organic_channel0_impression_distribution.png
+2026-10-06 21:07:55,288 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/control_temporal_summary.csv (4 linhas)
+2026-10-06 21:07:55,302 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/temporal_interpretation.csv (1 linhas)
+2026-10-06 21:07:55,316 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/control_detailed_profile.csv (3 linhas)
+2026-10-06 21:07:55,407 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_kpi_summary.csv (40 linhas)
+2026-10-06 21:07:55,408 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/population_summary.csv (40 linhas)
+2026-10-06 21:07:55,431 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/within_between_variance.csv (15 linhas)
+2026-10-06 21:07:55,432 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_time_r2.csv (15 linhas)
+2026-10-06 21:07:55,451 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_time_r2_per_capita.csv (12 linhas)
+2026-10-06 21:07:55,530 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/per_capita_panel.csv (6240 linhas)
+2026-10-06 21:07:55,532 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/population_kpi_correlation.csv (2 linhas)
+2026-10-06 21:07:55,533 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/kpi_concentration.csv (40 linhas)
+2026-10-06 21:07:55,670 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_by_geo.svg
+2026-10-06 21:07:55,795 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_by_geo.png
+2026-10-06 21:07:56,063 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/population_by_geo.svg
+2026-10-06 21:07:56,174 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/population_by_geo.png
+2026-10-06 21:07:56,316 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_per_capita.svg
+2026-10-06 21:07:56,437 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_per_capita.png
+2026-10-06 21:07:56,510 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/population_kpi.svg
+2026-10-06 21:07:56,584 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/population_kpi.png
+2026-10-06 21:07:56,662 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_concentration.svg
+2026-10-06 21:07:56,759 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_concentration.png
+2026-10-06 21:07:57,171 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/geo_correlation.svg
+2026-10-06 21:07:57,512 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/geo_correlation.png
+2026-10-06 21:07:57,516 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_kpi_correlation.csv (40 linhas)
+2026-10-06 21:07:57,517 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_plot_selection.csv (7 linhas)
+2026-10-06 21:07:58,002 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_small_multiples.svg
+2026-10-06 21:07:58,434 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_small_multiples.png
+2026-10-06 21:07:58,538 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/variance_decomposition.svg
+2026-10-06 21:07:58,667 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/variance_decomposition.png
+2026-10-06 21:07:58,806 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/geo_time_r2.svg
+2026-10-06 21:07:58,994 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/geo_time_r2.png
+2026-10-06 21:07:59,488 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/conversions_geo_time.svg
+2026-10-06 21:07:59,795 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/conversions_geo_time.png
+2026-10-06 21:08:00,149 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/competitor_sales_control_geo_time.svg
+2026-10-06 21:08:00,446 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/competitor_sales_control_geo_time.png
+2026-10-06 21:08:00,773 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/sentiment_score_control_geo_time.svg
+2026-10-06 21:08:01,068 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/sentiment_score_control_geo_time.png
+2026-10-06 21:08:01,395 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_pc_geo_time.svg
+2026-10-06 21:08:01,687 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/geo/kpi_pc_geo_time.png
+2026-10-06 21:08:01,705 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_synchronization_pairs.csv (780 linhas)
+2026-10-06 21:08:01,707 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_synchronization_summary.csv (1 linhas)
+2026-10-06 21:08:01,775 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_media_summary.csv (40 linhas)
+2026-10-06 21:08:01,776 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/media_mix.csv (40 linhas)
+2026-10-06 21:08:01,776 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_allocation.csv (40 linhas)
+2026-10-06 21:08:02,081 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/spend_geo_channel.svg
+2026-10-06 21:08:02,369 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/spend_geo_channel.png
+2026-10-06 21:08:02,676 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/media_mix.svg
+2026-10-06 21:08:02,960 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/media_mix.png
+2026-10-06 21:08:03,268 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/geo_allocation.svg
+2026-10-06 21:08:03,562 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/geo_allocation.png
+2026-10-06 21:08:03,883 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/spend_per_capita.svg
+2026-10-06 21:08:04,173 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/spend_per_capita.png
+2026-10-06 21:08:04,689 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/mix_stacked.svg
+2026-10-06 21:08:04,904 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/mix_stacked.png
+2026-10-06 21:08:04,981 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_population.svg
+2026-10-06 21:08:05,060 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_population.png
+2026-10-06 21:08:05,432 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_impression_geo_time.svg
+2026-10-06 21:08:05,758 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_impression_geo_time.png
+2026-10-06 21:08:06,076 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_impression_pc_geo_time.svg
+2026-10-06 21:08:06,375 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_impression_pc_geo_time.png
+2026-10-06 21:08:06,691 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_spend_geo_time.svg
+2026-10-06 21:08:06,986 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_spend_geo_time.png
+2026-10-06 21:08:07,306 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_spend_pc_geo_time.svg
+2026-10-06 21:08:07,596 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel0_spend_pc_geo_time.png
+2026-10-06 21:08:07,672 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_population.svg
+2026-10-06 21:08:07,742 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_population.png
+2026-10-06 21:08:08,167 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_impression_geo_time.svg
+2026-10-06 21:08:08,462 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_impression_geo_time.png
+2026-10-06 21:08:08,777 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_impression_pc_geo_time.svg
+2026-10-06 21:08:09,093 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_impression_pc_geo_time.png
+2026-10-06 21:08:09,417 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_spend_geo_time.svg
+2026-10-06 21:08:09,719 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_spend_geo_time.png
+2026-10-06 21:08:10,063 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_spend_pc_geo_time.svg
+2026-10-06 21:08:10,340 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel1_spend_pc_geo_time.png
+2026-10-06 21:08:10,416 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_population.svg
+2026-10-06 21:08:10,487 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_population.png
+2026-10-06 21:08:10,805 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_impression_geo_time.svg
+2026-10-06 21:08:11,105 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_impression_geo_time.png
+2026-10-06 21:08:11,431 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_impression_pc_geo_time.svg
+2026-10-06 21:08:11,731 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_impression_pc_geo_time.png
+2026-10-06 21:08:12,054 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_spend_geo_time.svg
+2026-10-06 21:08:12,352 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_spend_geo_time.png
+2026-10-06 21:08:12,815 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_spend_pc_geo_time.svg
+2026-10-06 21:08:13,109 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel2_spend_pc_geo_time.png
+2026-10-06 21:08:13,182 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_population.svg
+2026-10-06 21:08:13,252 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_population.png
+2026-10-06 21:08:13,586 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_impression_geo_time.svg
+2026-10-06 21:08:13,920 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_impression_geo_time.png
+2026-10-06 21:08:14,268 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_impression_pc_geo_time.svg
+2026-10-06 21:08:14,560 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_impression_pc_geo_time.png
+2026-10-06 21:08:14,870 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_spend_geo_time.svg
+2026-10-06 21:08:15,169 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_spend_geo_time.png
+2026-10-06 21:08:15,489 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_spend_pc_geo_time.svg
+2026-10-06 21:08:15,800 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel3_spend_pc_geo_time.png
+2026-10-06 21:08:15,905 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_population.svg
+2026-10-06 21:08:15,988 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_population.png
+2026-10-06 21:08:16,359 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_impression_geo_time.svg
+2026-10-06 21:08:16,670 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_impression_geo_time.png
+2026-10-06 21:08:17,057 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_impression_pc_geo_time.svg
+2026-10-06 21:08:17,406 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_impression_pc_geo_time.png
+2026-10-06 21:08:17,899 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_spend_geo_time.svg
+2026-10-06 21:08:18,199 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_spend_geo_time.png
+2026-10-06 21:08:18,530 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_spend_pc_geo_time.svg
+2026-10-06 21:08:18,829 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/Channel4_spend_pc_geo_time.png
+2026-10-06 21:08:18,838 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/within_geo_cv.csv (200 linhas)
+2026-10-06 21:08:18,839 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/population_media_correlation.csv (10 linhas)
+2026-10-06 21:08:18,839 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/channel_geo_concentration.csv (5 linhas)
+2026-10-06 21:08:18,841 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/geo_cpmu.csv (200 linhas)
+2026-10-06 21:08:19,162 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/within_geo_cv.svg
+2026-10-06 21:08:19,471 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/within_geo_cv.png
+2026-10-06 21:08:19,550 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/within_cv_distribution.svg
+2026-10-06 21:08:19,622 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/within_cv_distribution.png
+2026-10-06 21:08:19,646 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/channel_geo_interpretation.csv (5 linhas)
+2026-10-06 21:08:20,134 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/mix_deviations_pp.svg
+2026-10-06 21:08:20,449 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/media_geo/mix_deviations_pp.png
+2026-10-06 21:08:20,538 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_national_pearson.csv (15 linhas)
+2026-10-06 21:08:20,707 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_national.svg
+2026-10-06 21:08:20,863 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_national.png
+2026-10-06 21:08:20,865 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_national_pearson.csv (5 linhas)
+2026-10-06 21:08:20,866 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_national_pearson.csv (5 linhas)
+2026-10-06 21:08:20,868 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_national_spearman.csv (15 linhas)
+2026-10-06 21:08:20,868 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_national_spearman.csv (5 linhas)
+2026-10-06 21:08:20,869 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_national_spearman.csv (5 linhas)
+2026-10-06 21:08:20,874 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_overall_pearson.csv (15 linhas)
+2026-10-06 21:08:21,046 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_overall.svg
+2026-10-06 21:08:21,210 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_overall.png
+2026-10-06 21:08:21,211 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_overall_pearson.csv (5 linhas)
+2026-10-06 21:08:21,212 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_overall_pearson.csv (5 linhas)
+2026-10-06 21:08:21,222 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_overall_spearman.csv (15 linhas)
+2026-10-06 21:08:21,223 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_overall_spearman.csv (5 linhas)
+2026-10-06 21:08:21,224 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_overall_spearman.csv (5 linhas)
+2026-10-06 21:08:21,228 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_within_pearson.csv (15 linhas)
+2026-10-06 21:08:21,429 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_within.svg
+2026-10-06 21:08:21,587 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_within.png
+2026-10-06 21:08:21,589 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_within_pearson.csv (5 linhas)
+2026-10-06 21:08:21,590 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_within_pearson.csv (5 linhas)
+2026-10-06 21:08:21,599 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_within_spearman.csv (15 linhas)
+2026-10-06 21:08:21,601 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_within_spearman.csv (5 linhas)
+2026-10-06 21:08:21,601 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_within_spearman.csv (5 linhas)
+2026-10-06 21:08:21,606 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_two_way_pearson.csv (15 linhas)
+2026-10-06 21:08:21,954 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_two_way.svg
+2026-10-06 21:08:22,115 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/correlation_two_way.png
+2026-10-06 21:08:22,117 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_two_way_pearson.csv (5 linhas)
+2026-10-06 21:08:22,118 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_two_way_pearson.csv (5 linhas)
+2026-10-06 21:08:22,131 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_two_way_spearman.csv (15 linhas)
+2026-10-06 21:08:22,133 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/impression_correlation_two_way_spearman.csv (5 linhas)
+2026-10-06 21:08:22,134 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/spend_correlation_two_way_spearman.csv (5 linhas)
+2026-10-06 21:08:22,140 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/correlation_summary.csv (840 linhas)
+2026-10-06 21:08:22,193 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/vif_summary.csv (36 linhas)
+2026-10-06 21:08:22,353 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/vif.svg
+2026-10-06 21:08:22,473 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/vif.png
+2026-10-06 21:08:22,507 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/exploratory_lags.csv (45 linhas)
+2026-10-06 21:08:22,605 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/lags.svg
+2026-10-06 21:08:22,732 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/lags.png
+2026-10-06 21:08:22,749 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/substantive_pair_comparison.csv (72 linhas)
+2026-10-06 21:08:22,750 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/predictor_kpi_comparison.csv (72 linhas)
+2026-10-06 21:08:22,756 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/control_relationship_review.csv (3 linhas)
+2026-10-06 21:08:25,719 INFO Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2026-10-06 21:08:45,421 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_cost_per_media_unit_0_cost_per_media_unit_da.csv (31200 linhas)
+2026-10-06 21:08:45,423 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_cost_per_media_unit_0_cost_media_unit_inconsistency_df.csv (0 linhas)
+2026-10-06 21:08:45,424 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_cost_per_media_unit_0_outlier_df.csv (200 linhas)
+2026-10-06 21:08:45,446 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_cost_per_media_unit_0_cost_per_media_unit_da.csv (780 linhas)
+2026-10-06 21:08:45,447 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_cost_per_media_unit_0_cost_media_unit_inconsistency_df.csv (0 linhas)
+2026-10-06 21:08:45,448 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_cost_per_media_unit_0_outlier_df.csv (15 linhas)
+2026-10-06 21:08:45,480 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_std_0_std_ds.csv (40 linhas)
+2026-10-06 21:08:45,482 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_std_0_outlier_df.csv (36 linhas)
+2026-10-06 21:08:45,484 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_std_1_std_ds.csv (360 linhas)
+2026-10-06 21:08:45,489 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_std_1_outlier_df.csv (1461 linhas)
+2026-10-06 21:08:45,510 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_std_0_std_ds.csv (1 linhas)
+2026-10-06 21:08:45,510 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_std_0_outlier_df.csv (1 linhas)
+2026-10-06 21:08:45,511 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_std_1_std_ds.csv (9 linhas)
+2026-10-06 21:08:45,512 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_std_1_outlier_df.csv (21 linhas)
+2026-10-06 21:08:45,523 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_overall_kpi_invariability_0_kpi_da.csv (6240 linhas)
+2026-10-06 21:08:45,524 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_overall_kpi_invariability_0_kpi_stdev.csv (1 linhas)
+2026-10-06 21:08:45,529 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_population_corr_raw_media_0_correlation_ds.csv (5 linhas)
+2026-10-06 21:08:45,535 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_population_corr_scaled_treatment_control_0_correlation_ds.csv (10 linhas)
+2026-10-06 21:08:45,565 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_pairwise_corr_0_corr_matrix.csv (81 linhas)
+2026-10-06 21:08:45,566 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_pairwise_corr_0_extreme_corr_var_pairs.csv (0 linhas)
+2026-10-06 21:08:45,574 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_pairwise_corr_1_corr_matrix.csv (3240 linhas)
+2026-10-06 21:08:45,574 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_pairwise_corr_1_extreme_corr_var_pairs.csv (0 linhas)
+2026-10-06 21:08:45,585 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_pairwise_corr_0_corr_matrix.csv (81 linhas)
+2026-10-06 21:08:45,586 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_pairwise_corr_0_extreme_corr_var_pairs.csv (0 linhas)
+2026-10-06 21:08:45,712 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_vif_0_vif_da.csv (9 linhas)
+2026-10-06 21:08:45,712 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_vif_0_outlier_df.csv (0 linhas)
+2026-10-06 21:08:45,714 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_vif_1_vif_da.csv (360 linhas)
+2026-10-06 21:08:45,715 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_geo_vif_1_outlier_df.csv (0 linhas)
+2026-10-06 21:08:45,720 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_vif_0_vif_da.csv (9 linhas)
+2026-10-06 21:08:45,720 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_national_vif_0_outlier_df.csv (0 linhas)
+2026-10-06 21:08:46,608 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_check_variable_geo_time_collinearity_0_rsquared_ds.csv (9 linhas)
+2026-10-06 21:08:46,609 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/meridian_eda_checks.csv (16 linhas)
+2026-10-06 21:08:46,610 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/meridian_data_adequacy.csv (1 linhas)
+2026-10-06 21:08:46,661 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_r2_reconciliation.csv (9 linhas)
+2026-10-06 21:08:46,777 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_correlation_reconciliation.csv (72 linhas)
+2026-10-06 21:08:46,778 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_vif_reconciliation.csv (18 linhas)
+2026-10-06 21:08:46,821 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/custom_official_scale_comparison.csv (72 linhas)
+2026-10-06 21:08:48,115 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_cpmu_cases_geo.csv (200 linhas)
+2026-10-06 21:08:48,153 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_cpmu_cases_national.csv (15 linhas)
+2026-10-06 21:08:48,172 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_outlier_cases.csv (1519 linhas)
+2026-10-06 21:08:48,174 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_outlier_selected_cases.csv (35 linhas)
+2026-10-06 21:08:48,174 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_outlier_reconciliation.csv (4 linhas)
+2026-10-06 21:08:48,175 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_review_resolution.csv (6 linhas)
+2026-10-06 21:08:48,176 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/official_thresholds.csv (10 linhas)
+2026-10-06 21:08:48,178 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/meridian_warnings.csv (2 linhas)
+2026-10-06 21:08:48,182 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/custom_vs_meridian.csv (7 linhas)
+2026-10-06 21:08:48,183 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/custom_vs_meridian.csv (7 linhas)
+2026-10-06 21:08:48,318 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/readiness_report.csv (18 linhas)
+2026-10-06 21:08:48,457 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/readiness_dashboard.svg
+2026-10-06 21:08:48,590 INFO Figura: /workspace/scratch/5d823022ed95/tcc-revision/outputs/figures/relationships/readiness_dashboard.png
+2026-10-06 21:08:48,610 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/channel_integrated_review.csv (5 linhas)
+2026-10-06 21:08:48,614 INFO Tabela: /workspace/scratch/5d823022ed95/tcc-revision/outputs/tables/readiness_actions.csv (15 linhas)

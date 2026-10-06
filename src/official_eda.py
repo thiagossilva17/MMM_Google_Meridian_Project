@@ -1,3 +1,4 @@
+from .provenance import tracked, record
 """Camada independente de auditoria: API Google Meridian 2.1.0 verificada no commit fixado."""
 import dataclasses
 import importlib.metadata
@@ -9,12 +10,15 @@ from .config import *
 from .data import channels
 from .reporting import table, result
 
+@tracked('06')
 def official_eda(panel):
     from meridian.data import data_frame_input_data_builder
     from meridian.model import model, spec
     from meridian.model.eda import meridian_eda
     if importlib.metadata.version('google-meridian')!='2.1.0':
         raise RuntimeError('Instale o commit fixado em requirements.txt para reproduzir a API validada.')
+    from .provenance import verify_meridian_origin
+    verify_meridian_origin()
     paid=channels(panel)
     frame=panel.copy();frame[TIME]=frame[TIME].dt.strftime('%Y-%m-%d')
     builder=data_frame_input_data_builder.DataFrameInputDataBuilder(
@@ -31,6 +35,7 @@ def official_eda(panel):
         # O construtor oficial faz amostragem PRIOR. Nenhuma amostragem posterior.
         eda=meridian_eda.MeridianEDA(mmm,seed=SEED)
         eda.generate_and_save_report(filename='meridian_eda_report.html',filepath=str(ROOT/'outputs/reports'))
+        record(ROOT/'outputs/reports/meridian_eda_report.html')
         engine=eda.eda_engine
         methods=['check_geo_cost_per_media_unit','check_national_cost_per_media_unit',
                  'check_geo_std','check_national_std','check_overall_kpi_invariability',
@@ -45,6 +50,7 @@ def official_eda(panel):
             for i,artifact in enumerate(outcome.analysis_artifacts):
                 for field in dataclasses.fields(artifact):
                     value=getattr(artifact,field.name)
+                    if isinstance(value,pd.DataFrame):table(value,f'official_{method}_{i}_{field.name}')
                     if hasattr(value,'to_dataframe'):
                         if not value.dims:
                             exported=pd.DataFrame([{k:v.item() for k,v in value.data_vars.items()}]) if hasattr(value,'data_vars') else pd.DataFrame({field.name:[value.item()]})
@@ -74,6 +80,8 @@ def official_eda(panel):
         table(reconciliation,'official_r2_reconciliation')
         agreement=bool(np.allclose(reconciliation.custom_adjusted_r2_geo,reconciliation.rsquared_geo,atol=1e-5,equal_nan=True)
                        and np.allclose(reconciliation.custom_adjusted_r2_time,reconciliation.rsquared_time,atol=1e-5,equal_nan=True))
+    from .official_review import compare_and_review
+    compare_and_review(engine,outcomes,panel)
     warning_table=pd.DataFrame([{'category':w.category.__name__,'message':str(w.message)} for w in captured],columns=['category','message'])
     table(warning_table.drop_duplicates(),'meridian_warnings',False)
     assert 'posterior' not in mmm.inference_data.groups(), 'Esta fase não pode conter posterior.'

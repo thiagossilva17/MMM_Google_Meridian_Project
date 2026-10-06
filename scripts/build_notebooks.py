@@ -38,6 +38,9 @@ os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "2")
 from src.config import SEED, ROOT
 from src.data import load_panel
 from src.reporting import show
+from src.provenance import verify_checkout, verify_meridian_origin
+print("Código:",verify_checkout(PROJECT_ROOT, REPO_REF))
+print("Meridian:",verify_meridian_origin())
 import numpy as np
 np.random.seed(SEED)
 geo_time_panel = load_panel()
@@ -96,7 +99,8 @@ def chapter_cells(chapter):
 
 **Dependências:** painel validado e funções em `{module.replace('.', '/')}.py`. O código reutilizável está comentado e pode ser aberto para inspecionar as fórmulas. Todos os resultados são calculados na execução, não preenchidos manualmente.
 '''
-    cells=[nbf.v4.new_markdown_cell(narrative),nbf.v4.new_code_cell(f'from {module} import {function}\nreport_{name[:2]} = {function}(geo_time_panel)\nshow(report_{name[:2]})')]
+    cells=[nbf.v4.new_markdown_cell(narrative),nbf.v4.new_code_cell(f'from {module} import {function}\nreport_{name[:2]} = {function}(geo_time_panel)\nshow(report_{name[:2]},part="summary")')]
+    cells.extend([nbf.v4.new_markdown_cell('### Evidências e leitura das figuras\nTabelas pequenas são exibidas integralmente. As sínteses selecionam os casos relevantes; os CSVs mantêm os dados completos.'),nbf.v4.new_code_cell(f'show(report_{name[:2]},part="evidence")')])
     if name.startswith('06'):
         cells.append(nbf.v4.new_code_cell('from IPython.display import display, FileLink\ndisplay(FileLink("outputs/reports/meridian_eda_report.html"))\n# Baixe o HTML e abra no navegador para explorar os gráficos oficiais.'))
     return cells
@@ -119,16 +123,20 @@ O bootstrap clona o repositório público quando necessário, preserva instalaç
 if __name__=='__main__':
     for chapter in CHAPTERS:
         cells=[nbf.v4.new_markdown_cell(intro),nbf.v4.new_code_cell(BOOTSTRAP)]
-        if chapter[0].startswith('07'):
-            cells.append(nbf.v4.new_markdown_cell('Este capítulo depende das tabelas 00–06. Se estiverem ausentes, a célula seguinte executa as etapas prévias. Ao usar o master, não há recálculo.'))
-            dependencies='''required_outputs = ['data_audit', 'channel_summary', 'within_between_variance', 'geo_time_r2_per_capita', 'vif_summary', 'media_mix', 'meridian_eda_checks', 'meridian_data_adequacy', 'outliers']
-if any(not (ROOT / 'outputs/tables' / f'{name}.csv').exists() for name in required_outputs):
-    from src.eda import data_audit, general, temporal, relationships
-    from src.geo_analysis import geo_analysis, media_geo
+        stage=int(chapter[0][:2])
+        if stage:
+            cells.append(nbf.v4.new_markdown_cell('O manifesto verifica código, raw, ambiente, conclusão das etapas e hashes dos outputs; resultados incompatíveis são recalculados.'))
+            dependencies=f"""from src.provenance import require_stages
+try:
+    require_stages(range({stage}))
+except RuntimeError as stale:
+    print('Recalculando etapas anteriores:',stale)
+    from src.eda import data_audit,general,temporal,relationships
+    from src.geo_analysis import geo_analysis,media_geo
     from src.official_eda import official_eda
-    for analysis in [data_audit, general, temporal, geo_analysis, media_geo, relationships, official_eda]:
+    for analysis in [data_audit,general,temporal,geo_analysis,media_geo,relationships,official_eda][:{stage}]:
         analysis(geo_time_panel)
-'''
+"""
             cells.append(nbf.v4.new_code_cell(dependencies))
         cells+=chapter_cells(chapter)
         nbf.write(notebook(cells),ROOT/'notebooks'/f'{chapter[0]}.ipynb')

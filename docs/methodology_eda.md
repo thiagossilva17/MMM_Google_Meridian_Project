@@ -77,3 +77,19 @@ O guardrail dados/parâmetros utiliza `G×T / (G−1 + knots + controles + trata
 - [Guia oficial de EDA](https://developers.google.com/meridian/docs/pre-modeling/perform-eda)
 - [Implementação MeridianEDA](https://github.com/google/meridian/blob/02111531f8661373aa7b6ba31c316c67d72d1dd2/meridian/model/eda/meridian_eda.py)
 - [Motor oficial: fórmulas e transformações](https://github.com/google/meridian/blob/02111531f8661373aa7b6ba31c316c67d72d1dd2/meridian/model/eda/eda_engine.py)
+
+## Complementos da auditoria
+
+A triagem original IQR/MAD foi preservada e complementada com IQR per capita (somente medidas aditivas), dentro do geo, casos de maior afastamento da mediana e janelas ±2 semanas. Índices centrados e Promo não recebem normalização populacional. Promo é contínuo com massa em zero; não é variável binária. CV não interpretável para índices centrados é NaN com justificativa também nos CSVs.
+
+Para exposição não negativa, p=P(X>0), Var(X)=p Var(X|X>0)+p(1−p)E(X|X>0)². Calcula-se por geo com ddof=0; o painel balanceado admite pesos iguais. Os componentes descrevem intensidade positiva e alternância zero/positivo da variância within. Não são componentes do resíduo após efeitos de semana nem efeitos causais.
+
+Forças STL são max(0,1−Var(resíduo)/Var(componente+resíduo)); não são testes ou parcelas aditivas. Mix e desvios do mix nacional são expressos em pontos percentuais. CPMU tem eixo a partir de zero e anotação de CV relativo, com precisão integral mantida nas tabelas.
+
+Correlação e VIF oficiais são reconciliados usando as matrizes transformadas do motor e cálculo pandas/OLS. IQR compara o conjunto completo de chaves, não só contagens. No nacional, controles/Promo oficiais são somados por padrão; a EDA própria pondera por população. Os limiares efetivos estão em `official_thresholds.csv`: correlação 0,999 e VIF 1000 são guardrails extremos, não certificados de qualidade. A prior automática usa 500 amostras por default nesta API; não há posterior.
+
+## Validade de resultados
+
+O manifesto registra running/complete/failed, timestamps, commit executado, alterações locais e fingerprint de raw, src, gerador de notebooks, requirements, versões e origem VCS do Meridian. Saídas têm hashes individuais. A compatibilidade é pelo conteúdo: registrar o commit base e alterações locais permite executar a revisão antes de publicá-la sem autoincluir um SHA de commit ainda inexistente.
+
+O bootstrap confere HEAD contra a referência resolvida localmente; não troca checkout nem apaga alterações. Em clone antigo, faça fetch explicitamente ou prefira SHA imutável. Mesmo número de versão Meridian com outro commit é rejeitado. Modulares verificam etapas anteriores por manifesto; o master sempre recalcula a sequência inteira.

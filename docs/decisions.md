@@ -19,3 +19,7 @@
 | Colab é transitório | Depender de arquivos locais ou bootstrap | Clone público, instalação inicial, raw versionado e ZIP de resultados | Execução em runtime novo sem credenciais privadas |
 
 Nenhuma observação, canal ou geo foi excluído por desempenho estatístico. Nenhum threshold oficial foi modificado. Critérios IQR/MAD, STL 52, média móvel 13 e lags 0–8 são escolhas exploratórias explícitas, não parâmetros finais do MMM.
+
+## Decisões após auditoria
+
+Os seis REVIEW permanecem visíveis e receberam localização, magnitude, decisão e limite residual em `official_review_resolution.csv`. Extremos foram comparados por escala/geo e por janelas locais; não se presume validação comercial. O risco de janelas sem exposição em Channel2 orienta o futuro treino/holdout, sem eliminar o canal. Mix semelhante é descrito em p.p.; variação residual e VIF não certificam identificação. Manifesto e origem VCS substituem reutilização de outputs por mera existência. A auditoria original foi preservada; revisão e pendência Colab são registradas separadamente.

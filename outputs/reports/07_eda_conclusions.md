@@ -10,7 +10,19 @@
 
 5. **Identificabilidade.** R², correlações, VIF e os alertas oficiais devem orientar hipóteses de especificação. Nenhuma dessas métricas prova identificação causal ou que um modelo geo terá melhor previsão que o nacional. Essa comparação exige futura modelagem com validação temporal comum, priors justificados e diagnósticos posteriores.
 
-**Prontidão:** a integridade permite continuar o estudo metodológico, condicionando a próxima fase à revisão dos alertas oficiais e das limitações dos dados simulados. Não há recomendação de alocação de orçamento nesta EDA.
+**Prontidão:** a integridade permite continuar o estudo metodológico, com a revisão dos seis alertas documentada e critérios por canal/controle em readiness_actions. As limitações da simulação permanecem. Não há recomendação de alocação de orçamento nesta EDA.
+
+**Prontidão revisada:** casos e alertas possuem decisão descritiva. Avançar ao desenho da especificação, mantendo os dados. DAG, controles, priors e validação temporal pertencem à próxima fase. Colab real continua pendente externa.
+
+**Channel0:** zeros 12.1%; CV positivo 0.59; sequência zero 4; amplitude mix 3.30 p.p.; R² GEO bruto/per capita 0.248/0.006; resíduo per capita 0.783; VIF within 1.36; maior associação two-way sentiment_score_control (0.365). Risco: escala populacional e movimentos conjuntos não equivalem a efeito. Ação: verificar hipótese causal e colinearidade após transformações.
+
+**Channel1:** zeros 27.9%; CV positivo 0.67; sequência zero 7; amplitude mix 3.74 p.p.; R² GEO bruto/per capita 0.144/0.004; resíduo per capita 0.765; VIF within 1.19; maior associação two-way sentiment_score_control (0.307). Risco: escala populacional e movimentos conjuntos não equivalem a efeito. Ação: verificar hipótese causal e colinearidade após transformações.
+
+**Channel2:** zeros 64.3%; CV positivo 0.81; sequência zero 27; amplitude mix 2.42 p.p.; R² GEO bruto/per capita 0.053/0.004; resíduo per capita 0.793; VIF within 1.62; maior associação two-way Channel3_impression (0.451). Risco: suporte intermitente; janelas sem exposição. Ação: documentar suporte por janela de treino/holdout e incerteza do canal.
+
+**Channel3:** zeros 2.7%; CV positivo 0.48; sequência zero 2; amplitude mix 3.36 p.p.; R² GEO bruto/per capita 0.390/0.005; resíduo per capita 0.648; VIF within 2.11; maior associação two-way Channel2_impression (0.451). Risco: escala populacional e movimentos conjuntos não equivalem a efeito. Ação: verificar hipótese causal e colinearidade após transformações.
+
+**Channel4:** zeros 13.1%; CV positivo 0.60; sequência zero 4; amplitude mix 3.37 p.p.; R² GEO bruto/per capita 0.237/0.004; resíduo per capita 0.706; VIF within 1.65; maior associação two-way competitor_sales_control (0.478). Risco: escala populacional e movimentos conjuntos não equivalem a efeito. Ação: verificar hipótese causal e colinearidade após transformações.
 
 ### O que ainda NÃO podemos concluir
 
@@ -19,7 +31,7 @@ Os dados são simulados: padrões não descrevem um mercado real e não validam,
 
 ### CHECKPOINT
 
-- **O que descobrimos?** As evidências numéricas acima e as tabelas exportadas respondem à pergunta deste capítulo.
-- **Quais problemas apareceram?** Os limites e alertas estão descritos nos resultados; nenhuma observação foi excluída ou imputada.
+- **O que descobrimos?** **Prontidão revisada:** casos e alertas possuem decisão descritiva. Avançar ao desenho da especificação, mantendo os dados. DAG, controles, priors e validação temporal pertencem à próxima fase. Colab real continua pendente externa.
+- **Quais problemas apareceram?** Colab real não comprovado; EDA não demonstra identificação causal ou superioridade preditiva.
 - **O que falta investigar?** Desenho causal, especificação, priors, holdout temporal e posterior em fase futura.
 - **Podemos avançar?** Podemos prosseguir com a investigação exploratória após revisar estes achados; isso não aprova automaticamente a modelagem.

@@ -1,3 +1,4 @@
+from .provenance import tracked, record
 """Capítulos 00–02 e 05: integridade, escala, tempo e relações."""
 import logging
 import numpy as np
@@ -10,6 +11,7 @@ from .statistics import describe, outliers, vif_table, safe_divide
 from .reporting import table, result
 from . import plots
 
+@tracked('00')
 def data_audit(panel):
     audit_table=table(audit(panel),'data_audit',False)
     dictionary_table=table(dictionary(panel),'data_dictionary',False)
@@ -37,6 +39,7 @@ O CSV original tem uma coluna de índice exportado, validada como 0…N−1 e re
 CPMU = gasto/impressões. {int(costs.undefined.sum())} razões são indefinidas por ausência de impressões e permanecem NaN. Conferir os contadores de inconsistências na auditoria. Isso distingue zero atividade de custo zero.'''
     return result('00_data_audit',text,{'data_audit':audit_table,'dictionary':dictionary_table,'CPMU':costs},figures,'Distribuições, concentração de investimento, zeros e extremos.')
 
+@tracked('01')
 def general(panel):
     require_valid_panel(panel)
     nat=national(panel)
@@ -76,6 +79,7 @@ O maior share de gasto é de {summary.spend_share.idxmax()} ({summary.spend_shar
 Foram sinalizados {len(extremes)} pares observação/variável por IQR (1,5×) ou MAD (|z modificado|>3,5). São regras de triagem, não critérios de remoção. Séries esparsas e geos grandes podem ser sinalizados legitimamente. Quando MAD é zero o escore fica indefinido. Nenhum extremo foi removido.'''
     return result('01_eda_general',text,{'national_descriptive':desc,'channel_summary':summary,'activity':activity},figs,'Dinâmica temporal dos sinais e seus controles.')
 
+@tracked('02')
 def temporal(panel):
     from statsmodels.tsa.seasonal import STL
     from statsmodels.tsa.stattools import acf
@@ -89,13 +93,15 @@ def temporal(panel):
     fig=stl.plot();fig.set_size_inches(11,8);figs.append(plots.save(fig,'temporal','kpi_stl_52'))
     changes=nat[[KPI]].assign(difference=nat[KPI].diff(),pct_change=nat[KPI].pct_change())
     table(changes.reindex(changes.difference.abs().sort_values(ascending=False).index),'kpi_level_changes')
-    table(pd.DataFrame({'lag':np.arange(27),'acf':acf(nat[KPI],nlags=26)}),'kpi_acf',False)
+    table(pd.DataFrame({'lag':np.arange(53),'acf':acf(nat[KPI],nlags=52)}),'kpi_acf',False)
     cost_rows=[]
     for channel in channels(panel):
         media=nat[channel+'_impression'];spend=nat[channel+'_spend'];cost=safe_divide(spend,media)
         fig,axes=plt.subplots(3,1,figsize=(11,7),sharex=True)
         for ax,series,label in zip(axes,[media,spend,cost],['Impressões','Gasto (moeda não especificada)','Gasto / impressão']):
             ax.plot(series.index,series);ax.set_ylabel(label)
+        axes[2].set_ylim(0,cost.max()*1.08);axes[2].ticklabel_format(axis='y',style='plain',useOffset=False)
+        axes[2].text(.01,.78,f'CV relativo={cost.std(ddof=0)/cost.mean():.2e}; variação microscópica',transform=axes[2].transAxes,fontsize=8)
         axes[0].set_title(f'{channel}: volumes, gasto e CPMU nacionais');axes[-1].set_xlabel('Semana')
         figs.append(plots.save(fig,'temporal',channel+'_timeseries'))
         z=nat[[KPI,channel+'_impression']].apply(lambda x:(x-x.mean())/x.std(ddof=0))
@@ -117,6 +123,7 @@ A decomposição STL usa período 52 como aproximação anual para dados semanai
 Todos os canais têm gráficos separados de impressões, gasto, CPMU e comparação padronizada com KPI. Controles e Promo são agregados por média ponderada por população porque somar índices sintéticos não tem interpretação. A mídia orgânica é somada. Existem {int((control_stats['std']==0).sum())} variáveis constantes entre os controles/tratamentos apresentados. Valores próximos de constantes devem ser avaliados na sua escala, sem corte universal.'''
     return result('02_eda_temporal',text,{'control_temporal_summary':control_stats,'national_timeseries':nat},figs,'Heterogeneidade entre geos e decomposição within/between.')
 
+@tracked('05')
 def relationships(panel):
     columns=analytical_columns(panel)
     nat=national(panel)[columns]
@@ -148,13 +155,13 @@ def relationships(panel):
             lag_rows.append(dict(channel=channel,lag_weeks=lag,n=len(aligned),correlation=aligned.iloc[:,0].corr(aligned.iloc[:,1])))
     lags=table(pd.DataFrame(lag_rows),'exploratory_lags',False)
     figs.append(plots.lines(lags.pivot(index='lag_weeks',columns='channel',values='correlation'),'relationships','lags','Correlação mídia(t−k) × KPI(t); descritiva','Pearson'))
-    strongest=summary[(summary.level=='within')&(summary.method=='pearson')].copy()
+    strongest=summary[(summary.level=='within')&(summary.method=='pearson')&(summary.left.isin(predictors))&(summary.right.isin(predictors))].copy()
     strongest=strongest.loc[strongest.correlation.abs().sort_values(ascending=False).index]
     text=f'''Exportamos Pearson e Spearman em quatro níveis: nacional, painel bruto, within-geo e residual two-way. Within remove a média de cada geo; two-way remove também a média semanal comum. Spearman de resíduos mede a ordenação dos resíduos e não é uma correlação parcial de postos.
 
 O maior VIF within entre preditores é {vif.loc[vif.level=='within','vif'].max():.2f}. A regressão auxiliar inclui intercepto e colunas padronizadas. Spend e impressões são diagnosticados em matrizes separadas; colocá-los juntos no VIF duplicaria sinais de custo praticamente fixo. Constantes são indefinidas e dependência linear perfeita gera infinito.
 
-A maior associação absoluta within entre todas as variáveis comparadas é {strongest.iloc[0]['left']} × {strongest.iloc[0]['right']} ({strongest.iloc[0].correlation:.3f}); isso pode ser uma relação contábil entre gasto e mídia. Lags 0–8 são exploratórios, sem selecionar adstock. Não calculamos p-valores que presumiriam independência das {len(panel):,} linhas: existe dependência temporal e geográfica.
+A maior associação absoluta within entre preditores distintos é {strongest.iloc[0]['left']} × {strongest.iloc[0]['right']} ({strongest.iloc[0].correlation:.3f}); o ranking exclui pares gasto–impressões do mesmo canal. Lags 0–8 são exploratórios, sem selecionar adstock. Não calculamos p-valores que presumiriam independência das {len(panel):,} linhas: existe dependência temporal e geográfica.
 
 Diferenças entre correlações nacionais e within podem resultar de composição populacional, tendência, sazonalidade e mídia alocada em antecipação à demanda. Correlação mídia–KPI não constitui efeito de mídia.'''
     return result('05_eda_relationships',text,{'vif':vif,'correlations':strongest.head(15),'lags':lags},figs,'Checagens independentes da ferramenta oficial e comparação de definições.')

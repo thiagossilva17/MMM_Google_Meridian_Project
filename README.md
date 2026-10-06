@@ -59,7 +59,7 @@ Há variação geo-temporal potencialmente informativa, mas isso **não prova id
 | 07 | [Conclusões](notebooks/07_eda_conclusions.ipynb) | O que permite avançar e o que continua incerto? |
 | Completo | [Master Colab](notebooks/EDA_COMPLETE_COLAB.ipynb) | Sequência completa do início ao fim |
 
-Os capítulos 00–06 carregam o painel de forma independente. O 07 consome as tabelas anteriores e as produz se estiverem ausentes. Para garantir atualização de todas as análises, execute o master. Imagens binárias foram retiradas dos outputs embutidos após a validação para evitar duplicação; estão em `outputs/figures/` e reaparecem ao executar as células.
+Os modulares verificam etapas anteriores por manifesto de conteúdo/ambiente e recalculam resultados ausentes, alterados ou desatualizados. O 07 exige 00–06 completos e compatíveis. Para garantir atualização de todas as análises, execute o master. Imagens binárias foram retiradas dos outputs embutidos após a validação para evitar duplicação; estão em `outputs/figures/` e reaparecem ao executar as células.
 
 ## Executar localmente
 
@@ -71,6 +71,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python scripts/run_eda.py
 python -m pytest -q
+python scripts/validate_artifacts.py
 ```
 
 No Windows, a ativação é `.venv\Scripts\activate`. A CLI executa os mesmos módulos dos notebooks. Para validar as células em kernels novos:
@@ -88,6 +89,12 @@ A versão verificada é Meridian 2.1.0. `MeridianEDA` gera **amostras da prior**
 O HTML em `outputs/reports/meridian_eda_report.html` deve ser baixado e aberto em navegador; o GitHub mostra o código HTML. Alguns gráficos usam bibliotecas JavaScript carregadas pela internet. O Markdown e os CSVs podem ser lidos diretamente no GitHub.
 
 Os alertas de CPMU exigem contexto: os custos são praticamente constantes (CV da ordem de 10⁻⁸); pequenos desvios podem ser compatíveis com arredondamento. Os alertas são mantidos e documentados, sem "corrigir" os dados para passar nos checks.
+
+## Revisão da auditoria
+
+Veja [a resposta ponto a ponto](docs/AUDIT_RESPONSE.md), [a síntese por canal](docs/channel_review.md) e `outputs/tables/readiness_actions.csv`. Os REVIEW foram investigados sem alterar severidade ou dados. A comprovação no serviço Colab continua [pendente explicitamente](docs/COLAB_VALIDATION.md).
+
+Quando o ambiente impedir sockets do Jupyter, `python scripts/execute_cells.py` executa células originais em processos IPython novos e salva outputs reais. Isso não valida a comunicação kernel/frontend. O mecanismo efetivo consta em `notebook_validation.json`.
 
 ## Validação e próxima etapa
 

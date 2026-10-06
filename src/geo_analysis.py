@@ -1,3 +1,4 @@
+from .provenance import tracked, record
 """Capítulos centrais: heterogeneidade GEO e execução territorial de mídia."""
 import numpy as np
 import pandas as pd
@@ -8,6 +9,7 @@ from .statistics import variance_decomposition, safe_divide
 from .reporting import table, result
 from . import plots
 
+@tracked('03')
 def geo_analysis(panel):
     grouped=panel.groupby(GEO)
     geo=grouped[KPI].agg(['sum','mean','std','min','max']).rename(columns={'sum':'kpi_total'})
@@ -43,6 +45,8 @@ def geo_analysis(panel):
     fig,axes=plt.subplots(4,2,figsize=(13,10),sharex=True)
     for ax,g in zip(axes.flat,selected):
         ax.plot(pivot.index,pivot[g]);ax.set(title=g,ylabel='Conversões')
+        import matplotlib.dates as mdates
+        ax.xaxis.set_major_locator(mdates.YearLocator());ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
     for ax in list(axes.flat)[len(selected):]:ax.set_visible(False)
     fig.suptitle('KPI por geo; escalas Y próprias revelam a dinâmica')
     figures.append(plots.save(fig,'geo','kpi_small_multiples'))
@@ -73,6 +77,7 @@ O KPI tem {decomposition.loc[KPI,'between_share']:.1%} da variância between-geo
 Within não significa automaticamente sinal geográfico novo: inclui choques temporais nacionais. Por isso apresentamos também o resíduo após remover simultaneamente geo e tempo. Essa decomposição é descritiva e depende da escala. Os small multiples usam geos escolhidos por critérios registrados; os cálculos e heatmaps incluem todos os geos. Geo0…Geo39 são rótulos sintéticos, sem fronteiras para um mapa geográfico real.'''
     return result('03_eda_geo',text,{'geo_summary':geo,'decomposition':decomposition,'per_capita_decomposition':pc_decomp},figures,'Mix, alocação territorial, concentração e variação de cada canal dentro dos geos.')
 
+@tracked('04')
 def media_geo(panel):
     paid=channels(panel)
     population=panel.groupby(GEO)[POP].first()
@@ -85,7 +90,7 @@ def media_geo(panel):
     figures=[plots.heatmap(spend,'media_geo','spend_geo_channel','Gasto total por GEO × canal (moeda não especificada)'),
              plots.heatmap(mix,'media_geo','media_mix','Mix: parcela do gasto de cada geo',vmin=0,vmax=1),
              plots.heatmap(allocation,'media_geo','geo_allocation','Alocação: parcela de cada canal destinada ao geo',vmin=0,vmax=allocation.max().max()),
-             plots.heatmap(spend.div(population,axis=0)*1000,'media_geo','spend_per_capita','Gasto acumulado / 1.000 habitantes')]
+             plots.heatmap(per_capita_matrix(spend,population,order),'media_geo','spend_per_capita','Gasto acumulado / 1.000 habitantes')]
     fig,ax=plt.subplots(figsize=(13,5));mix.plot.bar(stacked=True,ax=ax,width=.85)
     ax.set(title='Composição do orçamento por geo',ylabel='Fração do gasto do geo')
     figures.append(plots.save(fig,'media_geo','mix_stacked'))
@@ -104,7 +109,7 @@ def media_geo(panel):
         for col,label in [(media_col,'impressões'),(spend_col,'gasto')]:
             matrix=panel.pivot(index=GEO,columns=TIME,values=col).reindex(order)
             figures.append(plots.heatmap(matrix,'media_geo',col+'_geo_time',f'{channel}: {label} por GEO × semana'))
-            figures.append(plots.heatmap(matrix.div(population,axis=0)*1000,'media_geo',col+'_pc_geo_time',f'{channel}: {label} / 1.000 habitantes por semana'))
+            figures.append(plots.heatmap(per_capita_matrix(matrix,population,order),'media_geo',col+'_pc_geo_time',f'{channel}: {label} / 1.000 habitantes por semana'))
         cost=panel.assign(cpmu=safe_divide(panel[spend_col],panel[media_col]))
         for geo,group in cost.groupby(GEO):
             cost_rows.append(dict(channel=channel,geo=geo,mean=group.cpmu.mean(),min=group.cpmu.min(),max=group.cpmu.max(),std=group.cpmu.std(ddof=0)))
@@ -116,9 +121,12 @@ def media_geo(panel):
     fig,ax=plt.subplots(figsize=(9,4));cvs.boxplot(column='cv',by='channel',ax=ax);fig.suptitle('');ax.set(title='Distribuição dos CVs within por canal',ylabel='Desvio padrão / média')
     figures.append(plots.save(fig,'media_geo','within_cv_distribution'))
     spread=(mix.max()-mix.min()).sort_values(ascending=False)
-    text=f'''O mix divide cada linha GEO × canal pelo orçamento total do geo; a alocação divide cada coluna pelo orçamento do canal. Essas perguntas são diferentes. A maior amplitude de share do mix é {spread.iloc[0]:.1%}, em {spread.index[0]}.
+    text=f'''O mix divide cada linha GEO × canal pelo orçamento total do geo; a alocação divide cada coluna pelo orçamento do canal. Essas perguntas são diferentes. A maior amplitude de share do mix é {100*spread.iloc[0]:.2f} pontos percentuais, em {spread.index[0]}.
 
 HHI é a soma dos quadrados das participações geográficas de um canal: varia de 1/G (uniforme) a 1 (um único geo). Observamos {concentration.hhi.min():.3f} a {concentration.hhi.max():.3f}, sem aplicar limiares de concorrência econômica. O inverso traduz concentração em número equivalente de geos uniformes, não em tamanho amostral efetivo.
 
 Os CVs within variam de {cvs.cv.min():.3f} a {cvs.cv.max():.3f}. Médias zero produzem CV indefinido. Heatmaps usam a mesma ordenação de geos por KPI total e escalas de cor próprias por variável; não comparar cores entre painéis sem ler as escalas. As versões por habitante ajudam a investigar diferenças que persistem além do tamanho dos mercados.'''
     return result('04_eda_media_geo',text,{'media_mix':mix,'geo_allocation':allocation,'concentration':concentration,'within_cv':cvs},figures,'Correlações entre canais e controles, VIF e conflitos com geo/tempo.')
+
+def per_capita_matrix(matrix,population,order):
+    return (matrix.div(population,axis=0)*1000).reindex(order)

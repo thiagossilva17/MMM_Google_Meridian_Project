@@ -6,6 +6,8 @@ O CSV original tem uma coluna de índice exportado, validada como 0…N−1 e re
 
 CPMU = gasto/impressões. 7496 razões são indefinidas por ausência de impressões e permanecem NaN. Conferir os contadores de inconsistências na auditoria. Isso distingue zero atividade de custo zero.
 
+**Decisão de estrutura:** chave, grade, domínios e população validados. CPMU indefinido em zero atividade permanece NaN. Coordenadas e pares mídia/gasto estão explícitos no dicionário.
+
 ### O que ainda NÃO podemos concluir
 
 As relações são descritivas. Não estimamos ROI, contribuição incremental ou efeitos causais.
@@ -13,7 +15,7 @@ Os dados são simulados: padrões não descrevem um mercado real e não validam,
 
 ### CHECKPOINT
 
-- **O que descobrimos?** As evidências numéricas acima e as tabelas exportadas respondem à pergunta deste capítulo.
-- **Quais problemas apareceram?** Os limites e alertas estão descritos nos resultados; nenhuma observação foi excluída ou imputada.
+- **O que descobrimos?** **Decisão de estrutura:** chave, grade, domínios e população validados. CPMU indefinido em zero atividade permanece NaN. Coordenadas e pares mídia/gasto estão explícitos no dicionário.
+- **Quais problemas apareceram?** Integridade estrutural não certifica plausibilidade dos extremos; investigar nos capítulos 01 e 06.
 - **O que falta investigar?** Distribuições, concentração de investimento, zeros e extremos.
 - **Podemos avançar?** Podemos prosseguir com a investigação exploratória após revisar estes achados; isso não aprova automaticamente a modelagem.

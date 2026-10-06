@@ -1,0 +1,5 @@
+check,artifact,custom_cases,official_cases,symmetric_difference
+check_geo_std,0,36,36,0
+check_geo_std,1,1461,1461,0
+check_national_std,0,1,1,0
+check_national_std,1,21,21,0

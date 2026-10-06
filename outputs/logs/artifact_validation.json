@@ -1,0 +1,424 @@
+{
+  "status": "passed",
+  "svg_count": 79,
+  "svg": [
+    {
+      "path": "outputs/figures/data_audit/missing_values.svg",
+      "bytes": 19631,
+      "sha256": "8da756e4b488da177979b5a233e70f489cc40c21523a8be502ab8d895ddf4bb4"
+    },
+    {
+      "path": "outputs/figures/data_audit/panel_completeness.svg",
+      "bytes": 52559,
+      "sha256": "1054422e5a36f1b7a30481a60cc88dcbeeba867455ebb250a500c9cf5cda423a"
+    },
+    {
+      "path": "outputs/figures/general/channel_activity.svg",
+      "bytes": 10423,
+      "sha256": "12e148aa8fd9fbf6255aaf704ef9bdc47663e2d711654aaa49e720e28e139feb"
+    },
+    {
+      "path": "outputs/figures/general/kpi_distribution.svg",
+      "bytes": 23564,
+      "sha256": "a1d50d8bf780151f2a2bd97005fa66d4768e8697927d6cf851e253f6d3167129"
+    },
+    {
+      "path": "outputs/figures/general/national_kpi.svg",
+      "bytes": 23677,
+      "sha256": "51fb5860186d40d79809a81598a3e445a2738fe5e2d9b53836fecb619535cdbc"
+    },
+    {
+      "path": "outputs/figures/general/spend_share.svg",
+      "bytes": 12045,
+      "sha256": "d3b3ac687c9219c8907e031d1b4c3b6b29d256f14d6497040ff2feba58b230c7"
+    },
+    {
+      "path": "outputs/figures/geo/competitor_sales_control_geo_time.svg",
+      "bytes": 96254,
+      "sha256": "fb8b53a934311530bd1beaef457618800b0a7dec76a5fa3fb023e366cc0e6e11"
+    },
+    {
+      "path": "outputs/figures/geo/conversions_geo_time.svg",
+      "bytes": 92165,
+      "sha256": "69c2af364fae92b931af68f3924de6fda3a50ba6f39bdbaa961948a183245597"
+    },
+    {
+      "path": "outputs/figures/geo/geo_correlation.svg",
+      "bytes": 83987,
+      "sha256": "fab5b9ce299d20d1a05780952f204790216c967b4f9a274c607c7bbf047f89b1"
+    },
+    {
+      "path": "outputs/figures/geo/geo_time_r2.svg",
+      "bytes": 24313,
+      "sha256": "1e5e2c1c1cea5e7957175ed0ac4e6488c41247ba6dd930948f7c07e703f044ee"
+    },
+    {
+      "path": "outputs/figures/geo/kpi_by_geo.svg",
+      "bytes": 36194,
+      "sha256": "82ef078bc1d4e825d324dbd4acaa686a078fe95a61a3c1866ac72a084db4dbc7"
+    },
+    {
+      "path": "outputs/figures/geo/kpi_concentration.svg",
+      "bytes": 13340,
+      "sha256": "2569b49d9604d7f977648a5baccbdb70a745972111a1d7468eaa30eaa2607313"
+    },
+    {
+      "path": "outputs/figures/geo/kpi_pc_geo_time.svg",
+      "bytes": 94723,
+      "sha256": "09f1ba3e8becc7e3a591244c69119ae48789ed2d40c81ad61abfea43f54249fb"
+    },
+    {
+      "path": "outputs/figures/geo/kpi_per_capita.svg",
+      "bytes": 35282,
+      "sha256": "c57fce8f0dbc84a077ce4933773e654c928f2493c6172e7cea540c2dc6d54af8"
+    },
+    {
+      "path": "outputs/figures/geo/kpi_small_multiples.svg",
+      "bytes": 63679,
+      "sha256": "456b1b1b7f4920f15f04955b933253a8d08bfac8e3f48dccf5bed55fd3321181"
+    },
+    {
+      "path": "outputs/figures/geo/population_by_geo.svg",
+      "bytes": 35573,
+      "sha256": "488462d98aff86bf0ec5393363276ea01738f7b1bf0c2e7d615e66d5e55d2df1"
+    },
+    {
+      "path": "outputs/figures/geo/population_kpi.svg",
+      "bytes": 16781,
+      "sha256": "7a5663817041da845951a104bbc11afcc958071b3efae330f56c44aada1195e5"
+    },
+    {
+      "path": "outputs/figures/geo/sentiment_score_control_geo_time.svg",
+      "bytes": 95749,
+      "sha256": "f598af39f422719d302eb9fcd1f455f33fb3f8e4d8272ac8cac9f7cb6f85328f"
+    },
+    {
+      "path": "outputs/figures/geo/variance_decomposition.svg",
+      "bytes": 22067,
+      "sha256": "e2f30dd202ff2b25505615b151e3c0118f153089f7d0e367a254a2e2d7b7ef51"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel0_impression_geo_time.svg",
+      "bytes": 93834,
+      "sha256": "9fc9e507f79241cecac0d14df90806ffc10c2b08db0f02f58c772bf5fca151e6"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel0_impression_pc_geo_time.svg",
+      "bytes": 96086,
+      "sha256": "f8bdadb299b84a45380bef1b26a037a555401869d3c40dd8352b76dfc12caeea"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel0_population.svg",
+      "bytes": 16251,
+      "sha256": "6aa543eab67b9e106109f3819dbc81e7df2e3849a64b738fa3e707e4593f7015"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel0_spend_geo_time.svg",
+      "bytes": 94615,
+      "sha256": "f5b6b365191e86b763dc863d5061936ffa4cab4d4a6b0bb47b8f5f950a774299"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel0_spend_pc_geo_time.svg",
+      "bytes": 97180,
+      "sha256": "036f07c6c999580752302e7fbd89f26642b0af33f6545ffc8c33275278bc8d47"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel1_impression_geo_time.svg",
+      "bytes": 92881,
+      "sha256": "3a319216ef8a4362ed09ba29ce48c1165ec98f0c87304655365e5518781a5d93"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel1_impression_pc_geo_time.svg",
+      "bytes": 93301,
+      "sha256": "1f88dc151d98bf06bc29b39ecad0e620c65a371492cea7bc85a0b64543b94b24"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel1_population.svg",
+      "bytes": 17340,
+      "sha256": "77e71b66278fa6d375e8faa7127d61f9abcaa7f789a2b0c8ee23e188932cd234"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel1_spend_geo_time.svg",
+      "bytes": 92550,
+      "sha256": "4332a0b8cc1ea6bcea8acc0a08b5b9ea5ac14753ad8fb8058eaec55c65f0118e"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel1_spend_pc_geo_time.svg",
+      "bytes": 92751,
+      "sha256": "e92b2793885af8941ef8d64fc72ccae165ffbe98ddfab61affeb942ceed3de06"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel2_impression_geo_time.svg",
+      "bytes": 77194,
+      "sha256": "76546cd1b469bb26fc0b2d2252d2581924f922189ab352340f58a5e468594e71"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel2_impression_pc_geo_time.svg",
+      "bytes": 79091,
+      "sha256": "26d1bbe36e67a636928332ecab5f999790e176c962fff488d9df82fb3d627c65"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel2_population.svg",
+      "bytes": 17718,
+      "sha256": "88349df9e1cc7ae08e342dd1eb6aa2b5775661d13296c0bd4fda532418173075"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel2_spend_geo_time.svg",
+      "bytes": 78527,
+      "sha256": "85700cb1d535fffeef225ce7ed4df5682f9132794e684704098d75ca613eaa00"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel2_spend_pc_geo_time.svg",
+      "bytes": 80732,
+      "sha256": "a16ddec5983d4f4f839472cb763f1c3edda057ca774181f3bbdb65a1ddcf519d"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel3_impression_geo_time.svg",
+      "bytes": 94915,
+      "sha256": "931885bf905e32eaa15b0de7704c7a89b3809fd4d6c26f141e36311bd5213862"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel3_impression_pc_geo_time.svg",
+      "bytes": 94984,
+      "sha256": "9721a0cfc87ef951b9ae23481ac472d4bad33fb6a3bdf7f863efacf9e8124789"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel3_population.svg",
+      "bytes": 16134,
+      "sha256": "74c6396f6c980a3ba2a6ac191f57fbea0964537cf85e208826a9bf50fc6593c3"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel3_spend_geo_time.svg",
+      "bytes": 93500,
+      "sha256": "35c5e1cf825154db1adbd9d81efc9e850f7d6e1e57afbc2a5d5c5b5ca52020d6"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel3_spend_pc_geo_time.svg",
+      "bytes": 96072,
+      "sha256": "c7ade1e7377f3f02524377f0aa9bf3428cd625807a84ab89afb12e6bea30613f"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel4_impression_geo_time.svg",
+      "bytes": 93067,
+      "sha256": "494440b463fd9cc50b3703c784bfe1bab1ccb7d6e68e9233698f19aa9defa66f"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel4_impression_pc_geo_time.svg",
+      "bytes": 96251,
+      "sha256": "a9391725997b0d5dc13eed2d80df4079b47d5d72f6c656cc1b9a7170f78a29f7"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel4_population.svg",
+      "bytes": 16253,
+      "sha256": "96bda2cae710baed761d9bead55ceda2ed016645c58b170defa838d9ce24c42b"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel4_spend_geo_time.svg",
+      "bytes": 92201,
+      "sha256": "ea85bff7671e2ce65bf8aaaeacac9eb691286b84c59798aeb0705fb9bbe0c528"
+    },
+    {
+      "path": "outputs/figures/media_geo/Channel4_spend_pc_geo_time.svg",
+      "bytes": 95143,
+      "sha256": "59233fba90d397dfd512e0468fd43669d79a90d9d5b67f6b8c15ceeb71747246"
+    },
+    {
+      "path": "outputs/figures/media_geo/geo_allocation.svg",
+      "bytes": 52160,
+      "sha256": "4359761955b2db1d63ec8909f13766bf1e2dd4adb0c2e0d76a7570d2622bb0bb"
+    },
+    {
+      "path": "outputs/figures/media_geo/media_mix.svg",
+      "bytes": 52281,
+      "sha256": "80b633b1001b3430988b6bdae42ceeeb4dc3efc90aca931a64c579d10f356c35"
+    },
+    {
+      "path": "outputs/figures/media_geo/mix_deviations_pp.svg",
+      "bytes": 54819,
+      "sha256": "9d168b1e40a8a581e06fb77437cbcbe2c4b49062676c99409b32d76e90d13bb5"
+    },
+    {
+      "path": "outputs/figures/media_geo/mix_stacked.svg",
+      "bytes": 70422,
+      "sha256": "3ec5e4f96c7837834bd467f93155ec3894e3e7cdb396e1f78035c3302d788bfa"
+    },
+    {
+      "path": "outputs/figures/media_geo/spend_geo_channel.svg",
+      "bytes": 53577,
+      "sha256": "1bb57a76f97359568a77bcb413437ea2854d7ff062316b5676c5c8d40354544a"
+    },
+    {
+      "path": "outputs/figures/media_geo/spend_per_capita.svg",
+      "bytes": 53732,
+      "sha256": "5531970a3c4fdf76452302e3b510bc26e1710d9592993341db3dba9ecb77cedd"
+    },
+    {
+      "path": "outputs/figures/media_geo/within_cv_distribution.svg",
+      "bytes": 19438,
+      "sha256": "df004d165359bdcbe726e76bc6e10075fe200caa0cf55c05dcd65a6929380735"
+    },
+    {
+      "path": "outputs/figures/media_geo/within_geo_cv.svg",
+      "bytes": 53854,
+      "sha256": "9bea4d54a845cf4d072a972020d4c09d509738c7f2dac3266aae63e6e3e5a761"
+    },
+    {
+      "path": "outputs/figures/relationships/correlation_national.svg",
+      "bytes": 30238,
+      "sha256": "e7d257cfaa4a88fe5566ca3294db3aefd0b0a44b051fdb6d571bb1fc1005ff82"
+    },
+    {
+      "path": "outputs/figures/relationships/correlation_overall.svg",
+      "bytes": 30237,
+      "sha256": "0ea2026cb925df30ad5c7c31e0dc27b1327fc85419ff6896f22d84ef47db4c11"
+    },
+    {
+      "path": "outputs/figures/relationships/correlation_two_way.svg",
+      "bytes": 30169,
+      "sha256": "bd7a5bb2cfc913dbdd0253222cf250e277f2f12b519ee982cb3819c41cfd0490"
+    },
+    {
+      "path": "outputs/figures/relationships/correlation_within.svg",
+      "bytes": 30168,
+      "sha256": "cb4ee010f553a88a0807192819efdb1f60782b761a635dd2585b6635966df5e5"
+    },
+    {
+      "path": "outputs/figures/relationships/lags.svg",
+      "bytes": 17808,
+      "sha256": "2fe363fc0485f21ac9e8314cdf8e3fa2a4416e54512a805731435420c81eea19"
+    },
+    {
+      "path": "outputs/figures/relationships/readiness_dashboard.svg",
+      "bytes": 21120,
+      "sha256": "0abe14cebfe026575deab21906cda170eab8d78520e9024f930e318ddf586c9b"
+    },
+    {
+      "path": "outputs/figures/relationships/vif.svg",
+      "bytes": 21210,
+      "sha256": "19a6ee6cc625a8e8a82ecf8e1c9f70b5f6a63d539bdcaf5020ce6ccd34b6a3c2"
+    },
+    {
+      "path": "outputs/figures/temporal/Channel0_kpi_z.svg",
+      "bytes": 26674,
+      "sha256": "017d8c7407585be370637ec645a84a3e9b113a4f955ad6e76bcbdf9e2503eb3c"
+    },
+    {
+      "path": "outputs/figures/temporal/Channel0_timeseries.svg",
+      "bytes": 30014,
+      "sha256": "0b45284b1ba324c2cac24205d1765bd704b83aad928144598f46551fcfd01dc2"
+    },
+    {
+      "path": "outputs/figures/temporal/Channel1_kpi_z.svg",
+      "bytes": 27185,
+      "sha256": "40493d8339a857aff74dd7ff22148a2c4521f3f9be8052b4c269914c805374b3"
+    },
+    {
+      "path": "outputs/figures/temporal/Channel1_timeseries.svg",
+      "bytes": 33026,
+      "sha256": "c1ae16a342b83dd23ed851446d0e25a1ef45d72c9de12a0aae1ae1d88081e481"
+    },
+    {
+      "path": "outputs/figures/temporal/Channel2_kpi_z.svg",
+      "bytes": 27725,
+      "sha256": "562a85d01ee982efdc13054e54d889713788d94f4310e96a3d511bd799878a63"
+    },
+    {
+      "path": "outputs/figures/temporal/Channel2_timeseries.svg",
+      "bytes": 31886,
+      "sha256": "7eb926106d59fce0f5c1b302ce9324f5f3bf349330e7b613898c9c130c85fe43"
+    },
+    {
+      "path": "outputs/figures/temporal/Channel3_kpi_z.svg",
+      "bytes": 27164,
+      "sha256": "f29301acc0cdc2d62017f104d1e6f4200781889aa9c13e5fbad18ca831b32fda"
+    },
+    {
+      "path": "outputs/figures/temporal/Channel3_timeseries.svg",
+      "bytes": 32847,
+      "sha256": "94a8fe4b9294ec912b66eaf60f9b7c6a13fa15ab8f7d76f502a7ce3b84cb46d8"
+    },
+    {
+      "path": "outputs/figures/temporal/Channel4_kpi_z.svg",
+      "bytes": 27126,
+      "sha256": "d0acbbd85881f00686249e52b37782f398179fc6ca8c7c7167b9090f41b1a7bc"
+    },
+    {
+      "path": "outputs/figures/temporal/Channel4_timeseries.svg",
+      "bytes": 30525,
+      "sha256": "808d42c3fe5f7876e50a473972edfada5fd6d60b65c4133ccdd2060116840e95"
+    },
+    {
+      "path": "outputs/figures/temporal/Organic_channel0_impression_distribution.svg",
+      "bytes": 16270,
+      "sha256": "b6e6d8716f403f784ba2781438b1c77392450e783e68bfc5fa4594ffbb58b6de"
+    },
+    {
+      "path": "outputs/figures/temporal/Organic_channel0_impression_time.svg",
+      "bytes": 23038,
+      "sha256": "7435c6524226e2a3bef6e527f75ee2733869e82ab28fd53a5cf7bcbd2374f467"
+    },
+    {
+      "path": "outputs/figures/temporal/Promo_distribution.svg",
+      "bytes": 16113,
+      "sha256": "0dc6fea85500ada6935c23aaa190c9d2d863958463c34e96cc4ba910136a45fc"
+    },
+    {
+      "path": "outputs/figures/temporal/Promo_time.svg",
+      "bytes": 23368,
+      "sha256": "5223acf7e8543da0a647a2cceb893cfc4c22c1572de5765144fd5692375f6e20"
+    },
+    {
+      "path": "outputs/figures/temporal/competitor_sales_control_distribution.svg",
+      "bytes": 15380,
+      "sha256": "6b803a5f26b6051e2b4b0d3b619660752154f6d90104a586657990b50123c731"
+    },
+    {
+      "path": "outputs/figures/temporal/competitor_sales_control_time.svg",
+      "bytes": 23954,
+      "sha256": "8b11c12dce37633b6004529f3948caff2a11b04adcaf9f4d1a30589e619dc427"
+    },
+    {
+      "path": "outputs/figures/temporal/kpi_stl_52.svg",
+      "bytes": 50923,
+      "sha256": "319ae9e8c92681946278c15507514b645dab7a1e059b02b1b177c080391649ee"
+    },
+    {
+      "path": "outputs/figures/temporal/kpi_trend.svg",
+      "bytes": 27906,
+      "sha256": "eb53c37800e11654842d1941d7e4684e1ff066eb9d7c1e15b6ccb206fe2eca39"
+    },
+    {
+      "path": "outputs/figures/temporal/sentiment_score_control_distribution.svg",
+      "bytes": 15374,
+      "sha256": "ba31a185cf26050b19dfe0c285605cff8f9b7e95a43f30a5e00d2861abab3ac5"
+    },
+    {
+      "path": "outputs/figures/temporal/sentiment_score_control_time.svg",
+      "bytes": 23956,
+      "sha256": "49bedb8e16bbc80a13d0d486b5ac91ee2bf39530263e76b8b9319bc8e2b94b23"
+    }
+  ],
+  "comparable_heatmaps": [
+    "media_geo/spend_per_capita",
+    "media_geo/Channel0_impression_geo_time",
+    "media_geo/Channel0_impression_pc_geo_time",
+    "media_geo/Channel0_spend_geo_time",
+    "media_geo/Channel0_spend_pc_geo_time",
+    "media_geo/Channel1_impression_geo_time",
+    "media_geo/Channel1_impression_pc_geo_time",
+    "media_geo/Channel1_spend_geo_time",
+    "media_geo/Channel1_spend_pc_geo_time",
+    "media_geo/Channel2_impression_geo_time",
+    "media_geo/Channel2_impression_pc_geo_time",
+    "media_geo/Channel2_spend_geo_time",
+    "media_geo/Channel2_spend_pc_geo_time",
+    "media_geo/Channel3_impression_geo_time",
+    "media_geo/Channel3_impression_pc_geo_time",
+    "media_geo/Channel3_spend_geo_time",
+    "media_geo/Channel3_spend_pc_geo_time",
+    "media_geo/Channel4_impression_geo_time",
+    "media_geo/Channel4_impression_pc_geo_time",
+    "media_geo/Channel4_spend_geo_time",
+    "media_geo/Channel4_spend_pc_geo_time"
+  ]
+}

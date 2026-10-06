@@ -1,0 +1,68 @@
+CELL 1
+
+Código: {'requested_ref': 'main', 'resolved_commit': 'ac9960a3a86e7af07a507121043c6914fcbc4195', 'dirty': True}
+Meridian: {'url': 'https://github.com/google/meridian.git', 'vcs_info': {'commit_id': '02111531f8661373aa7b6ba31c316c67d72d1dd2', 'requested_revision': '02111531f8661373aa7b6ba31c316c67d72d1dd2', 'vcs': 'git'}}
+Colab: False; projeto: /workspace/scratch/5d823022ed95/tcc-revision; painel: (6240, 19)
+
+CELL 3
+
+
+CELL 5
+
+
+CELL 7
+
+
+CELL 9
+
+
+CELL 11
+
+
+CELL 13
+
+
+CELL 15
+
+
+CELL 17
+
+
+CELL 19
+
+
+CELL 21
+
+
+CELL 23
+
+
+CELL 25
+
+
+CELL 27
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791317303.525689     145 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791317303.526267     145 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791317304.721810     145 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791317304.722274     145 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+
+
+CELL 29
+
+
+CELL 30
+
+
+CELL 32
+
+
+CELL 34
+
+
+CELL 36
+
+/workspace/scratch/5d823022ed95/tcc-revision/EDA_RESULTS.zip
+
+ALL CELLS PASSED

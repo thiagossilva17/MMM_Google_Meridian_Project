@@ -1,0 +1,4 @@
+variable,r2_geo,r2_time,vif_within,strongest_two_way_peer,strongest_two_way_correlation,implication
+competitor_sales_control,0.0054393410974437,0.3321800688059545,1.8287269550656384,Channel4_impression,0.4780880740891525,Justificar papel pré-tratamento/confundidor no DAG; associação não autoriza inclusão causal.
+sentiment_score_control,0.0041611708910868,0.2739617560139923,1.8785744405103144,Organic_channel0_impression,0.4369034995980703,Justificar papel pré-tratamento/confundidor no DAG; associação não autoriza inclusão causal.
+Promo,0.0052871963450674,0.1984083128356699,1.2819823298547317,Channel0_impression,0.2972058329853463,Justificar papel pré-tratamento/confundidor no DAG; associação não autoriza inclusão causal.

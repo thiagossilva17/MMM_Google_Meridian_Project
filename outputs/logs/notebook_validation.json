@@ -2,64 +2,73 @@
   {
     "notebook": "00_data_audit.ipynb",
     "status": "passed",
-    "seconds": 2.08,
-    "code_cells": 2,
-    "figures_externalized": 2
+    "returncode": 0,
+    "seconds": 2.7,
+    "method": "IPython original cells; fresh process; no sockets",
+    "finished_utc": "2026-10-06T20:06:30.383548+00:00"
   },
   {
     "notebook": "01_eda_general.ipynb",
     "status": "passed",
-    "seconds": 3.2,
-    "code_cells": 2,
-    "figures_externalized": 4
+    "returncode": 0,
+    "seconds": 4.16,
+    "method": "IPython original cells; fresh process; no sockets",
+    "finished_utc": "2026-10-06T20:06:34.547650+00:00"
   },
   {
     "notebook": "02_eda_temporal.ipynb",
     "status": "passed",
-    "seconds": 7.68,
-    "code_cells": 2,
-    "figures_externalized": 20
+    "returncode": 0,
+    "seconds": 8.41,
+    "method": "IPython original cells; fresh process; no sockets",
+    "finished_utc": "2026-10-06T20:06:42.958754+00:00"
   },
   {
     "notebook": "03_eda_geo.ipynb",
     "status": "passed",
-    "seconds": 7.83,
-    "code_cells": 2,
-    "figures_externalized": 13
+    "returncode": 0,
+    "seconds": 7.75,
+    "method": "IPython original cells; fresh process; no sockets",
+    "finished_utc": "2026-10-06T20:06:50.712994+00:00"
   },
   {
     "notebook": "04_eda_media_geo.ipynb",
     "status": "passed",
-    "seconds": 18.67,
-    "code_cells": 2,
-    "figures_externalized": 32
+    "returncode": 0,
+    "seconds": 20.0,
+    "method": "IPython original cells; fresh process; no sockets",
+    "finished_utc": "2026-10-06T20:07:10.715872+00:00"
   },
   {
     "notebook": "05_eda_relationships.ipynb",
     "status": "passed",
-    "seconds": 3.18,
-    "code_cells": 2,
-    "figures_externalized": 6
+    "returncode": 0,
+    "seconds": 3.05,
+    "method": "IPython original cells; fresh process; no sockets",
+    "finished_utc": "2026-10-06T20:07:13.764911+00:00"
   },
   {
     "notebook": "06_meridian_official_eda.ipynb",
     "status": "passed",
-    "seconds": 25.49,
-    "code_cells": 3,
-    "figures_externalized": 0
+    "returncode": 0,
+    "seconds": 28.74,
+    "method": "IPython original cells; fresh process; no sockets",
+    "finished_utc": "2026-10-06T20:07:42.502811+00:00"
   },
   {
     "notebook": "07_eda_conclusions.ipynb",
     "status": "passed",
-    "seconds": 1.46,
-    "code_cells": 3,
-    "figures_externalized": 1
+    "returncode": 0,
+    "seconds": 1.4,
+    "method": "IPython original cells; fresh process; no sockets",
+    "finished_utc": "2026-10-06T20:07:43.898302+00:00"
   },
   {
     "notebook": "EDA_COMPLETE_COLAB.ipynb",
     "status": "passed",
-    "seconds": 60.88,
-    "code_cells": 11,
-    "figures_externalized": 78
+    "returncode": 0,
+    "seconds": 67.46,
+    "method": "IPython original cells; fresh process; no sockets",
+    "finished_utc": "2026-10-06T20:08:51.362041+00:00"
   }
 ]
