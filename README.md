@@ -6,6 +6,8 @@ EDA completa, com foco em **GEO × TEMPO × MÍDIA**, construída para preparar 
 
 ## Comece aqui
 
+Para compreender cada análise e interpretar os resultados, consulte o [Guia didático completo da EDA](docs/EDA_DIDACTIC_GUIDE.md).
+
 1. Abra o master no link acima e use um runtime novo de CPU com Python 3.12+.
 2. Execute a primeira célula para obter o repositório e instalar as dependências. Não são necessárias credenciais privadas.
 3. Execute as células em ordem. Leia a pergunta e o método antes de observar os resultados de cada capítulo.
